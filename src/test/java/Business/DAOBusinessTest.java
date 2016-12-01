@@ -29,7 +29,7 @@ public class DAOBusinessTest {
 
     @Test
     public void getInsertQuery() throws Exception {
-        assertEquals("INSERT INTO " + eric.getClass().getSimpleName() + " (id,username,password,level,experiencePoints,isAdmin) VALUES (?,?,?,?,?,?)", daoBusiness.getInsertQuery(eric));
+        assertEquals("INSERT INTO " + eric.getClass().getSimpleName() + " (id,username,password,email,isAdmin) VALUES (?,?,?,?,?)", daoBusiness.getInsertQuery(eric));
     }
 
     @Test
@@ -39,7 +39,7 @@ public class DAOBusinessTest {
 
     @Test
     public void getUpdateQuery() throws Exception {
-        assertEquals("UPDATE " + eric.getClass().getSimpleName() + " SET id=?,username=?,password=?,level=?,experiencePoints=?,isAdmin=? WHERE id=?", daoBusiness.getUpdateQuery(eric));
+        assertEquals("UPDATE " + eric.getClass().getSimpleName() + " SET id=?,username=?,password=?,email=?,isAdmin=? WHERE id=?", daoBusiness.getUpdateQuery(eric));
     }
 
     @Test

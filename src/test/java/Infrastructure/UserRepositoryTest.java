@@ -41,9 +41,11 @@ public class UserRepositoryTest {
     @Test
     public void insertUser() throws Exception {
         int idEric = eric.getId();
+        int idSamuel = samuel.getId();
         userRepository.selectUser(samuel,idEric);
         assertEquals(samuel.getId(), eric.getId());
         assertEquals(samuel.getUsername(), eric.getUsername());
+        userRepository.selectUser(samuel, idSamuel);
     }
 
     @Test
@@ -58,7 +60,7 @@ public class UserRepositoryTest {
 
     @Test
     public void getAllUsers() throws Exception {
-        List<User> allUsers = userRepository.selectAll(User.class);
+        List<User> allUsers = userRepository.getAllUsers();
         assertEquals(allUsers.get(allUsers.size() - 2).getId(), eric.getId());
         assertEquals(allUsers.get(allUsers.size() - 1).getId(), samuel.getId());
     }
@@ -78,5 +80,4 @@ public class UserRepositoryTest {
         userRepository.selectUser(juan, idUserToDelete);
         assertNotEquals(juan.getUsername(), samuel.getUsername());
     }
-
 }

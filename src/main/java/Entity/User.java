@@ -1,5 +1,7 @@
 package Entity;
 
+import java.util.List;
+
 /**
  * Created by ericmassip on 12/11/16.
  */
@@ -7,9 +9,10 @@ public class User {
     private int id;
     private String username;
     private String password;
-    private int level;
-    private int experiencePoints;
+    private String email;
     private boolean isAdmin;
+
+    private List<Profemon> profemons;
 
     public int getId() {
         return id;
@@ -35,27 +38,27 @@ public class User {
         this.password = password;
     }
 
-    public int getLevel() {
-        return level;
+    public String getEmail() {
+        return email;
     }
 
-    public void setLevel(int level) {
-        this.level = level;
-    }
-
-    public int getExperiencePoints() {
-        return experiencePoints;
-    }
-
-    public void setExperiencePoints(int experiencePoints) {
-        this.experiencePoints = experiencePoints;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public boolean getIsAdmin() {
         return isAdmin;
     }
 
-    public void setIsAdmin(boolean admin) {
-        isAdmin = admin;
+    public void setIsAdmin(boolean isAdmin) {
+        this.isAdmin = isAdmin;
+    }
+
+    public List<Profemon> getProfemons() {
+        return profemons;
+    }
+
+    public void setProfemons(List<Profemon> profemons) {
+        this.profemons = profemons;
     }
 }

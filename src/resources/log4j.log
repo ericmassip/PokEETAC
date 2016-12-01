@@ -3,3 +3,363 @@
 2016-11-17 19:52:04,795 TRACE - ericmassip tried to sign in
 2016-11-17 19:52:04,807 TRACE - ericmassip is registered?true
 2016-11-17 19:52:04,808 DEBUG - test
+2016-12-01 12:02:42,329 INFO  - User added: ericmassip with id 39
+2016-12-01 12:02:42,340 INFO  - User added: nessemut with id 40
+2016-12-01 12:02:42,350 INFO  - User selected: ericmassip from id 39
+2016-12-01 12:02:42,367 INFO  - User deleted: ericmassip
+2016-12-01 12:02:42,386 INFO  - User deleted: nessemut
+2016-12-01 12:02:42,404 INFO  - User added: ericmassip with id 41
+2016-12-01 12:02:42,417 INFO  - User added: nessemut with id 42
+2016-12-01 12:02:42,444 INFO  - User deleted: ericmassip
+2016-12-01 12:02:42,454 INFO  - User deleted: nessemut
+2016-12-01 12:02:42,467 INFO  - User added: ericmassip with id 43
+2016-12-01 12:02:42,475 INFO  - User added: nessemut with id 44
+2016-12-01 12:02:42,487 INFO  - User updated: ericksson
+2016-12-01 12:02:42,495 INFO  - User deleted: ericksson
+2016-12-01 12:02:42,506 INFO  - User deleted: nessemut
+2016-12-01 12:02:42,517 INFO  - User added: ericmassip with id 45
+2016-12-01 12:02:42,530 INFO  - User added: nessemut with id 46
+2016-12-01 12:02:42,535 INFO  - User selected: ericmassip from id 45
+2016-12-01 12:02:42,542 INFO  - User deleted: ericmassip
+2016-12-01 12:02:42,550 INFO  - User deleted: ericmassip
+2016-12-01 12:02:42,561 INFO  - User added: ericmassip with id 47
+2016-12-01 12:02:42,575 INFO  - User added: nessemut with id 48
+2016-12-01 12:02:42,587 INFO  - User deleted: nessemut
+2016-12-01 12:02:42,598 INFO  - User selected: null from id 48
+2016-12-01 12:02:42,603 INFO  - User deleted: ericmassip
+2016-12-01 12:02:42,609 INFO  - User deleted: nessemut
+2016-12-01 12:03:40,701 INFO  - User added: ericmassip with id 49
+2016-12-01 12:03:40,712 INFO  - User added: nessemut with id 50
+2016-12-01 12:03:40,720 INFO  - User selected: ericmassip from id 49
+2016-12-01 12:03:40,736 INFO  - User deleted: ericmassip
+2016-12-01 12:03:40,756 INFO  - User deleted: nessemut
+2016-12-01 12:03:40,771 INFO  - User added: ericmassip with id 51
+2016-12-01 12:03:40,787 INFO  - User added: nessemut with id 52
+2016-12-01 12:03:40,814 INFO  - User deleted: ericmassip
+2016-12-01 12:03:40,820 INFO  - User deleted: nessemut
+2016-12-01 12:03:40,825 INFO  - User added: ericmassip with id 53
+2016-12-01 12:03:40,830 INFO  - User added: nessemut with id 54
+2016-12-01 12:03:40,843 INFO  - User updated: ericksson
+2016-12-01 12:03:40,848 INFO  - User deleted: ericksson
+2016-12-01 12:03:40,853 INFO  - User deleted: nessemut
+2016-12-01 12:03:40,858 INFO  - User added: ericmassip with id 55
+2016-12-01 12:03:40,866 INFO  - User added: nessemut with id 56
+2016-12-01 12:03:40,878 INFO  - User selected: ericmassip from id 55
+2016-12-01 12:03:40,885 INFO  - User deleted: ericmassip
+2016-12-01 12:03:40,889 INFO  - User deleted: ericmassip
+2016-12-01 12:03:40,894 INFO  - User added: ericmassip with id 57
+2016-12-01 12:03:40,902 INFO  - User added: nessemut with id 58
+2016-12-01 12:03:40,914 INFO  - User deleted: nessemut
+2016-12-01 12:03:40,921 INFO  - User selected: null from id 58
+2016-12-01 12:03:40,932 INFO  - User deleted: ericmassip
+2016-12-01 12:03:40,942 INFO  - User deleted: nessemut
+2016-12-01 12:03:49,335 INFO  - All Users selected
+2016-12-01 12:03:49,701 INFO  - All Users selected
+2016-12-01 12:30:34,734 INFO  - Profemon added: ericmassip with id 1
+2016-12-01 12:30:34,746 INFO  - Profemon added: nessemut with id 2
+2016-12-01 12:30:34,760 INFO  - Profemon selected: ericmassip from id 1
+2016-12-01 12:30:34,768 INFO  - Profemon deleted: ericmassip
+2016-12-01 12:30:34,772 INFO  - Profemon deleted: ericmassip
+2016-12-01 12:31:51,302 INFO  - Profemon added: ericmassip with id 3
+2016-12-01 12:31:51,316 INFO  - Profemon added: nessemut with id 4
+2016-12-01 12:31:51,333 INFO  - Profemon selected: ericmassip from id 3
+2016-12-01 12:31:51,347 INFO  - Profemon deleted: ericmassip
+2016-12-01 12:31:51,358 INFO  - Profemon deleted: nessemut
+2016-12-01 12:33:00,783 INFO  - Profemon added: ericmassip with id 5
+2016-12-01 12:33:00,792 INFO  - Profemon added: nessemut with id 6
+2016-12-01 12:33:00,803 INFO  - Profemon selected: ericmassip from id 5
+2016-12-01 12:33:00,813 INFO  - Profemon deleted: ericmassip
+2016-12-01 12:33:00,825 INFO  - Profemon deleted: nessemut
+2016-12-01 12:33:11,290 INFO  - Profemon added: ericmassip with id 7
+2016-12-01 12:33:11,302 INFO  - Profemon added: nessemut with id 8
+2016-12-01 12:33:11,321 INFO  - Profemon selected: ericmassip from id 7
+2016-12-01 12:33:11,332 INFO  - Profemon deleted: ericmassip
+2016-12-01 12:33:11,344 INFO  - Profemon deleted: ericmassip
+2016-12-01 12:34:20,691 INFO  - Profemon added: tonimon with id 9
+2016-12-01 12:34:20,702 INFO  - Profemon added: juanizard with id 10
+2016-12-01 12:34:20,719 INFO  - Profemon selected: tonimon from id 9
+2016-12-01 12:34:20,729 INFO  - Profemon deleted: tonimon
+2016-12-01 12:34:20,740 INFO  - Profemon deleted: tonimon
+2016-12-01 12:34:20,750 INFO  - Profemon deleted: tonimon
+2016-12-01 12:34:38,128 INFO  - Profemon added: tonimon with id 11
+2016-12-01 12:34:38,138 INFO  - Profemon added: juanizard with id 12
+2016-12-01 12:34:38,154 INFO  - Profemon selected: tonimon from id 11
+2016-12-01 12:34:38,167 INFO  - Profemon deleted: tonimon
+2016-12-01 12:34:38,177 INFO  - Profemon deleted: tonimon
+2016-12-01 12:34:38,183 INFO  - Profemon deleted: tonimon
+2016-12-01 12:35:34,216 INFO  - Profemon added: tonimon with id 13
+2016-12-01 12:35:34,222 INFO  - Profemon added: juanizard with id 14
+2016-12-01 12:35:34,236 INFO  - Profemon selected: tonimon from id 13
+2016-12-01 12:35:34,242 INFO  - Profemon deleted: tonimon
+2016-12-01 12:35:34,251 INFO  - Profemon deleted: tonimon
+2016-12-01 12:36:04,730 INFO  - Profemon added: tonimon with id 15
+2016-12-01 12:36:04,748 INFO  - Profemon added: juanizard with id 16
+2016-12-01 12:36:37,649 INFO  - Profemon selected: tonimon from id 15
+2016-12-01 12:36:37,659 INFO  - Profemon deleted: tonimon
+2016-12-01 12:36:37,663 INFO  - Profemon deleted: tonimon
+2016-12-01 12:37:52,445 INFO  - Profemon added: tonimon with id 17
+2016-12-01 12:37:52,453 INFO  - Profemon added: juanizard with id 18
+2016-12-01 12:37:52,463 INFO  - Profemon selected: tonimon from id 17
+2016-12-01 12:37:52,469 INFO  - Profemon selected: juanizard from id 18
+2016-12-01 12:37:52,479 INFO  - Profemon deleted: tonimon
+2016-12-01 12:37:52,485 INFO  - Profemon deleted: juanizard
+2016-12-01 12:38:47,413 INFO  - Profemon added: tonimon with id 19
+2016-12-01 12:38:47,423 INFO  - Profemon added: juanizard with id 20
+2016-12-01 12:40:01,998 INFO  - Profemon selected: tonimon from id 19
+2016-12-01 12:40:29,921 INFO  - Profemon selected: juanizard from id 20
+2016-12-01 12:40:56,484 INFO  - Profemon deleted: tonimon
+2016-12-01 12:40:56,502 INFO  - Profemon deleted: juanizard
+2016-12-01 12:41:36,518 INFO  - Profemon added: tonimon with id 21
+2016-12-01 12:41:36,528 INFO  - Profemon added: juanizard with id 22
+2016-12-01 12:41:36,539 INFO  - Profemon selected: tonimon from id 21
+2016-12-01 12:41:36,545 INFO  - Profemon selected: juanizard from id 22
+2016-12-01 12:41:46,977 INFO  - Profemon deleted: tonimon
+2016-12-01 12:41:55,556 INFO  - Profemon deleted: juanizard
+2016-12-01 12:43:51,464 INFO  - User added: ericmassip with id 59
+2016-12-01 12:43:51,470 INFO  - User added: nessemut with id 60
+2016-12-01 12:43:51,474 INFO  - User selected: ericmassip from id 59
+2016-12-01 12:43:51,479 INFO  - User selected: nessemut from id 60
+2016-12-01 12:43:51,483 INFO  - User deleted: ericmassip
+2016-12-01 12:43:51,487 INFO  - User deleted: nessemut
+2016-12-01 12:48:45,876 INFO  - Profemon added: tonimon with id 23
+2016-12-01 12:48:45,888 INFO  - Profemon added: juanizard with id 24
+2016-12-01 12:48:45,916 INFO  - Profemon deleted: tonimon
+2016-12-01 12:48:45,927 INFO  - Profemon deleted: juanizard
+2016-12-01 12:49:39,658 INFO  - Profemon added: tonimon with id 25
+2016-12-01 12:49:39,673 INFO  - Profemon added: juanizard with id 26
+2016-12-01 12:49:39,673 INFO  - All Profemons selected
+2016-12-01 12:49:39,695 INFO  - Profemon deleted: tonimon
+2016-12-01 12:49:39,712 INFO  - Profemon deleted: juanizard
+2016-12-01 12:49:53,604 INFO  - User added: ericmassip with id 61
+2016-12-01 12:49:53,615 INFO  - User added: nessemut with id 62
+2016-12-01 12:49:53,617 INFO  - All Users selected
+2016-12-01 12:49:53,636 INFO  - User deleted: ericmassip
+2016-12-01 12:49:53,650 INFO  - User deleted: nessemut
+2016-12-01 12:50:49,148 INFO  - Profemon added: tonimon with id 27
+2016-12-01 12:50:49,156 INFO  - Profemon added: juanizard with id 28
+2016-12-01 12:50:49,163 INFO  - Profemon updated: toniksson
+2016-12-01 12:50:49,167 INFO  - Profemon deleted: toniksson
+2016-12-01 12:50:49,172 INFO  - Profemon deleted: juanizard
+2016-12-01 12:52:23,944 INFO  - Profemon added: tonimon with id 29
+2016-12-01 12:52:23,952 INFO  - Profemon added: juanizard with id 30
+2016-12-01 12:52:23,957 INFO  - Profemon deleted: juanizard
+2016-12-01 12:52:23,961 INFO  - Profemon selected: null from id 30
+2016-12-01 12:52:23,975 INFO  - Profemon deleted: tonimon
+2016-12-01 12:52:23,987 INFO  - Profemon deleted: juanizard
+2016-12-01 15:11:00,279 INFO  - User added: ericmassip with id 63
+2016-12-01 15:11:00,290 INFO  - Profemon added: tonimon with id 31
+2016-12-01 15:11:00,307 INFO  - Profemon added: juanizard with id 32
+2016-12-01 15:11:00,327 INFO  - User deleted: ericmassip
+2016-12-01 15:11:00,338 INFO  - Profemon deleted: tonimon
+2016-12-01 15:11:00,348 INFO  - Profemon deleted: juanizard
+2016-12-01 15:14:42,532 INFO  - User added: ericmassip with id 64
+2016-12-01 15:14:42,549 INFO  - Profemon added: tonimon with id 33
+2016-12-01 15:14:42,585 INFO  - Profemon added: juanizard with id 34
+2016-12-01 15:14:42,609 INFO  - User deleted: ericmassip
+2016-12-01 15:14:42,623 INFO  - Profemon deleted: tonimon
+2016-12-01 15:14:42,633 INFO  - Profemon deleted: juanizard
+2016-12-01 15:17:05,660 INFO  - User added: ericmassip with id 65
+2016-12-01 15:17:12,817 INFO  - Profemon added: tonimon with id 35
+2016-12-01 15:17:38,561 INFO  - Profemon added: juanizard with id 36
+2016-12-01 15:17:38,572 INFO  - User deleted: ericmassip
+2016-12-01 15:17:38,578 INFO  - Profemon deleted: tonimon
+2016-12-01 15:17:38,584 INFO  - Profemon deleted: juanizard
+2016-12-01 15:18:44,359 INFO  - User added: ericmassip with id 66
+2016-12-01 15:18:44,365 INFO  - Profemon added: tonimon with id 37
+2016-12-01 15:18:44,373 INFO  - Profemon added: juanizard with id 38
+2016-12-01 15:18:44,405 INFO  - User deleted: ericmassip
+2016-12-01 15:18:44,412 INFO  - Profemon deleted: tonimon
+2016-12-01 15:18:44,418 INFO  - Profemon deleted: juanizard
+2016-12-01 15:31:21,726 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 15:32:39,629 INFO  - All Locations selected
+2016-12-01 15:33:04,318 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 15:33:04,324 INFO  - All Locations selected
+2016-12-01 15:35:58,164 INFO  - User added: ericmassip with id 67
+2016-12-01 15:35:58,177 INFO  - Profemon added: tonimon with id 39
+2016-12-01 15:35:58,194 INFO  - Profemon added: juanizard with id 40
+2016-12-01 15:35:58,205 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 15:35:58,221 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 2
+2016-12-01 15:35:58,261 INFO  - User deleted: ericmassip
+2016-12-01 15:35:58,271 INFO  - Profemon deleted: tonimon
+2016-12-01 15:35:58,280 INFO  - Profemon deleted: juanizard
+2016-12-01 15:38:57,883 INFO  - User added: ericmassip with id 68
+2016-12-01 15:38:57,888 INFO  - Profemon added: tonimon with id 41
+2016-12-01 15:38:57,894 INFO  - Profemon added: juanizard with id 42
+2016-12-01 15:38:57,899 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 15:38:57,902 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 1 from id 2
+2016-12-01 15:38:57,934 INFO  - User deleted: ericmassip
+2016-12-01 15:38:57,952 INFO  - Profemon deleted: tonimon
+2016-12-01 15:38:57,963 INFO  - Profemon deleted: juanizard
+2016-12-01 17:21:39,385 INFO  - User added: ericmassip with id 69
+2016-12-01 17:21:39,395 INFO  - Profemon added: tonimon with id 43
+2016-12-01 17:21:39,409 INFO  - Profemon added: juanizard with id 44
+2016-12-01 17:21:39,422 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 17:21:39,432 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 1 from id 2
+2016-12-01 17:22:53,172 INFO  - User added: ericmassip with id 70
+2016-12-01 17:22:53,176 INFO  - Profemon added: tonimon with id 45
+2016-12-01 17:22:53,182 INFO  - Profemon added: juanizard with id 46
+2016-12-01 17:22:57,253 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 17:22:57,258 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 1 from id 2
+2016-12-01 17:34:03,433 INFO  - User added: ericmassip with id 71
+2016-12-01 17:34:03,441 INFO  - Profemon added: tonimon with id 47
+2016-12-01 17:34:03,455 INFO  - Profemon added: juanizard with id 48
+2016-12-01 17:34:03,468 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 17:34:03,474 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 1 from id 2
+2016-12-01 17:34:03,483 INFO  - Capturado added: profemon id 47
+2016-12-01 17:34:03,490 INFO  - Capturado added: profemon id 47
+2016-12-01 17:34:03,500 INFO  - Capturado selected: from id 6 with profemon id 47
+2016-12-01 17:34:03,509 INFO  - Capturado selected: from id 7 with profemon id 47
+2016-12-01 17:34:03,517 INFO  - Capturado deleted: capturado id 6
+2016-12-01 17:34:03,524 INFO  - Capturado deleted: capturado id 7
+2016-12-01 17:34:03,532 INFO  - User deleted: ericmassip
+2016-12-01 17:34:03,537 INFO  - Profemon deleted: tonimon
+2016-12-01 17:34:03,546 INFO  - Profemon deleted: juanizard
+2016-12-01 17:36:49,596 INFO  - User added: ericmassip with id 72
+2016-12-01 17:36:49,613 INFO  - Profemon added: tonimon with id 49
+2016-12-01 17:36:49,628 INFO  - Profemon added: juanizard with id 50
+2016-12-01 17:36:49,638 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 17:36:49,644 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 1 from id 2
+2016-12-01 17:36:49,657 INFO  - Capturado added: profemon id 49
+2016-12-01 17:36:49,665 INFO  - Capturado added: profemon id 49
+2016-12-01 17:36:49,675 INFO  - Capturado selected: from id 8 with profemon id 49
+2016-12-01 17:36:49,684 INFO  - Capturado selected: from id 9 with profemon id 49
+2016-12-01 17:36:49,696 INFO  - Capturado deleted: capturado id 8
+2016-12-01 17:36:49,704 INFO  - Capturado deleted: capturado id 9
+2016-12-01 17:36:49,712 INFO  - User deleted: ericmassip
+2016-12-01 17:36:49,721 INFO  - Profemon deleted: tonimon
+2016-12-01 17:36:49,729 INFO  - Profemon deleted: juanizard
+2016-12-01 17:40:13,995 INFO  - User added: ericmassip with id 73
+2016-12-01 17:40:14,000 INFO  - Profemon added: tonimon with id 51
+2016-12-01 17:40:14,016 INFO  - Profemon added: juanizard with id 52
+2016-12-01 17:40:14,026 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 17:40:14,037 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 1 from id 2
+2016-12-01 17:40:14,044 INFO  - Capturado added: profemon id 51
+2016-12-01 17:40:14,054 INFO  - Capturado added: profemon id 52
+2016-12-01 17:40:14,065 INFO  - Capturado selected: from id 10 with profemon id 51
+2016-12-01 17:40:14,073 INFO  - Capturado selected: from id 11 with profemon id 52
+2016-12-01 17:40:14,080 INFO  - Capturado deleted: capturado id 10
+2016-12-01 17:40:14,090 INFO  - Capturado deleted: capturado id 11
+2016-12-01 17:40:14,096 INFO  - User deleted: ericmassip
+2016-12-01 17:40:14,104 INFO  - Profemon deleted: tonimon
+2016-12-01 17:40:14,111 INFO  - Profemon deleted: juanizard
+2016-12-01 17:40:36,309 INFO  - User added: ericmassip with id 74
+2016-12-01 17:40:36,327 INFO  - Profemon added: tonimon with id 53
+2016-12-01 17:40:36,341 INFO  - Profemon added: juanizard with id 54
+2016-12-01 17:40:36,352 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 17:40:36,357 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 1 from id 2
+2016-12-01 17:40:36,364 INFO  - Capturado added: profemon id 53
+2016-12-01 17:40:36,369 INFO  - Capturado added: profemon id 54
+2016-12-01 17:40:36,375 INFO  - Capturado selected: from id 12 with profemon id 53
+2016-12-01 17:40:36,379 INFO  - Capturado selected: from id 13 with profemon id 54
+2016-12-01 17:40:36,383 INFO  - Capturado deleted: capturado id 12
+2016-12-01 17:40:36,387 INFO  - Capturado deleted: capturado id 13
+2016-12-01 17:40:36,390 INFO  - User deleted: ericmassip
+2016-12-01 17:40:36,394 INFO  - Profemon deleted: tonimon
+2016-12-01 17:40:36,398 INFO  - Profemon deleted: juanizard
+2016-12-01 17:43:49,200 INFO  - User added: ericmassip with id 75
+2016-12-01 17:43:49,208 INFO  - Profemon added: tonimon with id 55
+2016-12-01 17:43:49,221 INFO  - Profemon added: juanizard with id 56
+2016-12-01 17:43:49,231 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 17:43:49,235 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 1 from id 2
+2016-12-01 17:43:49,243 INFO  - Capturado added: profemon id 55
+2016-12-01 17:43:49,251 INFO  - Capturado added: profemon id 56
+2016-12-01 17:43:49,258 INFO  - Capturado selected: from id 14 with profemon id 55
+2016-12-01 17:43:49,264 INFO  - Capturado deleted: capturado id 14
+2016-12-01 17:43:49,272 INFO  - Capturado deleted: capturado id 15
+2016-12-01 17:43:49,278 INFO  - User deleted: ericmassip
+2016-12-01 17:43:49,282 INFO  - Profemon deleted: tonimon
+2016-12-01 17:43:49,290 INFO  - Profemon deleted: juanizard
+2016-12-01 17:44:39,139 INFO  - User added: ericmassip with id 76
+2016-12-01 17:44:39,160 INFO  - Profemon added: tonimon with id 57
+2016-12-01 17:44:39,186 INFO  - Profemon added: juanizard with id 58
+2016-12-01 17:44:39,205 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 17:44:39,222 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 1 from id 2
+2016-12-01 17:44:39,243 INFO  - Capturado added: profemon id 57
+2016-12-01 17:44:39,258 INFO  - Capturado added: profemon id 58
+2016-12-01 17:44:58,817 INFO  - Capturado selected: from id 16 with profemon id 57
+2016-12-01 17:45:21,683 INFO  - Capturado deleted: capturado id 16
+2016-12-01 17:45:21,689 INFO  - Capturado deleted: capturado id 17
+2016-12-01 17:45:21,694 INFO  - User deleted: ericmassip
+2016-12-01 17:45:21,698 INFO  - Profemon deleted: tonimon
+2016-12-01 17:45:21,702 INFO  - Profemon deleted: juanizard
+2016-12-01 17:45:48,917 INFO  - User added: ericmassip with id 77
+2016-12-01 17:45:48,930 INFO  - Profemon added: tonimon with id 59
+2016-12-01 17:45:48,946 INFO  - Profemon added: juanizard with id 60
+2016-12-01 17:45:48,961 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 17:45:48,967 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 1 from id 2
+2016-12-01 17:45:48,973 INFO  - Capturado added: profemon id 59
+2016-12-01 17:45:48,984 INFO  - Capturado added: profemon id 60
+2016-12-01 17:45:48,998 INFO  - Capturado selected: from id 18 with profemon id 59
+2016-12-01 17:45:49,005 INFO  - Capturado deleted: capturado id 18
+2016-12-01 17:45:49,019 INFO  - Capturado deleted: capturado id 19
+2016-12-01 17:45:49,026 INFO  - User deleted: ericmassip
+2016-12-01 17:45:49,039 INFO  - Profemon deleted: tonimon
+2016-12-01 17:45:49,047 INFO  - Profemon deleted: juanizard
+2016-12-01 17:47:21,734 INFO  - User added: ericmassip with id 78
+2016-12-01 17:47:21,750 INFO  - Profemon added: tonimon with id 61
+2016-12-01 17:47:21,771 INFO  - Profemon added: juanizard with id 62
+2016-12-01 17:47:21,782 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 17:47:21,794 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 1 from id 2
+2016-12-01 17:47:21,804 INFO  - Capturado added: profemon id 61
+2016-12-01 17:47:21,817 INFO  - Capturado added: profemon id 62
+2016-12-01 17:47:21,818 INFO  - All Capturados selected
+2016-12-01 17:47:21,842 INFO  - Capturado deleted: capturado id 20
+2016-12-01 17:47:21,852 INFO  - Capturado deleted: capturado id 21
+2016-12-01 17:47:21,862 INFO  - User deleted: ericmassip
+2016-12-01 17:47:21,870 INFO  - Profemon deleted: tonimon
+2016-12-01 17:47:21,877 INFO  - Profemon deleted: juanizard
+2016-12-01 17:50:33,061 INFO  - User added: ericmassip with id 79
+2016-12-01 17:50:33,074 INFO  - Profemon added: tonimon with id 63
+2016-12-01 17:50:33,090 INFO  - Profemon added: juanizard with id 64
+2016-12-01 17:50:33,103 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 17:50:33,109 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 1 from id 2
+2016-12-01 17:50:33,121 INFO  - Capturado added: profemon id 63
+2016-12-01 17:50:33,131 INFO  - Capturado added: profemon id 64
+2016-12-01 17:50:33,142 INFO  - Capturado updated: capturado id 22
+2016-12-01 17:50:33,153 INFO  - Capturado deleted: capturado id 22
+2016-12-01 17:50:33,160 INFO  - Capturado deleted: capturado id 23
+2016-12-01 17:50:33,168 INFO  - User deleted: ericmassip
+2016-12-01 17:50:33,173 INFO  - Profemon deleted: tonimon
+2016-12-01 17:50:33,182 INFO  - Profemon deleted: juanizard
+2016-12-01 17:52:38,310 INFO  - User added: ericmassip with id 80
+2016-12-01 17:52:38,323 INFO  - Profemon added: tonimon with id 65
+2016-12-01 17:52:38,340 INFO  - Profemon added: juanizard with id 66
+2016-12-01 17:52:38,356 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 17:52:38,366 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 1 from id 2
+2016-12-01 17:52:38,377 INFO  - Capturado added: profemon id 65
+2016-12-01 17:52:38,386 INFO  - Capturado added: profemon id 66
+2016-12-01 17:52:38,395 INFO  - Capturado deleted: capturado id 24
+2016-12-01 17:52:38,403 INFO  - Capturado selected: from id 24 with profemon id 0
+2016-12-01 17:52:38,413 INFO  - Capturado deleted: capturado id 24
+2016-12-01 17:52:38,421 INFO  - Capturado deleted: capturado id 25
+2016-12-01 17:52:38,431 INFO  - User deleted: ericmassip
+2016-12-01 17:52:38,439 INFO  - Profemon deleted: tonimon
+2016-12-01 17:52:38,446 INFO  - Profemon deleted: juanizard
+2016-12-01 18:16:12,322 INFO  - User added: ericmassip with id 81
+2016-12-01 18:16:12,343 INFO  - Profemon added: tonimon with id 67
+2016-12-01 18:16:12,372 INFO  - Profemon added: juanizard with id 68
+2016-12-01 18:16:12,392 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 18:16:12,408 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 1 from id 2
+2016-12-01 18:16:12,428 INFO  - Capturado added: profemon id 67
+2016-12-01 18:16:12,446 INFO  - Capturado added: profemon id 68
+2016-12-01 18:17:26,161 INFO  - ericmassip's profemons all set from database
+2016-12-01 18:17:26,172 INFO  - Capturado deleted: capturado id 26
+2016-12-01 18:17:26,177 INFO  - Capturado deleted: capturado id 27
+2016-12-01 18:17:26,181 INFO  - User deleted: ericmassip
+2016-12-01 18:17:26,185 INFO  - Profemon deleted: tonimon
+2016-12-01 18:17:26,188 INFO  - Profemon deleted: juanizard
+2016-12-01 18:19:36,339 INFO  - User added: ericmassip with id 82
+2016-12-01 18:19:36,345 INFO  - Profemon added: tonimon with id 69
+2016-12-01 18:19:36,350 INFO  - Profemon added: juanizard with id 70
+2016-12-01 18:19:36,355 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 0 from id 1
+2016-12-01 18:19:36,360 INFO  - Location selected: latitude -> 0.0, longitude -> 0.0, floor -> 1 from id 2
+2016-12-01 18:19:36,368 INFO  - Capturado added: profemon id 69
+2016-12-01 18:19:36,373 INFO  - Capturado added: profemon id 70
+2016-12-01 18:19:36,383 INFO  - ericmassip's profemons all set from database
+2016-12-01 18:19:36,388 INFO  - Capturado deleted: capturado id 28
+2016-12-01 18:19:36,392 INFO  - Capturado deleted: capturado id 29
+2016-12-01 18:19:36,396 INFO  - User deleted: ericmassip
+2016-12-01 18:19:36,400 INFO  - Profemon deleted: tonimon
+2016-12-01 18:19:36,403 INFO  - Profemon deleted: juanizard
+2016-12-01 18:35:30,573 INFO  - Router selected: BSSID -> movistar1, floor -> 0 from id 1
+2016-12-01 18:35:30,581 INFO  - All Routers selected

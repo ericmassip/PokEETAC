@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -90,7 +91,7 @@ public class DAOBusiness {
     public List<Field> getNonObjectDeclaredFields(Object object) {
         List<Field> nonObjectDeclaredFields = new ArrayList<>();
         for(Field field : object.getClass().getDeclaredFields()) {
-            if (field.getType() == String.class || field.getType() == Integer.class || field.getType() == Boolean.class || field.getType() == Double.class) {
+            if (field.getType() == String.class || field.getType() == Integer.class || field.getType() == int.class || field.getType() == boolean.class || field.getType() == Boolean.class || field.getType() == Double.class || field.getType() == double.class || field.getType() == Date.class) {
                 nonObjectDeclaredFields.add(field);
             }
         }
@@ -152,7 +153,9 @@ public class DAOBusiness {
                 switch(columnType) {
                     case "VARCHAR":
                         String resultString = resultSet.getString(i);
-                        setStringField(resultString, columnName, object);
+                        if (resultString != null) {
+                            setStringField(resultString, columnName, object);
+                        }
                         break;
                     case "INT":
                         int resultInt = resultSet.getInt(i);
