@@ -161,7 +161,7 @@ public class DAOBusiness {
                         int resultInt = resultSet.getInt(i);
                         setIntField(resultInt, columnName, object);
                         break;
-                    case "BIT":
+                    case "TINYINT":
                         boolean resultBoolean = resultSet.getBoolean(i);
                         setBooleanField(resultBoolean, columnName, object);
                         break;

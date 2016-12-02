@@ -374,6 +374,74 @@
 2016-12-02 13:57:49,535 INFO  - All Users selected
 2016-12-02 13:59:14,734 INFO  - All Users selected
 2016-12-02 14:10:31,702 INFO  - All Users selected
-2016-12-02 14:10:31,893 INFO  - login: eric tried to log in and the loginResult was false
+2016-12-02 14:10:31,893 INFO  - login: eric tried to log in and the authenticationResult was false
 2016-12-02 14:11:56,574 INFO  - All Users selected
-2016-12-02 14:11:56,585 INFO  - login: eric tried to log in and the loginResult was true
+2016-12-02 14:11:56,585 INFO  - login: eric tried to log in and the authenticationResult was true
+2016-12-02 15:25:56,033 INFO  - User added: erick with id 2
+2016-12-02 15:25:56,034 INFO  - All Users selected
+2016-12-02 15:25:56,047 INFO  - User deleted: erick
+2016-12-02 15:25:56,072 INFO  - User added: erick with id 3
+2016-12-02 15:25:56,076 INFO  - All Users selected
+2016-12-02 15:25:56,084 INFO  - All Users selected
+2016-12-02 15:25:56,113 INFO  - User deleted: erick
+2016-12-02 15:26:48,663 INFO  - User added: erick with id 4
+2016-12-02 15:26:48,664 INFO  - All Users selected
+2016-12-02 15:26:48,681 INFO  - All Users selected
+2016-12-02 15:26:48,707 INFO  - User deleted: erick
+2016-12-02 15:27:22,846 INFO  - User added: erick with id 5
+2016-12-02 15:29:16,857 INFO  - All Users selected
+2016-12-02 15:29:30,870 INFO  - User deleted: erick
+2016-12-02 15:29:55,496 INFO  - User added: erick with id 6
+2016-12-02 15:30:00,444 INFO  - All Users selected
+2016-12-02 15:31:04,102 INFO  - User deleted: erick
+2016-12-02 15:32:13,236 INFO  - User added: erick with id 7
+2016-12-02 15:32:13,239 INFO  - All Users selected
+2016-12-02 15:32:54,161 INFO  - User deleted: erick
+2016-12-02 15:34:57,130 INFO  - User added: erick with id 8
+2016-12-02 15:34:57,133 INFO  - All Users selected
+2016-12-02 15:34:57,164 INFO  - User deleted: erick
+2016-12-02 15:35:17,035 INFO  - User added: erick with id 9
+2016-12-02 15:35:17,039 INFO  - All Users selected
+2016-12-02 15:35:17,081 INFO  - User deleted: erick
+2016-12-02 15:35:35,969 INFO  - User added: erick with id 10
+2016-12-02 15:35:35,971 INFO  - All Users selected
+2016-12-02 15:36:31,118 INFO  - User deleted: erick
+2016-12-02 15:37:34,619 INFO  - User added: erick with id 11
+2016-12-02 15:37:34,623 INFO  - All Users selected
+2016-12-02 15:38:17,983 INFO  - User added: samuel with id 12
+2016-12-02 15:38:24,101 INFO  - All Users selected
+2016-12-02 15:39:07,914 INFO  - All Users selected
+2016-12-02 15:39:10,630 INFO  - User deleted: samuel
+2016-12-02 15:39:10,634 INFO  - User deleted: erick
+2016-12-02 15:40:30,269 INFO  - User added: erick with id 13
+2016-12-02 15:40:30,271 INFO  - All Users selected
+2016-12-02 15:40:30,289 INFO  - User added: samuel with id 14
+2016-12-02 15:40:30,290 INFO  - All Users selected
+2016-12-02 15:40:30,294 INFO  - All Users selected
+2016-12-02 15:40:30,303 INFO  - User deleted: samuel
+2016-12-02 15:40:30,308 INFO  - User deleted: erick
+2016-12-02 15:41:13,944 INFO  - User added: erick with id 15
+2016-12-02 15:41:13,945 INFO  - All Users selected
+2016-12-02 15:41:13,955 INFO  - All Users selected
+2016-12-02 15:41:13,974 INFO  - User deleted: erick
+2016-12-02 15:41:39,783 INFO  - User added: erick with id 16
+2016-12-02 15:41:39,784 INFO  - All Users selected
+2016-12-02 15:42:45,068 INFO  - All Users selected
+2016-12-02 15:42:45,087 INFO  - User deleted: erick
+2016-12-02 15:43:19,453 INFO  - User added: erick with id 17
+2016-12-02 15:43:19,457 INFO  - All Users selected
+2016-12-02 15:43:19,479 INFO  - User added: samuel with id 18
+2016-12-02 15:43:31,361 INFO  - All Users selected
+2016-12-02 15:43:39,329 INFO  - All Users selected
+2016-12-02 15:43:42,950 INFO  - User deleted: samuel
+2016-12-02 15:43:42,960 INFO  - User deleted: erick
+2016-12-02 15:46:34,500 INFO  - All Users selected
+2016-12-02 15:46:34,703 INFO  - User added: ericsito with id 19
+2016-12-02 15:46:34,703 INFO  - Register: ericsito tried to register and the registerResult was true
+2016-12-02 15:46:45,732 INFO  - All Users selected
+2016-12-02 15:46:45,738 INFO  - Register: ericsito tried to register and the registerResult was false
+2016-12-02 15:47:14,258 INFO  - All Users selected
+2016-12-02 15:47:14,273 INFO  - User added: samisito with id 20
+2016-12-02 15:47:14,273 INFO  - Register: samisito tried to register and the registerResult was true
+2016-12-02 15:47:28,441 INFO  - All Users selected
+2016-12-02 15:47:28,445 INFO  - Register: samisito tried to register and the registerResult was false

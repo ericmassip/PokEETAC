@@ -1,7 +1,7 @@
 package ServiceLibrary;
 
 import Business.UserBusiness;
-import Entity.LoginResult;
+import Entity.AuthenticationResult;
 import Entity.User;
 import org.apache.log4j.Logger;
 
@@ -23,10 +23,19 @@ public class UserService {
 
     @POST
     @Path("/login")
-    public LoginResult login (User user) {
-        LoginResult loginResult = new LoginResult();
-        loginResult.isSuccessful = userBusiness.isLoginSuccessful(user.getUsername(), user.getPassword());
-        log.info("login: " + user.getUsername() + " tried to log in and the loginResult was " + loginResult.isSuccessful);
-        return loginResult;
+    public AuthenticationResult login (User user) {
+        AuthenticationResult authenticationResult = new AuthenticationResult();
+        authenticationResult.isSuccessful = userBusiness.isLoginSuccessful(user.getUsername(), user.getPassword());
+        log.info("Login: " + user.getUsername() + " tried to log in and the loginResult was " + authenticationResult.isSuccessful);
+        return authenticationResult;
+    }
+
+    @POST
+    @Path("/register")
+    public AuthenticationResult register (User newUser) {
+        AuthenticationResult authenticationResult = new AuthenticationResult();
+        authenticationResult.isSuccessful = userBusiness.isRegisterSuccessful(newUser);
+        log.info("Register: " + newUser.getUsername() + " tried to register and the registerResult was " + authenticationResult.isSuccessful);
+        return authenticationResult;
     }
 }
