@@ -83,7 +83,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>PokEETACGroup.Main</mainClass>
+                    <mainClass>ServiceLibrary.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>

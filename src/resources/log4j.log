@@ -363,3 +363,17 @@
 2016-12-01 18:19:36,403 INFO  - Profemon deleted: juanizard
 2016-12-01 18:35:30,573 INFO  - Router selected: BSSID -> movistar1, floor -> 0 from id 1
 2016-12-01 18:35:30,581 INFO  - All Routers selected
+2016-12-01 20:35:47,701 INFO  - All Users selected
+2016-12-01 20:38:01,313 INFO  - All Users selected
+2016-12-01 20:40:09,967 INFO  - All Users selected
+2016-12-01 20:41:05,727 INFO  - All Users selected
+2016-12-01 20:41:29,114 INFO  - All Users selected
+2016-12-02 13:36:04,469 INFO  - All Users selected
+2016-12-02 13:37:47,221 INFO  - All Users selected
+2016-12-02 13:46:09,509 INFO  - All Users selected
+2016-12-02 13:57:49,535 INFO  - All Users selected
+2016-12-02 13:59:14,734 INFO  - All Users selected
+2016-12-02 14:10:31,702 INFO  - All Users selected
+2016-12-02 14:10:31,893 INFO  - login: eric tried to log in and the loginResult was false
+2016-12-02 14:11:56,574 INFO  - All Users selected
+2016-12-02 14:11:56,585 INFO  - login: eric tried to log in and the loginResult was true

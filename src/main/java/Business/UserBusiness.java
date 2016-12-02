@@ -9,7 +9,7 @@ import Infrastructure.UserRepository;
 public class UserBusiness {
     UserRepository userRepository = new UserRepository();
 
-    public boolean isRegistered(String username, String password) {
+    public boolean isLoginSuccessful(String username, String password) {
         boolean isRegistered = false;
         for (User user: userRepository.getAllUsers()) {
             if(user.getUsername().equals(username) && user.getPassword().equals(password)) {
