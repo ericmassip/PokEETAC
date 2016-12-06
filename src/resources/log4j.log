@@ -445,3 +445,60 @@
 2016-12-02 15:47:14,273 INFO  - Register: samisito tried to register and the registerResult was true
 2016-12-02 15:47:28,441 INFO  - All Users selected
 2016-12-02 15:47:28,445 INFO  - Register: samisito tried to register and the registerResult was false
+2016-12-05 19:58:54,889 INFO  - Profemon added: tonimon with id 1
+2016-12-05 19:58:54,899 INFO  - Profemon added: juanizard with id 2
+2016-12-05 19:58:54,920 INFO  - All Profemons selected filtered by tonimon
+2016-12-05 19:58:54,928 INFO  - Profemon deleted: tonimon
+2016-12-05 19:58:54,932 INFO  - Profemon deleted: juanizard
+2016-12-05 20:00:46,544 INFO  - Profemon added: tonimon with id 3
+2016-12-05 20:00:46,549 INFO  - Profemon added: juanizard with id 4
+2016-12-05 20:01:26,660 INFO  - All Profemons selected filtered by tonimon
+2016-12-05 20:01:26,665 INFO  - Profemon deleted: tonimon
+2016-12-05 20:01:26,669 INFO  - Profemon deleted: juanizard
+2016-12-05 20:01:55,747 INFO  - Profemon added: tonimon with id 5
+2016-12-05 20:01:55,757 INFO  - Profemon added: juanizard with id 6
+2016-12-05 20:04:26,189 INFO  - All Profemons selected filtered by tonimon
+2016-12-05 20:04:26,201 INFO  - Profemon deleted: tonimon
+2016-12-05 20:04:26,205 INFO  - Profemon deleted: juanizard
+2016-12-05 20:04:59,528 INFO  - Profemon added: tonimon with id 7
+2016-12-05 20:04:59,537 INFO  - Profemon added: juanizard with id 8
+2016-12-05 20:05:08,704 INFO  - All Profemons selected filtered by tonimon
+2016-12-05 20:05:08,717 INFO  - Profemon deleted: tonimon
+2016-12-05 20:05:08,725 INFO  - Profemon deleted: juanizard
+2016-12-05 20:05:12,255 INFO  - Profemon added: tonimon with id 9
+2016-12-05 20:05:12,263 INFO  - Profemon added: juanizard with id 10
+2016-12-05 20:05:12,279 INFO  - All Profemons selected filtered by tonimon
+2016-12-05 20:05:12,286 INFO  - Profemon deleted: tonimon
+2016-12-05 20:05:12,291 INFO  - Profemon deleted: juanizard
+2016-12-05 20:09:21,889 INFO  - Profemon added: tonimon with id 11
+2016-12-05 20:09:21,896 INFO  - Profemon added: juanizard with id 12
+2016-12-05 20:09:21,904 INFO  - All Profemons selected filtered by tonimon
+2016-12-05 20:09:21,910 INFO  - Profemon deleted: tonimon
+2016-12-05 20:09:21,918 INFO  - Profemon deleted: juanizard
+2016-12-05 20:14:30,047 INFO  - Profemon added: tonimon with id 13
+2016-12-05 20:14:30,063 INFO  - Profemon added: juanizard with id 14
+2016-12-05 20:14:30,072 INFO  - All Profemons selected filtered by tonimon
+2016-12-05 20:14:30,076 INFO  - Profemon deleted: tonimon
+2016-12-05 20:14:30,082 INFO  - Profemon deleted: juanizard
+2016-12-05 20:14:38,489 INFO  - Profemon added: tonimon with id 15
+2016-12-05 20:14:38,498 INFO  - Profemon added: juanizard with id 16
+2016-12-05 20:14:38,514 INFO  - All Profemons selected filtered by tonimon
+2016-12-05 20:14:38,520 INFO  - Profemon deleted: tonimon
+2016-12-05 20:14:38,529 INFO  - Profemon deleted: juanizard
+2016-12-06 17:11:20,181 INFO  - Profemon added: tonimon with id 1
+2016-12-06 17:11:20,188 INFO  - Profemon added: juanizard with id 2
+2016-12-06 17:11:20,198 INFO  - All Profemons selected filtered by tonimon
+2016-12-06 17:11:20,199 INFO  - All Profemons selected
+2016-12-06 17:11:20,209 INFO  - Profemon deleted: tonimon
+2016-12-06 17:11:20,213 INFO  - Profemon deleted: juanizard
+2016-12-06 17:23:27,436 INFO  - All Profemons selected filtered by 3
+2016-12-06 17:23:43,075 INFO  - All Profemons selected filtered by 4
+2016-12-06 17:25:14,323 INFO  - All Profemons selected filtered by 3
+2016-12-06 17:25:18,344 INFO  - All Profemons selected filtered by 4
+2016-12-06 17:25:24,250 INFO  - All Profemons selected filtered by 1
+2016-12-06 17:25:28,698 INFO  - All Profemons selected filtered by 2
+2016-12-06 17:31:26,781 INFO  - All Profemons selected
+2016-12-06 17:31:33,394 INFO  - All Profemons selected filtered by 1
+2016-12-06 17:31:37,632 INFO  - All Profemons selected filtered by 2
+2016-12-06 17:31:40,719 INFO  - All Profemons selected filtered by 3
+2016-12-06 17:31:43,738 INFO  - All Profemons selected filtered by 4

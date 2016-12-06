@@ -4,6 +4,8 @@ import Entity.Profemon;
 import Infrastructure.DAO.DAORepository;
 import org.apache.log4j.Logger;
 
+import java.sql.*;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -38,5 +40,29 @@ public class ProfemonRepository extends DAORepository {
         log.info("Profemon deleted: " + profemon.getName());
     }
 
-
+    public List<Profemon> getProfemonsFilteredBy(String filterBy) {
+        List<Profemon> profemons = new ArrayList<>();
+        StringBuilder query = new StringBuilder("SELECT * ");
+        query.append("FROM Profemon ");
+        query.append("WHERE id LIKE ? OR name LIKE ?");
+        Connection con = getConnection();
+        try {
+            PreparedStatement preparedStatement = con.prepareStatement(query.toString());
+            preparedStatement.setObject(1, "%" + filterBy + "%");
+            preparedStatement.setObject(2, "%" + filterBy + "%");
+            ResultSet resultSet = preparedStatement.executeQuery();
+            ResultSetMetaData resultSetMetaData = resultSet.getMetaData();
+            while (resultSet.next()) {
+                Profemon profemon = new Profemon();
+                setFieldsFromResultSet(resultSet, resultSetMetaData, profemon);
+                profemons.add(profemon);
+            }
+            preparedStatement.close();
+            con.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        log.info("All Profemons selected filtered by " + filterBy);
+        return profemons;
+    }
 }

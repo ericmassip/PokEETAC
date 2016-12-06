@@ -78,4 +78,11 @@ public class ProfemonRepositoryTest {
         assertNotEquals(casalsmon.getName(), juanizard.getName());
     }
 
+    @Test
+    public void getProfemonsFilteredBy() throws Exception {
+        List<Profemon> profemons = profemonRepository.getProfemonsFilteredBy("tonimon");
+        assertEquals(1, profemons.size());
+        assertEquals(tonimon.getName(), profemons.get(0).getName());
+    }
+
 }
