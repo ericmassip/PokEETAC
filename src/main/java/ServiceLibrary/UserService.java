@@ -3,6 +3,7 @@ package ServiceLibrary;
 import Business.UserBusiness;
 import Entity.AuthenticationResult;
 import Entity.User;
+import Entity.UserLevelResult;
 import org.apache.log4j.Logger;
 
 import javax.ws.rs.*;
@@ -34,5 +35,13 @@ public class UserService {
         authenticationResult.isSuccessful = userBusiness.isRegisterSuccessful(newUser);
         log.info("Register: " + newUser.getUsername() + " tried to register and the registerResult was " + authenticationResult.isSuccessful);
         return authenticationResult;
+    }
+
+    @GET
+    @Path("/level/{userId}")
+    public UserLevelResult getUserLevel (@PathParam("userId") int userId) {
+        UserLevelResult userLevelResult = new UserLevelResult();
+        userLevelResult.userLevel = userBusiness.getUserLevel(userId);
+        return userLevelResult;
     }
 }

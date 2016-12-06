@@ -127,4 +127,14 @@ public class CapturadoRepositoryTest {
         assertEquals(ericProfemons.get(ericProfemons.size() - 2).getId(), tonimon.getId());
         assertEquals(ericProfemons.get(ericProfemons.size() - 1).getId(), juanizard.getId());
     }
+
+    @Test
+    public void getUserCapturados() throws Exception {
+        List<Capturado> ericCapturados = capturadoRepository.getUserCapturados(eric);
+        assertEquals(2, ericCapturados.size());
+        assertEquals(ericCapturados.get(0).getId(), ericCapturado1.getId());
+        assertEquals(ericCapturados.get(0).getIdUser(), ericCapturado1.getIdUser());
+        assertEquals(ericCapturados.get(0).getIdProfemon(), ericCapturado1.getIdProfemon());
+        assertEquals(ericCapturados.get(0).getIdLocation(), ericCapturado1.getIdLocation());
+    }
 }

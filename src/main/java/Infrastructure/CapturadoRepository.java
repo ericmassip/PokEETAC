@@ -66,4 +66,30 @@ public class CapturadoRepository extends DAORepository {
         user.setProfemons(userProfemons);
         log.info(user.getUsername() + "'s profemons all set from database");
     }
+
+    public List<Capturado> getUserCapturados(User user) {
+        List<Capturado> userCapturados = new ArrayList<>();
+        StringBuilder query = new StringBuilder("SELECT Capturado.id, idUser, idProfemon, idLocation, level, date, isSuccessful ");
+        query.append("FROM Capturado ");
+        query.append("LEFT JOIN User ON User.id = Capturado.idUser ");
+        query.append("WHERE User.id = ?");
+        Connection con = getConnection();
+        try {
+            PreparedStatement preparedStatement = con.prepareStatement(query.toString());
+            preparedStatement.setObject(1, user.getId());
+            ResultSet resultSet = preparedStatement.executeQuery();
+            ResultSetMetaData resultSetMetaData = resultSet.getMetaData();
+            while (resultSet.next()) {
+                Capturado capturado = new Capturado();
+                setFieldsFromResultSet(resultSet, resultSetMetaData, capturado);
+                userCapturados.add(capturado);
+            }
+            preparedStatement.close();
+            con.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        log.info(user.getUsername() + "'s capturados selected");
+        return userCapturados;
+    }
 }

@@ -1,13 +1,18 @@
 package Business;
 
+import Entity.Capturado;
+import Entity.Location;
+import Entity.Profemon;
 import Entity.User;
+import Infrastructure.CapturadoRepository;
+import Infrastructure.LocationRepository;
+import Infrastructure.ProfemonRepository;
 import Infrastructure.UserRepository;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 /**
  * Created by ericmassip on 16/11/16.
@@ -16,6 +21,15 @@ public class UserBusinessTest {
     UserBusiness userBusiness = new UserBusiness();
     UserRepository userRepository = new UserRepository();
     User eric;
+    CapturadoRepository capturadoRepository = new CapturadoRepository();
+    Capturado ericCapturado1;
+    Capturado ericCapturado2;
+    ProfemonRepository profemonRepository = new ProfemonRepository();
+    Profemon tonimon;
+    Profemon juanizard;
+    LocationRepository locationRepository = new LocationRepository();
+    Location location1;
+    Location location2;
 
     @Before
     public void setUp() throws Exception {
@@ -24,12 +38,46 @@ public class UserBusinessTest {
         eric.setPassword("123456");
         eric.setEmail("erick@gmail.com");
         userRepository.insertUser(eric);
+        tonimon = new Profemon();
+        tonimon.setName("tonimon");
+        tonimon.setInitialLevel(1);
+        juanizard = new Profemon();
+        juanizard.setName("juanizard");
+        juanizard.setInitialLevel(2);
+        profemonRepository.insertProfemon(tonimon);
+        profemonRepository.insertProfemon(juanizard);
+        location1 = new Location();
+        locationRepository.selectLocation(location1, 1);
+        location2 = new Location();
+        locationRepository.selectLocation(location2, 2);
+        ericCapturado1 = new Capturado();
+        ericCapturado1.setIdUser(eric.getId());
+        ericCapturado1.setIdProfemon(tonimon.getId());
+        ericCapturado1.setIdLocation(location1.getId());
+        ericCapturado1.setLevel(1);
+        ericCapturado2 = new Capturado();
+        ericCapturado2.setIdUser(eric.getId());
+        ericCapturado2.setIdProfemon(juanizard.getId());
+        ericCapturado2.setIdLocation(location2.getId());
+        ericCapturado2.setLevel(1);
+        capturadoRepository.insertCapturado(ericCapturado1);
+        capturadoRepository.insertCapturado(ericCapturado2);
     }
 
     @After
     public void tearDown() throws Exception {
+        capturadoRepository.deleteCapturado(ericCapturado1);
+        capturadoRepository.deleteCapturado(ericCapturado2);
         userRepository.deleteUser(eric);
+        profemonRepository.deleteProfemon(tonimon);
+        profemonRepository.deleteProfemon(juanizard);
         this.eric = null;
+        this.tonimon = null;
+        this.juanizard = null;
+        this.location1 = null;
+        this.location2 = null;
+        this.ericCapturado1 = null;
+        this.ericCapturado2 = null;
     }
 
     @Test
@@ -49,5 +97,20 @@ public class UserBusinessTest {
         assertFalse(userBusiness.isRegisterSuccessful(samuel));
         assertFalse(userBusiness.isRegisterSuccessful(eric));
         userRepository.deleteUser(samuel);
+    }
+
+    @Test
+    public void getUser() throws Exception {
+        User user = userBusiness.getUser(eric.getId());
+        assertEquals(user.getId(), eric.getId());
+        assertEquals(user.getUsername(), eric.getUsername());
+        assertEquals(user.getPassword(), user.getPassword());
+    }
+
+    @Test
+    public void getUserLevel() throws Exception {
+        int userLevel = userBusiness.getUserLevel(eric.getId());
+        assertNotNull(userLevel);
+        assertEquals(5, userLevel);
     }
 }

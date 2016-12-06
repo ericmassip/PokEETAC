@@ -1,6 +1,9 @@
 package Business;
 
+import Entity.Capturado;
+import Entity.Profemon;
 import Entity.User;
+import Infrastructure.CapturadoRepository;
 import Infrastructure.UserRepository;
 
 /**
@@ -30,5 +33,25 @@ public class UserBusiness {
             userRepository.insertUser(newUser);
         }
         return isRegisterSuccessful;
+    }
+
+    public User getUser(int userId) {
+        User user = new User();
+        userRepository.selectUser(user, userId);
+        return user;
+    }
+
+    public int getUserLevel(int userId) {
+        CapturadoRepository capturadoRepository = new CapturadoRepository();
+        User user = getUser(userId);
+        capturadoRepository.setUserProfemonsCapturadosFromDatabase(user);
+        int totalLevel = 0;
+        for (Profemon profemon: user.getProfemons()) {
+            totalLevel = totalLevel + profemon.getInitialLevel();
+        }
+        for (Capturado capturado: capturadoRepository.getUserCapturados(user)) {
+            totalLevel = totalLevel + capturado.getLevel();
+        }
+        return totalLevel;
     }
 }
