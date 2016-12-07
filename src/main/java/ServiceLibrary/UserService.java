@@ -1,13 +1,15 @@
 package ServiceLibrary;
 
 import Business.UserBusiness;
-import Entity.AuthenticationResult;
+import Entity.Profemon;
+import Entity.ServiceLibraryResults.AuthenticationResult;
+import Entity.ServiceLibraryResults.UserLevelResult;
 import Entity.User;
-import Entity.UserLevelResult;
 import org.apache.log4j.Logger;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
+import java.util.List;
 
 /**
  * Created by ericmassip on 30/11/16.
@@ -43,5 +45,11 @@ public class UserService {
         UserLevelResult userLevelResult = new UserLevelResult();
         userLevelResult.userLevel = userBusiness.getUserLevel(userId);
         return userLevelResult;
+    }
+
+    @GET
+    @Path("/profemons/{userId}")
+    public List<Profemon> getUserProfemons (@PathParam("userId") int userId) {
+        return userBusiness.getUserProfemons(userId);
     }
 }

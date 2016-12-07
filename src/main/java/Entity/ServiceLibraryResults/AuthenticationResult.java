@@ -1,4 +1,4 @@
-package Entity;
+package Entity.ServiceLibraryResults;
 
 /**
  * Created by ericmassip on 2/12/16.

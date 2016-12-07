@@ -12,6 +12,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 /**
@@ -55,11 +57,13 @@ public class UserBusinessTest {
         ericCapturado1.setIdProfemon(tonimon.getId());
         ericCapturado1.setIdLocation(location1.getId());
         ericCapturado1.setLevel(1);
+        ericCapturado1.setIsSuccessful(true);
         ericCapturado2 = new Capturado();
         ericCapturado2.setIdUser(eric.getId());
         ericCapturado2.setIdProfemon(juanizard.getId());
         ericCapturado2.setIdLocation(location2.getId());
         ericCapturado2.setLevel(1);
+        ericCapturado2.setIsSuccessful(true);
         capturadoRepository.insertCapturado(ericCapturado1);
         capturadoRepository.insertCapturado(ericCapturado2);
     }
@@ -100,17 +104,25 @@ public class UserBusinessTest {
     }
 
     @Test
-    public void getUser() throws Exception {
-        User user = userBusiness.getUser(eric.getId());
-        assertEquals(user.getId(), eric.getId());
-        assertEquals(user.getUsername(), eric.getUsername());
-        assertEquals(user.getPassword(), user.getPassword());
-    }
-
-    @Test
     public void getUserLevel() throws Exception {
+        Capturado ericCapturado3 = new Capturado();
+        ericCapturado3.setIdUser(eric.getId());
+        ericCapturado3.setIdProfemon(juanizard.getId());
+        ericCapturado3.setIdLocation(location2.getId());
+        ericCapturado3.setLevel(1);
+        ericCapturado3.setIsSuccessful(false);
+        capturadoRepository.insertCapturado(ericCapturado3);
         int userLevel = userBusiness.getUserLevel(eric.getId());
         assertNotNull(userLevel);
         assertEquals(5, userLevel);
+        capturadoRepository.deleteCapturado(ericCapturado3);
+    }
+
+    @Test
+    public void getUserProfemons() throws Exception {
+        List<Profemon> ericProfemons = userBusiness.getUserProfemons(eric.getId());
+        assertEquals(2, ericProfemons.size());
+        assertEquals(tonimon.getId(), ericProfemons.get(0).getId());
+        assertEquals(juanizard.getName(), ericProfemons.get(1).getName());
     }
 }

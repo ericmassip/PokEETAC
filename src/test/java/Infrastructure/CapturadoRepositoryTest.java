@@ -50,10 +50,12 @@ public class CapturadoRepositoryTest {
         ericCapturado1.setIdUser(eric.getId());
         ericCapturado1.setIdProfemon(tonimon.getId());
         ericCapturado1.setIdLocation(location1.getId());
+        ericCapturado1.setIsSuccessful(true);
         ericCapturado2 = new Capturado();
         ericCapturado2.setIdUser(eric.getId());
         ericCapturado2.setIdProfemon(juanizard.getId());
         ericCapturado2.setIdLocation(location2.getId());
+        ericCapturado2.setIsSuccessful(true);
         capturadoRepository.insertCapturado(ericCapturado1);
         capturadoRepository.insertCapturado(ericCapturado2);
     }
