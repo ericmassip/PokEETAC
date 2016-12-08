@@ -122,4 +122,19 @@ public class UserBusiness {
         }
         return successfulCapturados;
     }
+
+    public double getCapturadosSuccessfulPercentage(int userId) {
+        CapturadoRepository capturadoRepository = new CapturadoRepository();
+        User user = getUser(userId);
+        double successfulPercentage = 0;
+        try {
+            double successfulCapturados = capturadoRepository.getUserCapturados(user).size();
+            double allCapturadosAttempts = capturadoRepository.getUserCapturadosAllAttempts(user).size();
+            successfulPercentage = (successfulCapturados/allCapturadosAttempts) * 100;
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+            log.error("Getting successful capturados percentage of userId " + userId);
+        }
+        return successfulPercentage;
+    }
 }

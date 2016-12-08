@@ -1793,3 +1793,105 @@
 2016-12-08 12:57:47,926 INFO  - User selected: null from id 3
 2016-12-08 12:57:47,926 WARN  - No User selected from id 3
 2016-12-08 12:57:47,929 INFO  - null's capturados selected
+2016-12-08 16:22:15,868 INFO  - User added: erick with id 21
+2016-12-08 16:22:15,935 INFO  - Profemon added: tonimon with id 5
+2016-12-08 16:22:15,965 INFO  - Profemon added: juanizard with id 6
+2016-12-08 16:22:15,986 INFO  - Location selected: latitude -> 44.0, longitude -> 43.0, floor -> 0 from id 1
+2016-12-08 16:22:16,006 INFO  - Location selected: latitude -> 21.0, longitude -> 23.0, floor -> 1 from id 2
+2016-12-08 16:22:16,007 INFO  - Date formatted: 3/11/2016
+2016-12-08 16:22:16,009 INFO  - Date formatted: 6/11/2016
+2016-12-08 16:22:16,039 INFO  - Capturado added: profemon id 5
+2016-12-08 16:22:16,053 INFO  - Capturado added: profemon id 6
+2016-12-08 16:22:16,091 INFO  - User selected: erick from id 21
+2016-12-08 16:22:16,110 INFO  - erick's capturados selected
+2016-12-08 16:22:16,121 INFO  - erick's all capturados intents selected
+2016-12-08 16:22:16,129 INFO  - Capturado deleted: capturado id 5
+2016-12-08 16:22:16,137 INFO  - Capturado deleted: capturado id 6
+2016-12-08 16:22:16,151 INFO  - User deleted: erick
+2016-12-08 16:22:16,160 INFO  - Profemon deleted: tonimon
+2016-12-08 16:22:16,171 INFO  - Profemon deleted: juanizard
+2016-12-08 16:22:49,606 INFO  - User added: erick with id 22
+2016-12-08 16:22:49,613 INFO  - Profemon added: tonimon with id 7
+2016-12-08 16:22:49,618 INFO  - Profemon added: juanizard with id 8
+2016-12-08 16:22:49,625 INFO  - Location selected: latitude -> 44.0, longitude -> 43.0, floor -> 0 from id 1
+2016-12-08 16:22:49,636 INFO  - Location selected: latitude -> 21.0, longitude -> 23.0, floor -> 1 from id 2
+2016-12-08 16:22:49,636 INFO  - Date formatted: 3/11/2016
+2016-12-08 16:22:49,636 INFO  - Date formatted: 6/11/2016
+2016-12-08 16:22:49,642 INFO  - Capturado added: profemon id 7
+2016-12-08 16:22:49,653 INFO  - Capturado added: profemon id 8
+2016-12-08 16:22:49,670 INFO  - User selected: erick from id 22
+2016-12-08 16:22:49,678 INFO  - erick's capturados selected
+2016-12-08 16:22:49,683 INFO  - erick's all capturados intents selected
+2016-12-08 16:22:49,688 INFO  - Capturado deleted: capturado id 7
+2016-12-08 16:22:49,692 INFO  - Capturado deleted: capturado id 8
+2016-12-08 16:22:49,696 INFO  - User deleted: erick
+2016-12-08 16:22:49,700 INFO  - Profemon deleted: tonimon
+2016-12-08 16:22:49,705 INFO  - Profemon deleted: juanizard
+2016-12-08 16:23:43,180 INFO  - User added: erick with id 23
+2016-12-08 16:23:43,198 INFO  - Profemon added: tonimon with id 9
+2016-12-08 16:23:43,216 INFO  - Profemon added: juanizard with id 10
+2016-12-08 16:23:43,227 INFO  - Location selected: latitude -> 44.0, longitude -> 43.0, floor -> 0 from id 1
+2016-12-08 16:23:43,255 INFO  - Location selected: latitude -> 21.0, longitude -> 23.0, floor -> 1 from id 2
+2016-12-08 16:23:43,257 INFO  - Date formatted: 3/11/2016
+2016-12-08 16:23:43,257 INFO  - Date formatted: 6/11/2016
+2016-12-08 16:23:43,286 INFO  - Capturado added: profemon id 9
+2016-12-08 16:23:43,297 INFO  - Capturado added: profemon id 10
+2016-12-08 16:23:43,314 INFO  - User selected: erick from id 23
+2016-12-08 16:23:48,190 INFO  - erick's capturados selected
+2016-12-08 16:24:04,662 INFO  - erick's all capturados intents selected
+2016-12-08 16:24:04,669 INFO  - Capturado deleted: capturado id 9
+2016-12-08 16:24:04,673 INFO  - Capturado deleted: capturado id 10
+2016-12-08 16:24:04,677 INFO  - User deleted: erick
+2016-12-08 16:24:04,681 INFO  - Profemon deleted: tonimon
+2016-12-08 16:24:04,685 INFO  - Profemon deleted: juanizard
+2016-12-08 16:24:38,098 INFO  - User added: erick with id 24
+2016-12-08 16:24:38,104 INFO  - Profemon added: tonimon with id 11
+2016-12-08 16:24:38,109 INFO  - Profemon added: juanizard with id 12
+2016-12-08 16:24:38,116 INFO  - Location selected: latitude -> 44.0, longitude -> 43.0, floor -> 0 from id 1
+2016-12-08 16:24:38,130 INFO  - Location selected: latitude -> 21.0, longitude -> 23.0, floor -> 1 from id 2
+2016-12-08 16:24:38,131 INFO  - Date formatted: 3/11/2016
+2016-12-08 16:24:38,131 INFO  - Date formatted: 6/11/2016
+2016-12-08 16:24:38,139 INFO  - Capturado added: profemon id 11
+2016-12-08 16:24:38,143 INFO  - Capturado added: profemon id 12
+2016-12-08 16:24:38,150 INFO  - User selected: erick from id 24
+2016-12-08 16:25:00,413 INFO  - erick's capturados selected
+2016-12-08 16:25:03,205 INFO  - erick's all capturados intents selected
+2016-12-08 16:25:25,800 INFO  - Capturado deleted: capturado id 11
+2016-12-08 16:25:25,805 INFO  - Capturado deleted: capturado id 12
+2016-12-08 16:25:25,810 INFO  - User deleted: erick
+2016-12-08 16:25:25,814 INFO  - Profemon deleted: tonimon
+2016-12-08 16:25:25,818 INFO  - Profemon deleted: juanizard
+2016-12-08 16:25:41,039 INFO  - User added: erick with id 25
+2016-12-08 16:25:41,050 INFO  - Profemon added: tonimon with id 13
+2016-12-08 16:25:41,074 INFO  - Profemon added: juanizard with id 14
+2016-12-08 16:25:41,090 INFO  - Location selected: latitude -> 44.0, longitude -> 43.0, floor -> 0 from id 1
+2016-12-08 16:25:41,110 INFO  - Location selected: latitude -> 21.0, longitude -> 23.0, floor -> 1 from id 2
+2016-12-08 16:25:41,111 INFO  - Date formatted: 3/11/2016
+2016-12-08 16:25:41,112 INFO  - Date formatted: 6/11/2016
+2016-12-08 16:25:41,125 INFO  - Capturado added: profemon id 13
+2016-12-08 16:25:41,134 INFO  - Capturado added: profemon id 14
+2016-12-08 16:25:41,151 INFO  - User selected: erick from id 25
+2016-12-08 16:25:41,169 INFO  - erick's capturados selected
+2016-12-08 16:25:41,184 INFO  - erick's all capturados intents selected
+2016-12-08 16:25:41,197 INFO  - Capturado deleted: capturado id 13
+2016-12-08 16:25:41,209 INFO  - Capturado deleted: capturado id 14
+2016-12-08 16:25:41,221 INFO  - User deleted: erick
+2016-12-08 16:25:41,231 INFO  - Profemon deleted: tonimon
+2016-12-08 16:25:41,244 INFO  - Profemon deleted: juanizard
+2016-12-08 16:31:24,556 INFO  - User selected: eric from id 1
+2016-12-08 16:31:24,561 INFO  - eric's capturados selected
+2016-12-08 16:31:24,564 INFO  - eric's all capturados intents selected
+2016-12-08 16:31:41,120 INFO  - User selected: null from id 2
+2016-12-08 16:31:41,121 WARN  - No User selected from id 2
+2016-12-08 16:31:41,124 INFO  - null's capturados selected
+2016-12-08 16:31:41,128 INFO  - null's all capturados intents selected
+2016-12-08 16:32:05,412 INFO  - User selected: null from id 2
+2016-12-08 16:32:05,412 WARN  - No User selected from id 2
+2016-12-08 16:32:05,417 INFO  - null's capturados selected
+2016-12-08 16:32:05,421 INFO  - null's all capturados intents selected
+2016-12-08 16:32:09,422 INFO  - User selected: eric from id 1
+2016-12-08 16:32:09,425 INFO  - eric's capturados selected
+2016-12-08 16:32:09,429 INFO  - eric's all capturados intents selected
+2016-12-08 16:32:20,201 INFO  - User selected: eric from id 1
+2016-12-08 16:32:20,206 INFO  - eric's capturados selected
+2016-12-08 16:32:20,210 INFO  - eric's all capturados intents selected

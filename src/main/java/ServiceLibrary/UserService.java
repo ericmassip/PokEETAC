@@ -2,10 +2,7 @@ package ServiceLibrary;
 
 import Business.UserBusiness;
 import Entity.Profemon;
-import Entity.ServiceLibraryResults.AuthenticationResult;
-import Entity.ServiceLibraryResults.ProfemonCapturaResult;
-import Entity.ServiceLibraryResults.SuccessfulCapturadoByDayResult;
-import Entity.ServiceLibraryResults.UserLevelResult;
+import Entity.ServiceLibraryResults.*;
 import Entity.User;
 import org.apache.log4j.Logger;
 
@@ -65,16 +62,24 @@ public class UserService {
     }
 
     @GET
-    @Path("capturados/successfulByDay/{userId}")
+    @Path("/capturados/successfulByDay/{userId}")
     public SuccessfulCapturadoByDayResult getSuccessfulCapturadosByDay (@PathParam("userId") int userId) {
         SuccessfulCapturadoByDayResult successfulCapturadoByDayResult = new SuccessfulCapturadoByDayResult();
-        Calendar calendar = Calendar.getInstance();
+        Calendar calendarDay = Calendar.getInstance();
         Map<Integer, Integer> successfulCapturadosByDay = new HashMap<>();
         for(int i = 1; i < 8; i++) {
-            calendar.add(Calendar.DATE, -1);
-            successfulCapturadosByDay.put(i, userBusiness.getSuccessfulCapturadosByDay(userId, calendar));
+            calendarDay.add(Calendar.DATE, -1);
+            successfulCapturadosByDay.put(i, userBusiness.getSuccessfulCapturadosByDay(userId, calendarDay));
         }
         successfulCapturadoByDayResult.setCapturadosByDay(successfulCapturadosByDay);
         return successfulCapturadoByDayResult;
+    }
+
+    @GET
+    @Path("/capturados/successfulPercentage/{userId}")
+    public SuccessfulPercentageResult getCapturadosSuccessfulPercentage (@PathParam("userId") int userId) {
+        SuccessfulPercentageResult successfulPercentageResult = new SuccessfulPercentageResult();
+        successfulPercentageResult.successfulPercentage = userBusiness.getCapturadosSuccessfulPercentage(userId);
+        return successfulPercentageResult;
     }
 }
