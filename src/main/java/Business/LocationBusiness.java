@@ -35,7 +35,7 @@ public class LocationBusiness {
             if(randomProfemonId != 0) {
                 Profemon profemon = profemonBusiness.getProfemon(randomProfemonId);
                 ProfemonLocationResult profemonLocationResult = new ProfemonLocationResult();
-                profemonLocationResult.fillInTheFields(profemon.getId(), profemon.getName(), location.getLatitude(), location.getLongitude(), location.getFloor());
+                profemonLocationResult.fillInTheFields(profemon.getId(), profemon.getName(), location.getId(), location.getLatitude(), location.getLongitude(), location.getFloor());
                 profemonLocationResults.add(profemonLocationResult);
             }
         }

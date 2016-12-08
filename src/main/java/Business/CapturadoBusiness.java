@@ -34,7 +34,7 @@ public class CapturadoBusiness {
             Profemon profemonCapturado = profemonBusiness.getProfemon(capturado.getIdProfemon());
             Location locationCapturado = locationBusiness.getLocation(capturado.getIdLocation());
             ProfemonLocationResult profemonLocationResult = new ProfemonLocationResult();
-            profemonLocationResult.fillInTheFields(profemonCapturado.getId(), profemonCapturado.getName(), locationCapturado.getLatitude(), locationCapturado.getLongitude(), locationCapturado.getFloor());
+            profemonLocationResult.fillInTheFields(profemonCapturado.getId(), profemonCapturado.getName(), locationCapturado.getId(), locationCapturado.getLatitude(), locationCapturado.getLongitude(), locationCapturado.getFloor());
             profemonLocationResults.add(profemonLocationResult);
         }
         return profemonLocationResults;
