@@ -7,9 +7,11 @@ import Entity.ServiceLibraryResults.ProfemonCapturaResult;
 import Entity.User;
 import Infrastructure.CapturadoRepository;
 import Infrastructure.UserRepository;
+import org.apache.commons.lang3.time.DateUtils;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 /**
@@ -94,7 +96,7 @@ public class UserBusiness {
                 Profemon profemonCapturado = profemonBusiness.getProfemon(capturado.getIdProfemon());
                 Location locationCapturado = locationBusiness.getLocation(capturado.getIdLocation());
                 ProfemonCapturaResult profemonCapturaResult = new ProfemonCapturaResult();
-                profemonCapturaResult.fillInTheFields(profemonCapturado.getName(), locationCapturado.getLatitude(), locationCapturado.getLongitude(), locationCapturado.getFloor());
+                profemonCapturaResult.fillInTheFields(profemonCapturado.getName(), locationCapturado.getLatitude(), locationCapturado.getLongitude());
                 profemonCapturas.add(profemonCapturaResult);
             }
         } catch (NullPointerException e) {
@@ -102,5 +104,22 @@ public class UserBusiness {
             log.error("Getting the profemonCapturas of userId " + userId);
         }
         return profemonCapturas;
+    }
+
+    public int getSuccessfulCapturadosByDay(int userId, Calendar calendar) {
+        CapturadoRepository capturadoRepository = new CapturadoRepository();
+        User user = getUser(userId);
+        int successfulCapturados = 0;
+        try {
+            for (Capturado capturado: capturadoRepository.getUserCapturados(user)) {
+                if(DateUtils.isSameDay(capturado.getDate(), calendar)) {
+                    successfulCapturados += 1;
+                }
+            }
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+            log.error("Getting successful capturados by day of userId " + userId);
+        }
+        return successfulCapturados;
     }
 }

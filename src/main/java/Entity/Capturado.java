@@ -1,6 +1,6 @@
 package Entity;
 
-import java.util.Date;
+import java.util.Calendar;
 
 /**
  * Created by ericmassip on 30/11/16.
@@ -13,7 +13,7 @@ public class Capturado {
     private Profemon profemon;
     private int idLocation;
     private Location location;
-    private Date date;
+    private Calendar date;
     private int level;
     private boolean isSuccessful;
 
@@ -73,11 +73,11 @@ public class Capturado {
         this.location = location;
     }
 
-    public Date getDate() {
+    public Calendar getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(Calendar date) {
         this.date = date;
     }
 

@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
@@ -61,41 +62,56 @@ public class DAOBusiness {
     }
 
     private void addFieldsInsertQuery(Object object, StringBuffer query) {
-        for(Field f : getNonObjectDeclaredFields(object)) {
+        for (Field f : getNonGenericObjectDeclaredFields(object)) {
             query.append(f.getName()).append(",");
         }
         query.deleteCharAt(query.length() - 1);
     }
 
     private void addInterrogantsInsertQuery(Object object, StringBuffer query) {
-        for(Field ignore : getNonObjectDeclaredFields(object)) {
+        for (Field ignore : getNonGenericObjectDeclaredFields(object)) {
             query.append("?,");
         }
         query.deleteCharAt(query.length() - 1);
     }
 
     public void addClassFieldsParameters(Object object, PreparedStatement pstm) {
-        int i=1;
-        for(Field field : getNonObjectDeclaredFields(object)) {
+        int i = 1;
+        for (Field field : getNonGenericObjectDeclaredFields(object)) {
             try {
                 Method method = object.getClass().getMethod(getGetterName(field.getName()));
-                Object methodObjectResulted = method.invoke(object);
-                pstm.setObject(i,methodObjectResulted);
+                Object methodObjectResulted = getMethodObjectResulted(object, method, field);
+                pstm.setObject(i, methodObjectResulted);
                 i++;
-            } catch (NoSuchMethodException | InvocationTargetException | IllegalAccessException | SQLException e) {
+            } catch (NoSuchMethodException | SQLException e) {
                 e.printStackTrace();
             }
         }
     }
 
-    public List<Field> getNonObjectDeclaredFields(Object object) {
-        List<Field> nonObjectDeclaredFields = new ArrayList<>();
-        for(Field field : object.getClass().getDeclaredFields()) {
-            if (field.getType() == String.class || field.getType() == Integer.class || field.getType() == int.class || field.getType() == boolean.class || field.getType() == Boolean.class || field.getType() == Double.class || field.getType() == double.class || field.getType() == Date.class) {
-                nonObjectDeclaredFields.add(field);
+    private Object getMethodObjectResulted(Object object, Method method, Field field) {
+        Object methodObjectResulted = null;
+        try {
+            if (field.getType() == Calendar.class) {
+                Calendar calendar = (Calendar) method.invoke(object);
+                methodObjectResulted = new java.sql.Date(calendar.getTime().getTime());
+            } else {
+                methodObjectResulted = method.invoke(object);
+            }
+        } catch (InvocationTargetException | IllegalAccessException e) {
+            e.printStackTrace();
+        }
+        return methodObjectResulted;
+    }
+
+    public List<Field> getNonGenericObjectDeclaredFields(Object object) {
+        List<Field> nonGenericObjectDeclaredFields = new ArrayList<>();
+        for (Field field : object.getClass().getDeclaredFields()) {
+            if (field.getType() == String.class || field.getType() == Integer.class || field.getType() == int.class || field.getType() == boolean.class || field.getType() == Boolean.class || field.getType() == Double.class || field.getType() == double.class || field.getType() == Calendar.class) {
+                nonGenericObjectDeclaredFields.add(field);
             }
         }
-        return nonObjectDeclaredFields;
+        return nonGenericObjectDeclaredFields;
     }
 
     private String getGetterName(String fieldName) {
@@ -110,14 +126,14 @@ public class DAOBusiness {
         return setterName.toString();
     }
 
-    private String capitalizeName (String name) {
+    private String capitalizeName(String name) {
         String capitalizedFieldName;
-        capitalizedFieldName = name.substring(0,1).toUpperCase() + name.substring(1);
+        capitalizedFieldName = name.substring(0, 1).toUpperCase() + name.substring(1);
         return capitalizedFieldName;
     }
 
     private void addFieldsAndInterrogantsUpdateQuery(Object object, StringBuffer query) {
-        for(Field f : getNonObjectDeclaredFields(object)) {
+        for (Field f : getNonGenericObjectDeclaredFields(object)) {
             query.append(f.getName());
             query.append("=?,");
         }
@@ -147,10 +163,10 @@ public class DAOBusiness {
 
     public void setFieldsFromResultSet(ResultSet resultSet, ResultSetMetaData resultSetMetaData, Object object) {
         try {
-            for(int i=1; i <= resultSetMetaData.getColumnCount(); i++) {
+            for (int i = 1; i <= resultSetMetaData.getColumnCount(); i++) {
                 String columnType = resultSetMetaData.getColumnTypeName(i);
                 String columnName = resultSetMetaData.getColumnLabel(i);
-                switch(columnType) {
+                switch (columnType) {
                     case "VARCHAR":
                         String resultString = resultSet.getString(i);
                         if (resultString != null) {
@@ -168,6 +184,12 @@ public class DAOBusiness {
                     case "TINYINT":
                         boolean resultBoolean = resultSet.getBoolean(i);
                         setField(resultBoolean, columnName, object);
+                        break;
+                    case "DATETIME":
+                        Date resultDate = resultSet.getDate(i);
+                        Calendar resultCalendar = Calendar.getInstance();
+                        resultCalendar.setTime(resultDate);
+                        setField(resultCalendar, columnName, object);
                         break;
                     default:
                         break;

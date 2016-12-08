@@ -1,5 +1,6 @@
 package Infrastructure;
 
+import Business.SiteBusiness;
 import Entity.Capturado;
 import Entity.Location;
 import Entity.Profemon;
@@ -8,6 +9,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.Calendar;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
@@ -18,6 +20,7 @@ import static org.junit.Assert.assertNotNull;
  * Created by ericmassip on 1/12/16.
  */
 public class CapturadoRepositoryTest {
+    SiteBusiness siteBusiness = new SiteBusiness();
     CapturadoRepository capturadoRepository = new CapturadoRepository();
     Capturado ericCapturado1;
     Capturado ericCapturado2;
@@ -51,11 +54,13 @@ public class CapturadoRepositoryTest {
         ericCapturado1.setIdProfemon(tonimon.getId());
         ericCapturado1.setIdLocation(location1.getId());
         ericCapturado1.setIsSuccessful(true);
+        ericCapturado1.setDate(siteBusiness.getFormattedDate(3, Calendar.DECEMBER, 2016));
         ericCapturado2 = new Capturado();
         ericCapturado2.setIdUser(eric.getId());
         ericCapturado2.setIdProfemon(juanizard.getId());
         ericCapturado2.setIdLocation(location2.getId());
         ericCapturado2.setIsSuccessful(true);
+        ericCapturado2.setDate(siteBusiness.getFormattedDate(6, Calendar.DECEMBER, 2016));
         capturadoRepository.insertCapturado(ericCapturado1);
         capturadoRepository.insertCapturado(ericCapturado2);
     }
@@ -95,6 +100,9 @@ public class CapturadoRepositoryTest {
         assertEquals(ericCapturado3.getIdUser(), ericCapturado1.getIdUser());
         assertEquals(ericCapturado3.getIdProfemon(), ericCapturado1.getIdProfemon());
         assertEquals(ericCapturado3.getIdLocation(), ericCapturado1.getIdLocation());
+        assertEquals(3, ericCapturado1.getDate().get(Calendar.DAY_OF_MONTH));
+        assertEquals(Calendar.DECEMBER, ericCapturado1.getDate().get(Calendar.MONTH));
+        assertEquals(2016, ericCapturado1.getDate().get(Calendar.YEAR));
     }
 
     @Test

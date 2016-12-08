@@ -4,13 +4,17 @@ import Business.UserBusiness;
 import Entity.Profemon;
 import Entity.ServiceLibraryResults.AuthenticationResult;
 import Entity.ServiceLibraryResults.ProfemonCapturaResult;
+import Entity.ServiceLibraryResults.SuccessfulCapturadoByDayResult;
 import Entity.ServiceLibraryResults.UserLevelResult;
 import Entity.User;
 import org.apache.log4j.Logger;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
+import java.util.Calendar;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by ericmassip on 30/11/16.
@@ -58,5 +62,19 @@ public class UserService {
     @Path("/capturados/{userId}")
     public List<ProfemonCapturaResult> getProfemonCapturas (@PathParam("userId") int userId) {
         return userBusiness.getProfemonCapturas(userId);
+    }
+
+    @GET
+    @Path("capturados/successfulByDay/{userId}")
+    public SuccessfulCapturadoByDayResult getSuccessfulCapturadosByDay (@PathParam("userId") int userId) {
+        SuccessfulCapturadoByDayResult successfulCapturadoByDayResult = new SuccessfulCapturadoByDayResult();
+        Calendar calendar = Calendar.getInstance();
+        Map<Integer, Integer> successfulCapturadosByDay = new HashMap<>();
+        for(int i = 1; i < 8; i++) {
+            calendar.add(Calendar.DATE, -1);
+            successfulCapturadosByDay.put(i, userBusiness.getSuccessfulCapturadosByDay(userId, calendar));
+        }
+        successfulCapturadoByDayResult.setCapturadosByDay(successfulCapturadosByDay);
+        return successfulCapturadoByDayResult;
     }
 }

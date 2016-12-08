@@ -74,7 +74,7 @@ public class DAORepository extends DAOBusiness implements DAOInterface {
             PreparedStatement preparedStatement = con.prepareStatement(query);
             addClassFieldsParameters(object, preparedStatement);
             int primaryKey = getPrimaryKeyParameter(object);
-            List<Field> nonObjectDeclaredFields = getNonObjectDeclaredFields(object);
+            List<Field> nonObjectDeclaredFields = getNonGenericObjectDeclaredFields(object);
             int position = (nonObjectDeclaredFields.size() + 1);
             addPrimaryKeyParameter(preparedStatement, position, primaryKey);
             preparedStatement.executeUpdate();

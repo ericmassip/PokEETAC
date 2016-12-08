@@ -13,6 +13,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.Calendar;
 import java.util.List;
 
 import static org.junit.Assert.*;
@@ -21,6 +22,7 @@ import static org.junit.Assert.*;
  * Created by ericmassip on 16/11/16.
  */
 public class UserBusinessTest {
+    SiteBusiness siteBusiness = new SiteBusiness();
     UserBusiness userBusiness = new UserBusiness();
     UserRepository userRepository = new UserRepository();
     User eric;
@@ -59,12 +61,14 @@ public class UserBusinessTest {
         ericCapturado1.setIdLocation(location1.getId());
         ericCapturado1.setLevel(1);
         ericCapturado1.setIsSuccessful(true);
+        ericCapturado1.setDate(siteBusiness.getFormattedDate(3, Calendar.DECEMBER, 2016));
         ericCapturado2 = new Capturado();
         ericCapturado2.setIdUser(eric.getId());
         ericCapturado2.setIdProfemon(juanizard.getId());
         ericCapturado2.setIdLocation(location2.getId());
         ericCapturado2.setLevel(1);
         ericCapturado2.setIsSuccessful(true);
+        ericCapturado2.setDate(siteBusiness.getFormattedDate(6, Calendar.DECEMBER, 2016));
         capturadoRepository.insertCapturado(ericCapturado1);
         capturadoRepository.insertCapturado(ericCapturado2);
     }
@@ -132,6 +136,11 @@ public class UserBusinessTest {
         List<ProfemonCapturaResult> profemonCapturaResults = userBusiness.getProfemonCapturas(eric.getId());
         assertEquals(2, profemonCapturaResults.size());
         assertEquals(tonimon.getName(), profemonCapturaResults.get(0).name);
-        assertEquals(location2.getFloor(), profemonCapturaResults.get(1).floor);
+    }
+
+    @Test
+    public void getSuccessfulCapturadosByDay() throws Exception {
+        int successfulCapturados = userBusiness.getSuccessfulCapturadosByDay(eric.getId(), siteBusiness.getFormattedDate(3, Calendar.DECEMBER, 2016));
+        assertEquals(1, successfulCapturados);
     }
 }
