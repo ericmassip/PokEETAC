@@ -39,7 +39,7 @@ public class DAORepository extends DAOBusiness implements DAOInterface {
             preparedStatement.executeUpdate();
             ResultSet generatedKeys = preparedStatement.getGeneratedKeys();
             if (generatedKeys.next()) {
-                setIntField(generatedKeys.getInt(1), "id", object);
+                setField(generatedKeys.getInt(1), "id", object);
             }
             preparedStatement.close();
             con.close();

@@ -3,6 +3,7 @@ package ServiceLibrary;
 import Business.UserBusiness;
 import Entity.Profemon;
 import Entity.ServiceLibraryResults.AuthenticationResult;
+import Entity.ServiceLibraryResults.ProfemonCapturaResult;
 import Entity.ServiceLibraryResults.UserLevelResult;
 import Entity.User;
 import org.apache.log4j.Logger;
@@ -51,5 +52,11 @@ public class UserService {
     @Path("/profemons/{userId}")
     public List<Profemon> getUserProfemons (@PathParam("userId") int userId) {
         return userBusiness.getUserProfemons(userId);
+    }
+
+    @GET
+    @Path("/capturados/{userId}")
+    public List<ProfemonCapturaResult> getProfemonCapturas (@PathParam("userId") int userId) {
+        return userBusiness.getProfemonCapturas(userId);
     }
 }

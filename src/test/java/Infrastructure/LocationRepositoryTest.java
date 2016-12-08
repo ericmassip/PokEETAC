@@ -7,6 +7,7 @@ import org.junit.Test;
 
 import java.util.List;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 /**
@@ -28,10 +29,10 @@ public class LocationRepositoryTest {
 
     @Test
     public void selectLocation() throws Exception {
-        locationRepository.selectLocation(location1, 1);
+        locationRepository.selectLocation(location1, 2);
         assertNotNull(location1.getLatitude());
         assertNotNull(location1.getLongitude());
-        assertNotNull(location1.getFloor());
+        assertEquals(1, location1.getFloor());
     }
 
     @Test
@@ -39,5 +40,4 @@ public class LocationRepositoryTest {
         List<Location> locations = locationRepository.getAllLocations();
         assertNotNull(locations);
     }
-
 }

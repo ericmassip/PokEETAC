@@ -154,16 +154,20 @@ public class DAOBusiness {
                     case "VARCHAR":
                         String resultString = resultSet.getString(i);
                         if (resultString != null) {
-                            setStringField(resultString, columnName, object);
+                            setField(resultString, columnName, object);
                         }
                         break;
                     case "INT":
                         int resultInt = resultSet.getInt(i);
-                        setIntField(resultInt, columnName, object);
+                        setField(resultInt, columnName, object);
+                        break;
+                    case "DOUBLE":
+                        double resultDouble = resultSet.getDouble(i);
+                        setField(resultDouble, columnName, object);
                         break;
                     case "TINYINT":
                         boolean resultBoolean = resultSet.getBoolean(i);
-                        setBooleanField(resultBoolean, columnName, object);
+                        setField(resultBoolean, columnName, object);
                         break;
                     default:
                         break;
@@ -174,36 +178,12 @@ public class DAOBusiness {
         }
     }
 
-    private void setStringField(String resultString, String name, Object object) {
+    public void setField(Object result, String name, Object object) {
         Method method;
         try {
-            method = object.getClass().getMethod(getSetterName(name), resultString.getClass());
-            method.invoke(object, resultString);
-        } catch (NoSuchMethodException | InvocationTargetException | IllegalAccessException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public void setIntField(int resultId, String name, Object object) {
-        Method method;
-        try {
-            Class[] arguments = new Class[1];
-            arguments[0] = int.class;
-            method = object.getClass().getMethod(getSetterName(name), arguments);
-            method.invoke(object, resultId);
-        } catch (NoSuchMethodException | InvocationTargetException | IllegalAccessException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private void setBooleanField(boolean resultBoolean, String name, Object object) {
-        Method method;
-        try {
-            Class[] arguments = new Class[1];
-            arguments[0] = boolean.class;
-            method = object.getClass().getMethod(getSetterName(name), arguments);
-            method.invoke(object, resultBoolean);
-        } catch (NoSuchMethodException | InvocationTargetException | IllegalAccessException e) {
+            method = object.getClass().getMethod(getSetterName(name), object.getClass().getDeclaredField(name).getType());
+            method.invoke(object, result);
+        } catch (NoSuchMethodException | NoSuchFieldException | InvocationTargetException | IllegalAccessException e) {
             e.printStackTrace();
         }
     }

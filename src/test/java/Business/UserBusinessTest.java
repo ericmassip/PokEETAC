@@ -3,6 +3,7 @@ package Business;
 import Entity.Capturado;
 import Entity.Location;
 import Entity.Profemon;
+import Entity.ServiceLibraryResults.ProfemonCapturaResult;
 import Entity.User;
 import Infrastructure.CapturadoRepository;
 import Infrastructure.LocationRepository;
@@ -124,5 +125,13 @@ public class UserBusinessTest {
         assertEquals(2, ericProfemons.size());
         assertEquals(tonimon.getId(), ericProfemons.get(0).getId());
         assertEquals(juanizard.getName(), ericProfemons.get(1).getName());
+    }
+
+    @Test
+    public void getProfemonCapturas() throws Exception {
+        List<ProfemonCapturaResult> profemonCapturaResults = userBusiness.getProfemonCapturas(eric.getId());
+        assertEquals(2, profemonCapturaResults.size());
+        assertEquals(tonimon.getName(), profemonCapturaResults.get(0).name);
+        assertEquals(location2.getFloor(), profemonCapturaResults.get(1).floor);
     }
 }

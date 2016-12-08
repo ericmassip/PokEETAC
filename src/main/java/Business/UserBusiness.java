@@ -1,12 +1,15 @@
 package Business;
 
 import Entity.Capturado;
+import Entity.Location;
 import Entity.Profemon;
+import Entity.ServiceLibraryResults.ProfemonCapturaResult;
 import Entity.User;
 import Infrastructure.CapturadoRepository;
 import Infrastructure.UserRepository;
 import org.apache.log4j.Logger;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -18,8 +21,8 @@ public class UserBusiness {
 
     public boolean isLoginSuccessful(String username, String password) {
         boolean isLoginSuccessful = false;
-        for (User user: userRepository.getAllUsers()) {
-            if(user.getUsername().equals(username) && user.getPassword().equals(password)) {
+        for (User user : userRepository.getAllUsers()) {
+            if (user.getUsername().equals(username) && user.getPassword().equals(password)) {
                 isLoginSuccessful = true;
             }
         }
@@ -28,8 +31,8 @@ public class UserBusiness {
 
     public boolean isRegisterSuccessful(User newUser) {
         boolean isRegisterSuccessful = true;
-        for (User user: userRepository.getAllUsers()) {
-            if(user.getUsername().equals(newUser.getUsername()) || user.getEmail().equals(newUser.getEmail())) {
+        for (User user : userRepository.getAllUsers()) {
+            if (user.getUsername().equals(newUser.getUsername()) || user.getEmail().equals(newUser.getEmail())) {
                 isRegisterSuccessful = false;
             }
         }
@@ -61,7 +64,7 @@ public class UserBusiness {
     private User getUser(int userId) {
         User user = new User();
         userRepository.selectUser(user, userId);
-        if(user.getUsername() == null) {
+        if (user.getUsername() == null) {
             log.warn("No User selected from id " + userId);
         }
         return user;
@@ -78,5 +81,26 @@ public class UserBusiness {
             log.error("Getting the profemons of userId " + userId);
             return null;
         }
+    }
+
+    public List<ProfemonCapturaResult> getProfemonCapturas(int userId) {
+        ProfemonBusiness profemonBusiness = new ProfemonBusiness();
+        CapturadoRepository capturadoRepository = new CapturadoRepository();
+        LocationBusiness locationBusiness = new LocationBusiness();
+        List<ProfemonCapturaResult> profemonCapturas = new ArrayList<>();
+        User user = getUser(userId);
+        try {
+            for (Capturado capturado : capturadoRepository.getUserCapturados(user)) {
+                Profemon profemonCapturado = profemonBusiness.getProfemon(capturado.getIdProfemon());
+                Location locationCapturado = locationBusiness.getLocation(capturado.getIdLocation());
+                ProfemonCapturaResult profemonCapturaResult = new ProfemonCapturaResult();
+                profemonCapturaResult.fillInTheFields(profemonCapturado.getName(), locationCapturado.getLatitude(), locationCapturado.getLongitude(), locationCapturado.getFloor());
+                profemonCapturas.add(profemonCapturaResult);
+            }
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+            log.error("Getting the profemonCapturas of userId " + userId);
+        }
+        return profemonCapturas;
     }
 }
