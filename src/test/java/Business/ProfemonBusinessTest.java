@@ -10,6 +10,7 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertTrue;
 
 /**
  * Created by ericmassip on 6/12/16.
@@ -50,4 +51,10 @@ public class ProfemonBusinessTest {
         assertNotEquals(1, profemons.size());
     }
 
+    @Test
+    public void getRandomProfemon() throws Exception {
+        int randomProfemonId = profemonBusiness.getRandomProfemonId(10);
+        assertTrue(0 <= randomProfemonId);
+        assertTrue(randomProfemonId < 10);
+    }
 }

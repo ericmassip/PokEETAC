@@ -1914,3 +1914,449 @@
 2016-12-08 16:58:43,953 INFO  - Profemon added: berenguemon with id 17
 2016-12-08 17:07:39,304 INFO  - Profemon selected: berenguemon from id 17
 2016-12-08 17:07:39,309 INFO  - Profemon deleted: berenguemon
+2016-12-08 17:22:26,994 INFO  - User added: erick with id 27
+2016-12-08 17:22:27,012 INFO  - Profemon added: tonimon with id 18
+2016-12-08 17:22:27,025 INFO  - Profemon added: juanizard with id 19
+2016-12-08 17:22:27,042 INFO  - Location selected: latitude -> 44.0, longitude -> 43.0, floor -> 0 from id 1
+2016-12-08 17:22:27,065 INFO  - Location selected: latitude -> 21.0, longitude -> 23.0, floor -> 1 from id 2
+2016-12-08 17:22:27,066 INFO  - Date formatted: 3/11/2016
+2016-12-08 17:22:27,066 INFO  - Date formatted: 6/11/2016
+2016-12-08 17:22:27,086 INFO  - Capturado added: profemon id 18
+2016-12-08 17:22:27,096 INFO  - Capturado added: profemon id 19
+2016-12-08 17:22:27,114 INFO  - User selected: erick from id 27
+2016-12-08 17:22:27,129 INFO  - erick's capturados selected
+2016-12-08 17:22:27,141 INFO  - Profemon selected: tonimon from id 18
+2016-12-08 17:22:27,157 INFO  - Location selected: latitude -> 44.0, longitude -> 43.0, floor -> 0 from id 1
+2016-12-08 17:22:27,170 INFO  - Profemon selected: juanizard from id 19
+2016-12-08 17:22:27,181 INFO  - Location selected: latitude -> 21.0, longitude -> 23.0, floor -> 1 from id 2
+2016-12-08 17:22:27,197 INFO  - Capturado deleted: capturado id 17
+2016-12-08 17:22:27,211 INFO  - Capturado deleted: capturado id 18
+2016-12-08 17:22:27,222 INFO  - User deleted: erick
+2016-12-08 17:22:27,228 INFO  - Profemon deleted: tonimon
+2016-12-08 17:22:27,242 INFO  - Profemon deleted: juanizard
+2016-12-08 17:34:42,003 INFO  - User added: erick with id 28
+2016-12-08 17:34:42,015 INFO  - Profemon added: tonimon with id 20
+2016-12-08 17:34:42,026 INFO  - Profemon added: juanizard with id 21
+2016-12-08 17:34:42,034 INFO  - Location selected: latitude -> 44.0, longitude -> 43.0, floor -> 0 from id 1
+2016-12-08 17:34:42,061 INFO  - Location selected: latitude -> 21.0, longitude -> 23.0, floor -> 1 from id 2
+2016-12-08 17:34:42,061 INFO  - Date formatted: 3/11/2016
+2016-12-08 17:34:42,062 INFO  - Date formatted: 6/11/2016
+2016-12-08 17:34:42,077 INFO  - Capturado added: profemon id 20
+2016-12-08 17:34:42,089 INFO  - Capturado added: profemon id 21
+2016-12-08 17:34:42,109 INFO  - User selected: erick from id 28
+2016-12-08 17:34:42,123 INFO  - erick's capturados selected
+2016-12-08 17:34:42,128 INFO  - Profemon selected: tonimon from id 20
+2016-12-08 17:34:42,137 INFO  - Location selected: latitude -> 44.0, longitude -> 43.0, floor -> 0 from id 1
+2016-12-08 17:34:42,149 INFO  - Profemon selected: juanizard from id 21
+2016-12-08 17:34:42,158 INFO  - Location selected: latitude -> 21.0, longitude -> 23.0, floor -> 1 from id 2
+2016-12-08 17:34:42,165 INFO  - Capturado deleted: capturado id 19
+2016-12-08 17:34:42,171 INFO  - Capturado deleted: capturado id 20
+2016-12-08 17:34:42,178 INFO  - User deleted: erick
+2016-12-08 17:34:42,183 INFO  - Profemon deleted: tonimon
+2016-12-08 17:34:42,187 INFO  - Profemon deleted: juanizard
+2016-12-08 18:12:39,604 INFO  - Profemon added: tonimon with id 22
+2016-12-08 18:12:39,624 INFO  - Profemon added: juanizard with id 23
+2016-12-08 18:12:39,646 INFO  - Profemon deleted: tonimon
+2016-12-08 18:12:39,657 INFO  - Profemon deleted: juanizard
+2016-12-08 18:13:32,655 INFO  - Profemon added: tonimon with id 24
+2016-12-08 18:13:32,672 INFO  - Profemon added: juanizard with id 25
+2016-12-08 18:14:06,470 INFO  - Profemon deleted: tonimon
+2016-12-08 18:14:06,474 INFO  - Profemon deleted: juanizard
+2016-12-08 18:14:21,139 INFO  - Profemon added: tonimon with id 26
+2016-12-08 18:14:21,148 INFO  - Profemon added: juanizard with id 27
+2016-12-08 18:14:21,167 INFO  - Profemon deleted: tonimon
+2016-12-08 18:14:21,174 INFO  - Profemon deleted: juanizard
+2016-12-08 18:32:15,133 INFO  - All Locations selected
+2016-12-08 18:32:15,527 INFO  - All Profemons selected
+2016-12-08 18:32:15,546 INFO  - All Profemons selected
+2016-12-08 18:32:15,558 INFO  - All Locations selected
+2016-12-08 18:44:07,053 INFO  - All Locations selected
+2016-12-08 18:44:07,192 INFO  - All Profemons selected
+2016-12-08 18:44:07,195 INFO  - All Profemons selected
+2016-12-08 18:44:14,401 INFO  - All Locations selected
+2016-12-08 18:44:14,407 INFO  - All Profemons selected
+2016-12-08 18:44:14,411 INFO  - All Profemons selected
+2016-12-08 18:44:24,522 INFO  - All Locations selected
+2016-12-08 18:44:24,526 INFO  - All Profemons selected
+2016-12-08 18:44:24,530 INFO  - All Profemons selected
+2016-12-08 18:44:25,493 INFO  - All Locations selected
+2016-12-08 18:44:25,499 INFO  - All Profemons selected
+2016-12-08 18:44:25,503 INFO  - All Profemons selected
+2016-12-08 18:44:26,355 INFO  - All Locations selected
+2016-12-08 18:44:26,359 INFO  - All Profemons selected
+2016-12-08 18:44:26,362 INFO  - All Profemons selected
+2016-12-08 18:44:27,205 INFO  - All Locations selected
+2016-12-08 18:44:27,209 INFO  - All Profemons selected
+2016-12-08 18:44:27,216 INFO  - Profemon selected: null from id 1
+2016-12-08 18:44:27,216 WARN  - No Profemon selected from id 1
+2016-12-08 18:44:27,217 INFO  - All Profemons selected
+2016-12-08 18:44:59,807 INFO  - All Locations selected
+2016-12-08 18:44:59,811 INFO  - All Profemons selected
+2016-12-08 18:44:59,815 INFO  - All Profemons selected
+2016-12-08 18:45:00,456 INFO  - All Locations selected
+2016-12-08 18:45:00,460 INFO  - All Profemons selected
+2016-12-08 18:45:00,464 INFO  - All Profemons selected
+2016-12-08 18:45:00,972 INFO  - All Locations selected
+2016-12-08 18:45:00,976 INFO  - All Profemons selected
+2016-12-08 18:45:00,980 INFO  - All Profemons selected
+2016-12-08 18:45:01,562 INFO  - All Locations selected
+2016-12-08 18:45:01,565 INFO  - All Profemons selected
+2016-12-08 18:45:01,568 INFO  - All Profemons selected
+2016-12-08 18:45:02,225 INFO  - All Locations selected
+2016-12-08 18:45:02,228 INFO  - All Profemons selected
+2016-12-08 18:45:02,231 INFO  - All Profemons selected
+2016-12-08 18:45:02,853 INFO  - All Locations selected
+2016-12-08 18:45:02,856 INFO  - All Profemons selected
+2016-12-08 18:45:02,859 INFO  - All Profemons selected
+2016-12-08 18:45:03,478 INFO  - All Locations selected
+2016-12-08 18:45:03,481 INFO  - All Profemons selected
+2016-12-08 18:45:03,486 INFO  - Profemon selected: null from id 1
+2016-12-08 18:45:03,486 WARN  - No Profemon selected from id 1
+2016-12-08 18:45:03,486 INFO  - All Profemons selected
+2016-12-08 18:45:05,489 INFO  - All Locations selected
+2016-12-08 18:45:05,492 INFO  - All Profemons selected
+2016-12-08 18:45:05,496 INFO  - All Profemons selected
+2016-12-08 18:45:06,205 INFO  - All Locations selected
+2016-12-08 18:45:06,208 INFO  - All Profemons selected
+2016-12-08 18:45:06,211 INFO  - All Profemons selected
+2016-12-08 18:54:19,247 INFO  - All Locations selected
+2016-12-08 18:54:19,383 INFO  - All Profemons selected
+2016-12-08 18:54:19,386 INFO  - All Profemons selected
+2016-12-08 18:54:22,234 INFO  - All Locations selected
+2016-12-08 18:54:22,240 INFO  - All Profemons selected
+2016-12-08 18:54:22,247 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:54:22,247 INFO  - All Profemons selected
+2016-12-08 18:54:22,254 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:54:31,464 INFO  - All Locations selected
+2016-12-08 18:54:31,467 INFO  - All Profemons selected
+2016-12-08 18:54:31,472 INFO  - All Profemons selected
+2016-12-08 18:54:31,480 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:54:37,369 INFO  - All Locations selected
+2016-12-08 18:54:37,372 INFO  - All Profemons selected
+2016-12-08 18:54:37,376 INFO  - All Profemons selected
+2016-12-08 18:54:38,349 INFO  - All Locations selected
+2016-12-08 18:54:38,356 INFO  - All Profemons selected
+2016-12-08 18:54:38,361 INFO  - All Profemons selected
+2016-12-08 18:54:38,371 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:54:39,161 INFO  - All Locations selected
+2016-12-08 18:54:39,165 INFO  - All Profemons selected
+2016-12-08 18:54:39,168 INFO  - All Profemons selected
+2016-12-08 18:54:39,174 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:54:40,043 INFO  - All Locations selected
+2016-12-08 18:54:40,046 INFO  - All Profemons selected
+2016-12-08 18:54:40,049 INFO  - All Profemons selected
+2016-12-08 18:54:40,673 INFO  - All Locations selected
+2016-12-08 18:54:40,679 INFO  - All Profemons selected
+2016-12-08 18:54:40,685 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:54:40,685 INFO  - All Profemons selected
+2016-12-08 18:54:41,406 INFO  - All Locations selected
+2016-12-08 18:54:41,410 INFO  - All Profemons selected
+2016-12-08 18:54:41,412 INFO  - All Profemons selected
+2016-12-08 18:54:41,418 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:54:41,998 INFO  - All Locations selected
+2016-12-08 18:54:42,003 INFO  - All Profemons selected
+2016-12-08 18:54:42,006 INFO  - All Profemons selected
+2016-12-08 18:55:45,141 INFO  - All Locations selected
+2016-12-08 18:55:45,278 INFO  - All Profemons selected
+2016-12-08 18:55:45,281 INFO  - All Profemons selected
+2016-12-08 18:56:08,326 INFO  - All Locations selected
+2016-12-08 18:56:08,461 INFO  - All Profemons selected
+2016-12-08 18:56:08,464 INFO  - All Profemons selected
+2016-12-08 18:56:09,922 INFO  - All Locations selected
+2016-12-08 18:56:09,927 INFO  - All Profemons selected
+2016-12-08 18:56:09,933 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:09,934 INFO  - All Profemons selected
+2016-12-08 18:56:11,385 INFO  - All Locations selected
+2016-12-08 18:56:11,390 INFO  - All Profemons selected
+2016-12-08 18:56:11,398 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:56:11,398 INFO  - All Profemons selected
+2016-12-08 18:56:11,405 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:13,392 INFO  - All Locations selected
+2016-12-08 18:56:13,395 INFO  - All Profemons selected
+2016-12-08 18:56:13,398 INFO  - All Profemons selected
+2016-12-08 18:56:14,474 INFO  - All Locations selected
+2016-12-08 18:56:14,481 INFO  - All Profemons selected
+2016-12-08 18:56:14,486 INFO  - All Profemons selected
+2016-12-08 18:56:15,336 INFO  - All Locations selected
+2016-12-08 18:56:15,341 INFO  - All Profemons selected
+2016-12-08 18:56:15,347 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:15,348 INFO  - All Profemons selected
+2016-12-08 18:56:16,286 INFO  - All Locations selected
+2016-12-08 18:56:16,289 INFO  - All Profemons selected
+2016-12-08 18:56:16,293 INFO  - All Profemons selected
+2016-12-08 18:56:17,138 INFO  - All Locations selected
+2016-12-08 18:56:17,143 INFO  - All Profemons selected
+2016-12-08 18:56:17,149 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:56:17,149 INFO  - All Profemons selected
+2016-12-08 18:56:17,857 INFO  - All Locations selected
+2016-12-08 18:56:17,860 INFO  - All Profemons selected
+2016-12-08 18:56:17,866 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:17,866 INFO  - All Profemons selected
+2016-12-08 18:56:18,568 INFO  - All Locations selected
+2016-12-08 18:56:18,571 INFO  - All Profemons selected
+2016-12-08 18:56:18,577 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:18,577 INFO  - All Profemons selected
+2016-12-08 18:56:18,582 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:56:19,475 INFO  - All Locations selected
+2016-12-08 18:56:19,478 INFO  - All Profemons selected
+2016-12-08 18:56:19,480 INFO  - All Profemons selected
+2016-12-08 18:56:20,200 INFO  - All Locations selected
+2016-12-08 18:56:20,203 INFO  - All Profemons selected
+2016-12-08 18:56:20,206 INFO  - All Profemons selected
+2016-12-08 18:56:20,212 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:56:20,866 INFO  - All Locations selected
+2016-12-08 18:56:20,869 INFO  - All Profemons selected
+2016-12-08 18:56:20,875 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:56:20,875 INFO  - All Profemons selected
+2016-12-08 18:56:20,880 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:56:21,617 INFO  - All Locations selected
+2016-12-08 18:56:21,620 INFO  - All Profemons selected
+2016-12-08 18:56:21,626 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:21,627 INFO  - All Profemons selected
+2016-12-08 18:56:21,632 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:56:22,252 INFO  - All Locations selected
+2016-12-08 18:56:22,255 INFO  - All Profemons selected
+2016-12-08 18:56:22,260 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:22,260 INFO  - All Profemons selected
+2016-12-08 18:56:22,265 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:56:46,176 INFO  - All Locations selected
+2016-12-08 18:56:46,311 INFO  - All Profemons selected
+2016-12-08 18:56:46,317 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:46,317 INFO  - All Profemons selected
+2016-12-08 18:56:46,322 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:48,493 INFO  - All Locations selected
+2016-12-08 18:56:48,499 INFO  - All Profemons selected
+2016-12-08 18:56:48,503 INFO  - All Profemons selected
+2016-12-08 18:56:48,510 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:49,325 INFO  - All Locations selected
+2016-12-08 18:56:49,329 INFO  - All Profemons selected
+2016-12-08 18:56:49,334 INFO  - All Profemons selected
+2016-12-08 18:56:49,341 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:50,074 INFO  - All Locations selected
+2016-12-08 18:56:50,077 INFO  - All Profemons selected
+2016-12-08 18:56:50,084 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:50,084 INFO  - All Profemons selected
+2016-12-08 18:56:50,091 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:51,459 INFO  - All Locations selected
+2016-12-08 18:56:51,463 INFO  - All Profemons selected
+2016-12-08 18:56:51,466 INFO  - All Profemons selected
+2016-12-08 18:56:51,472 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:52,449 INFO  - All Locations selected
+2016-12-08 18:56:52,455 INFO  - All Profemons selected
+2016-12-08 18:56:52,462 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:52,462 INFO  - All Profemons selected
+2016-12-08 18:56:52,469 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:56:53,614 INFO  - All Locations selected
+2016-12-08 18:56:53,618 INFO  - All Profemons selected
+2016-12-08 18:56:53,624 INFO  - All Profemons selected
+2016-12-08 18:56:53,634 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:56:54,444 INFO  - All Locations selected
+2016-12-08 18:56:54,449 INFO  - All Profemons selected
+2016-12-08 18:56:54,451 INFO  - All Profemons selected
+2016-12-08 18:56:55,179 INFO  - All Locations selected
+2016-12-08 18:56:55,182 INFO  - All Profemons selected
+2016-12-08 18:56:55,189 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:56:55,189 INFO  - All Profemons selected
+2016-12-08 18:56:55,979 INFO  - All Locations selected
+2016-12-08 18:56:55,981 INFO  - All Profemons selected
+2016-12-08 18:56:55,987 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:55,987 INFO  - All Profemons selected
+2016-12-08 18:56:56,596 INFO  - All Locations selected
+2016-12-08 18:56:56,599 INFO  - All Profemons selected
+2016-12-08 18:56:56,604 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:56,605 INFO  - All Profemons selected
+2016-12-08 18:56:57,184 INFO  - All Locations selected
+2016-12-08 18:56:57,186 INFO  - All Profemons selected
+2016-12-08 18:56:57,189 INFO  - All Profemons selected
+2016-12-08 18:56:57,194 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:57,851 INFO  - All Locations selected
+2016-12-08 18:56:57,854 INFO  - All Profemons selected
+2016-12-08 18:56:57,857 INFO  - All Profemons selected
+2016-12-08 18:56:58,638 INFO  - All Locations selected
+2016-12-08 18:56:58,641 INFO  - All Profemons selected
+2016-12-08 18:56:58,644 INFO  - All Profemons selected
+2016-12-08 18:56:58,649 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:56:59,487 INFO  - All Locations selected
+2016-12-08 18:56:59,490 INFO  - All Profemons selected
+2016-12-08 18:56:59,494 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:56:59,494 INFO  - All Profemons selected
+2016-12-08 18:56:59,498 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 18:57:00,263 INFO  - All Locations selected
+2016-12-08 18:57:00,266 INFO  - All Profemons selected
+2016-12-08 18:57:00,271 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:57:00,271 INFO  - All Profemons selected
+2016-12-08 18:57:00,275 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 18:58:54,374 INFO  - All Locations selected
+2016-12-08 18:59:22,534 INFO  - All Profemons selected
+2016-12-08 19:02:42,960 INFO  - All Locations selected
+2016-12-08 19:02:43,095 INFO  - All Profemons selected
+2016-12-08 19:02:43,099 INFO  - All Profemons selected
+2016-12-08 19:02:43,104 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:02:43,104 INFO  - All Profemons selected
+2016-12-08 19:02:43,109 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:02:45,978 INFO  - All Locations selected
+2016-12-08 19:02:45,983 INFO  - All Profemons selected
+2016-12-08 19:02:45,992 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:02:45,992 INFO  - All Profemons selected
+2016-12-08 19:02:45,999 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:02:45,999 INFO  - All Profemons selected
+2016-12-08 19:02:46,966 INFO  - All Locations selected
+2016-12-08 19:02:46,970 INFO  - All Profemons selected
+2016-12-08 19:02:46,979 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:02:46,979 INFO  - All Profemons selected
+2016-12-08 19:02:46,987 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:02:46,987 INFO  - All Profemons selected
+2016-12-08 19:02:48,153 INFO  - All Locations selected
+2016-12-08 19:02:48,160 INFO  - All Profemons selected
+2016-12-08 19:02:48,167 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:02:48,167 INFO  - All Profemons selected
+2016-12-08 19:02:48,171 INFO  - All Profemons selected
+2016-12-08 19:02:48,181 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:02:49,624 INFO  - All Locations selected
+2016-12-08 19:02:49,628 INFO  - All Profemons selected
+2016-12-08 19:02:49,635 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:02:49,636 INFO  - All Profemons selected
+2016-12-08 19:02:49,638 INFO  - All Profemons selected
+2016-12-08 19:02:49,644 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:02:50,766 INFO  - All Locations selected
+2016-12-08 19:02:50,773 INFO  - All Profemons selected
+2016-12-08 19:02:50,780 INFO  - All Profemons selected
+2016-12-08 19:02:50,787 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:02:50,787 INFO  - All Profemons selected
+2016-12-08 19:02:50,794 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:02:52,000 INFO  - All Locations selected
+2016-12-08 19:02:52,004 INFO  - All Profemons selected
+2016-12-08 19:02:52,012 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:02:52,012 INFO  - All Profemons selected
+2016-12-08 19:02:52,022 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:02:52,022 INFO  - All Profemons selected
+2016-12-08 19:02:52,031 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:02:54,711 INFO  - All Locations selected
+2016-12-08 19:02:54,714 INFO  - All Profemons selected
+2016-12-08 19:02:54,720 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:02:54,720 INFO  - All Profemons selected
+2016-12-08 19:02:54,727 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:02:54,727 INFO  - All Profemons selected
+2016-12-08 19:02:55,520 INFO  - All Locations selected
+2016-12-08 19:02:55,523 INFO  - All Profemons selected
+2016-12-08 19:02:55,528 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:02:55,528 INFO  - All Profemons selected
+2016-12-08 19:02:55,535 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:02:55,535 INFO  - All Profemons selected
+2016-12-08 19:02:56,183 INFO  - All Locations selected
+2016-12-08 19:02:56,185 INFO  - All Profemons selected
+2016-12-08 19:02:56,188 INFO  - All Profemons selected
+2016-12-08 19:02:56,192 INFO  - All Profemons selected
+2016-12-08 19:02:56,197 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:02:56,886 INFO  - All Locations selected
+2016-12-08 19:02:56,889 INFO  - All Profemons selected
+2016-12-08 19:02:56,894 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:02:56,894 INFO  - All Profemons selected
+2016-12-08 19:02:56,899 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:02:56,899 INFO  - All Profemons selected
+2016-12-08 19:02:57,566 INFO  - All Locations selected
+2016-12-08 19:02:57,569 INFO  - All Profemons selected
+2016-12-08 19:02:57,574 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:02:57,575 INFO  - All Profemons selected
+2016-12-08 19:02:57,579 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:02:57,579 INFO  - All Profemons selected
+2016-12-08 19:02:57,583 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:02:58,400 INFO  - All Locations selected
+2016-12-08 19:02:58,403 INFO  - All Profemons selected
+2016-12-08 19:02:58,405 INFO  - All Profemons selected
+2016-12-08 19:02:58,409 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:02:58,409 INFO  - All Profemons selected
+2016-12-08 19:02:58,414 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:02:59,087 INFO  - All Locations selected
+2016-12-08 19:02:59,090 INFO  - All Profemons selected
+2016-12-08 19:02:59,093 INFO  - All Profemons selected
+2016-12-08 19:02:59,098 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:02:59,098 INFO  - All Profemons selected
+2016-12-08 19:02:59,767 INFO  - All Locations selected
+2016-12-08 19:02:59,769 INFO  - All Profemons selected
+2016-12-08 19:02:59,775 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:02:59,775 INFO  - All Profemons selected
+2016-12-08 19:02:59,779 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:02:59,779 INFO  - All Profemons selected
+2016-12-08 19:02:59,783 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:03:00,689 INFO  - All Locations selected
+2016-12-08 19:03:00,692 INFO  - All Profemons selected
+2016-12-08 19:03:00,696 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:03:00,696 INFO  - All Profemons selected
+2016-12-08 19:03:00,700 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:03:00,701 INFO  - All Profemons selected
+2016-12-08 19:03:00,706 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:03:28,716 INFO  - All Locations selected
+2016-12-08 19:03:28,859 INFO  - All Profemons selected
+2016-12-08 19:03:28,866 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:03:28,866 INFO  - All Profemons selected
+2016-12-08 19:03:28,873 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:03:28,873 INFO  - All Profemons selected
+2016-12-08 19:03:28,879 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:03:30,160 INFO  - All Locations selected
+2016-12-08 19:03:30,166 INFO  - All Profemons selected
+2016-12-08 19:03:30,175 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:03:30,176 INFO  - All Profemons selected
+2016-12-08 19:03:30,182 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:03:30,182 INFO  - All Profemons selected
+2016-12-08 19:03:30,188 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:03:30,911 INFO  - All Locations selected
+2016-12-08 19:03:30,914 INFO  - All Profemons selected
+2016-12-08 19:03:30,921 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:03:30,921 INFO  - All Profemons selected
+2016-12-08 19:03:30,928 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:03:30,928 INFO  - All Profemons selected
+2016-12-08 19:03:30,934 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:03:31,541 INFO  - All Locations selected
+2016-12-08 19:03:31,545 INFO  - All Profemons selected
+2016-12-08 19:03:31,551 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:03:31,551 INFO  - All Profemons selected
+2016-12-08 19:03:31,557 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:03:31,557 INFO  - All Profemons selected
+2016-12-08 19:03:31,564 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:03:32,131 INFO  - All Locations selected
+2016-12-08 19:03:32,134 INFO  - All Profemons selected
+2016-12-08 19:03:32,141 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:03:32,142 INFO  - All Profemons selected
+2016-12-08 19:03:32,148 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:03:32,148 INFO  - All Profemons selected
+2016-12-08 19:03:32,154 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:03:32,693 INFO  - All Locations selected
+2016-12-08 19:03:32,697 INFO  - All Profemons selected
+2016-12-08 19:03:32,702 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:03:32,703 INFO  - All Profemons selected
+2016-12-08 19:03:32,708 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:03:32,708 INFO  - All Profemons selected
+2016-12-08 19:03:32,713 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:03:33,288 INFO  - All Locations selected
+2016-12-08 19:03:33,291 INFO  - All Profemons selected
+2016-12-08 19:03:33,296 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:03:33,296 INFO  - All Profemons selected
+2016-12-08 19:03:33,298 INFO  - All Profemons selected
+2016-12-08 19:03:33,303 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:03:34,930 INFO  - All Locations selected
+2016-12-08 19:03:34,933 INFO  - All Profemons selected
+2016-12-08 19:03:34,938 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:03:34,939 INFO  - All Profemons selected
+2016-12-08 19:03:34,944 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:03:34,944 INFO  - All Profemons selected
+2016-12-08 19:03:34,950 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:03:57,179 INFO  - All Locations selected
+2016-12-08 19:03:57,318 INFO  - All Profemons selected
+2016-12-08 19:03:57,324 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:03:57,324 INFO  - All Profemons selected
+2016-12-08 19:03:57,327 INFO  - All Profemons selected
+2016-12-08 19:03:57,332 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:03:58,887 INFO  - All Locations selected
+2016-12-08 19:03:58,892 INFO  - All Profemons selected
+2016-12-08 19:03:58,896 INFO  - All Profemons selected
+2016-12-08 19:03:58,904 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:03:58,905 INFO  - All Profemons selected
+2016-12-08 19:03:58,911 INFO  - Profemon selected: casalsmon from id 2
+2016-12-08 19:03:59,894 INFO  - All Locations selected
+2016-12-08 19:03:59,898 INFO  - All Profemons selected
+2016-12-08 19:03:59,909 INFO  - Profemon selected: antoniamon from id 1
+2016-12-08 19:03:59,910 INFO  - All Profemons selected
+2016-12-08 19:03:59,923 INFO  - Profemon selected: berenguemon from id 3
+2016-12-08 19:03:59,924 INFO  - All Profemons selected
+2016-12-08 19:03:59,934 INFO  - Profemon selected: casalsmon from id 2

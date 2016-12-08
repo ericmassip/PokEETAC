@@ -58,7 +58,7 @@ public class UserService {
 
     @GET
     @Path("/capturados/{userId}")
-    public List<ProfemonCapturaResult> getProfemonCapturas (@PathParam("userId") int userId) {
+    public List<ProfemonLocationResult> getProfemonCapturas (@PathParam("userId") int userId) {
         return userBusiness.getProfemonCapturas(userId);
     }
 

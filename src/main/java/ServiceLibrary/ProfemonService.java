@@ -1,7 +1,9 @@
 package ServiceLibrary;
 
+import Business.LocationBusiness;
 import Business.ProfemonBusiness;
 import Entity.Profemon;
+import Entity.ServiceLibraryResults.ProfemonLocationResult;
 import Infrastructure.ProfemonRepository;
 import org.apache.log4j.Logger;
 
@@ -35,5 +37,12 @@ public class ProfemonService {
     @Path("/{profemonId}")
     public void deleteProfemon (@PathParam("profemonId") int profemonId) {
         profemonBusiness.deleteProfemon(profemonId);
+    }
+
+    @GET
+    @Path("/location/all")
+    public List<ProfemonLocationResult> getRandomProfemonLocations() {
+        LocationBusiness locationBusiness = new LocationBusiness();
+        return locationBusiness.getProfemonLocations();
     }
 }

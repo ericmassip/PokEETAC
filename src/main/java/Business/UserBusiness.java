@@ -1,9 +1,8 @@
 package Business;
 
 import Entity.Capturado;
-import Entity.Location;
 import Entity.Profemon;
-import Entity.ServiceLibraryResults.ProfemonCapturaResult;
+import Entity.ServiceLibraryResults.ProfemonLocationResult;
 import Entity.User;
 import Infrastructure.CapturadoRepository;
 import Infrastructure.UserRepository;
@@ -85,20 +84,13 @@ public class UserBusiness {
         }
     }
 
-    public List<ProfemonCapturaResult> getProfemonCapturas(int userId) {
-        ProfemonBusiness profemonBusiness = new ProfemonBusiness();
+    public List<ProfemonLocationResult> getProfemonCapturas(int userId) {
+        CapturadoBusiness capturadoBusiness = new CapturadoBusiness();
         CapturadoRepository capturadoRepository = new CapturadoRepository();
-        LocationBusiness locationBusiness = new LocationBusiness();
-        List<ProfemonCapturaResult> profemonCapturas = new ArrayList<>();
+        List<ProfemonLocationResult> profemonCapturas = new ArrayList<>();
         User user = getUser(userId);
         try {
-            for (Capturado capturado : capturadoRepository.getUserCapturados(user)) {
-                Profemon profemonCapturado = profemonBusiness.getProfemon(capturado.getIdProfemon());
-                Location locationCapturado = locationBusiness.getLocation(capturado.getIdLocation());
-                ProfemonCapturaResult profemonCapturaResult = new ProfemonCapturaResult();
-                profemonCapturaResult.fillInTheFields(profemonCapturado.getName(), locationCapturado.getLatitude(), locationCapturado.getLongitude());
-                profemonCapturas.add(profemonCapturaResult);
-            }
+            profemonCapturas = capturadoBusiness.getProfemonLocationResults(capturadoRepository.getUserCapturados(user));
         } catch (NullPointerException e) {
             e.printStackTrace();
             log.error("Getting the profemonCapturas of userId " + userId);
