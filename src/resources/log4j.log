@@ -1895,3 +1895,19 @@
 2016-12-08 16:32:20,201 INFO  - User selected: eric from id 1
 2016-12-08 16:32:20,206 INFO  - eric's capturados selected
 2016-12-08 16:32:20,210 INFO  - eric's all capturados intents selected
+2016-12-08 16:43:24,577 INFO  - User added: ericmassip with id 26
+2016-12-08 16:43:24,593 INFO  - Profemon added: tonimon with id 15
+2016-12-08 16:43:24,608 INFO  - Profemon added: juanizard with id 16
+2016-12-08 16:43:24,619 INFO  - Location selected: latitude -> 44.0, longitude -> 43.0, floor -> 0 from id 1
+2016-12-08 16:43:24,632 INFO  - Location selected: latitude -> 21.0, longitude -> 23.0, floor -> 1 from id 2
+2016-12-08 16:43:24,632 INFO  - Date formatted: 3/11/2016
+2016-12-08 16:43:24,632 INFO  - Date formatted: 6/11/2016
+2016-12-08 16:43:24,649 INFO  - Capturado added: profemon id 15
+2016-12-08 16:43:24,658 INFO  - Capturado added: profemon id 16
+2016-12-08 16:43:24,667 INFO  - ericmassip's all capturados intents selected
+2016-12-08 16:43:24,674 INFO  - Capturado deleted: capturado id 15
+2016-12-08 16:43:24,679 INFO  - Capturado deleted: capturado id 16
+2016-12-08 16:43:24,683 INFO  - User deleted: ericmassip
+2016-12-08 16:43:24,689 INFO  - Profemon deleted: tonimon
+2016-12-08 16:43:24,693 INFO  - Profemon deleted: juanizard
+2016-12-08 16:51:01,703 INFO  - All Users selected

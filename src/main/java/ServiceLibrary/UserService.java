@@ -4,6 +4,7 @@ import Business.UserBusiness;
 import Entity.Profemon;
 import Entity.ServiceLibraryResults.*;
 import Entity.User;
+import Infrastructure.UserRepository;
 import org.apache.log4j.Logger;
 
 import javax.ws.rs.*;
@@ -81,5 +82,12 @@ public class UserService {
         SuccessfulPercentageResult successfulPercentageResult = new SuccessfulPercentageResult();
         successfulPercentageResult.successfulPercentage = userBusiness.getCapturadosSuccessfulPercentage(userId);
         return successfulPercentageResult;
+    }
+
+    @GET
+    @Path("/all")
+    public List<User> getAllUsers() {
+        UserRepository userRepository = new UserRepository();
+        return userRepository.getAllUsers();
     }
 }

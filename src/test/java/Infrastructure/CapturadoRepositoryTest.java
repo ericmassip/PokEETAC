@@ -147,4 +147,11 @@ public class CapturadoRepositoryTest {
         assertEquals(ericCapturados.get(0).getIdProfemon(), ericCapturado1.getIdProfemon());
         assertEquals(ericCapturados.get(0).getIdLocation(), ericCapturado1.getIdLocation());
     }
+
+    @Test
+    public void getUserCapturadosAllAttempts() throws Exception {
+        List<Capturado> capturadosAllAttempts = capturadoRepository.getUserCapturadosAllAttempts(eric);
+        assertEquals(2, capturadosAllAttempts.size());
+        assertEquals(capturadosAllAttempts.get(1).getId(), ericCapturado2.getId());
+    }
 }

@@ -67,7 +67,7 @@ public class UserBusinessTest {
         ericCapturado2.setIdProfemon(juanizard.getId());
         ericCapturado2.setIdLocation(location2.getId());
         ericCapturado2.setLevel(1);
-        ericCapturado2.setIsSuccessful(false);
+        ericCapturado2.setIsSuccessful(true);
         ericCapturado2.setDate(siteBusiness.getFormattedDate(6, Calendar.DECEMBER, 2016));
         capturadoRepository.insertCapturado(ericCapturado1);
         capturadoRepository.insertCapturado(ericCapturado2);
@@ -146,6 +146,6 @@ public class UserBusinessTest {
 
     @Test
     public void getCapturadosSuccessfulPercentage() throws Exception {
-        assertEquals(50, userBusiness.getCapturadosSuccessfulPercentage(eric.getId()), 0.0001);
+        assertEquals(100, userBusiness.getCapturadosSuccessfulPercentage(eric.getId()), 0.0001);
     }
 }
