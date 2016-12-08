@@ -29,4 +29,15 @@ public class ProfemonBusiness {
         }
         return profemon;
     }
+
+    public void deleteProfemon(int profemonId) {
+        Profemon profemon = getProfemon(profemonId);
+        try {
+            profemonRepository.deleteProfemon(profemon);
+        } catch(NullPointerException e) {
+            e.printStackTrace();
+            log.error("Deleting profemon with id " + profemonId);
+        }
+
+    }
 }

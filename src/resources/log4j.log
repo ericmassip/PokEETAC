@@ -1912,3 +1912,5 @@
 2016-12-08 16:43:24,693 INFO  - Profemon deleted: juanizard
 2016-12-08 16:51:01,703 INFO  - All Users selected
 2016-12-08 16:58:43,953 INFO  - Profemon added: berenguemon with id 17
+2016-12-08 17:07:39,304 INFO  - Profemon selected: berenguemon from id 17
+2016-12-08 17:07:39,309 INFO  - Profemon deleted: berenguemon

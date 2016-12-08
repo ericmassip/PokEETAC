@@ -31,4 +31,9 @@ public class ProfemonService {
         profemonRepository.insertProfemon(profemon);
     }
 
+    @DELETE
+    @Path("/{profemonId}")
+    public void deleteProfemon (@PathParam("profemonId") int profemonId) {
+        profemonBusiness.deleteProfemon(profemonId);
+    }
 }
