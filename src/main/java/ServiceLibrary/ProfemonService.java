@@ -2,6 +2,7 @@ package ServiceLibrary;
 
 import Business.ProfemonBusiness;
 import Entity.Profemon;
+import Infrastructure.ProfemonRepository;
 import org.apache.log4j.Logger;
 
 import javax.ws.rs.*;
@@ -22,6 +23,12 @@ public class ProfemonService {
     @Path("/all/{filterBy: .*}")
     public List<Profemon> getProfemons(@PathParam("filterBy") String filterBy) {
         return profemonBusiness.getProfemons(filterBy);
+    }
+
+    @POST
+    public void insertProfemon (Profemon profemon) {
+        ProfemonRepository profemonRepository = new ProfemonRepository();
+        profemonRepository.insertProfemon(profemon);
     }
 
 }
