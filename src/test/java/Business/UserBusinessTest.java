@@ -3,6 +3,7 @@ package Business;
 import Entity.Capturado;
 import Entity.Location;
 import Entity.Profemon;
+import Entity.ServiceLibraryResults.ProfemonCapturadoResult;
 import Entity.ServiceLibraryResults.ProfemonLocationResult;
 import Entity.User;
 import Infrastructure.CapturadoRepository;
@@ -59,7 +60,7 @@ public class UserBusinessTest {
         ericCapturado1.setIdUser(eric.getId());
         ericCapturado1.setIdProfemon(tonimon.getId());
         ericCapturado1.setIdLocation(location1.getId());
-        ericCapturado1.setLevel(1);
+        ericCapturado1.setLevel(2);
         ericCapturado1.setIsSuccessful(true);
         ericCapturado1.setDate(siteBusiness.getFormattedDate(3, Calendar.DECEMBER, 2016));
         ericCapturado2 = new Capturado();
@@ -116,19 +117,21 @@ public class UserBusinessTest {
         ericCapturado3.setIdLocation(location2.getId());
         ericCapturado3.setLevel(1);
         ericCapturado3.setIsSuccessful(false);
+        ericCapturado3.setDate(siteBusiness.getFormattedDate(8, Calendar.DECEMBER, 2016));
         capturadoRepository.insertCapturado(ericCapturado3);
         int userLevel = userBusiness.getUserLevel(eric.getId());
         assertNotNull(userLevel);
-        assertEquals(5, userLevel);
+        assertEquals(6, userLevel);
         capturadoRepository.deleteCapturado(ericCapturado3);
     }
 
     @Test
     public void getUserProfemons() throws Exception {
-        List<Profemon> ericProfemons = userBusiness.getUserProfemons(eric.getId());
+        List<ProfemonCapturadoResult> ericProfemons = userBusiness.getUserProfemons(eric.getId());
         assertEquals(2, ericProfemons.size());
-        assertEquals(tonimon.getId(), ericProfemons.get(0).getId());
-        assertEquals(juanizard.getName(), ericProfemons.get(1).getName());
+        assertEquals(tonimon.getId(), ericProfemons.get(0).profemonId);
+        assertEquals(juanizard.getName(), ericProfemons.get(1).name);
+        assertEquals(3, ericProfemons.get(0).level);
     }
 
     @Test

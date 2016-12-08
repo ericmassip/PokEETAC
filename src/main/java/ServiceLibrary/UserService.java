@@ -1,7 +1,6 @@
 package ServiceLibrary;
 
 import Business.UserBusiness;
-import Entity.Profemon;
 import Entity.ServiceLibraryResults.*;
 import Entity.User;
 import Infrastructure.UserRepository;
@@ -52,7 +51,7 @@ public class UserService {
 
     @GET
     @Path("/profemons/{userId}")
-    public List<Profemon> getUserProfemons (@PathParam("userId") int userId) {
+    public List<ProfemonCapturadoResult> getUserProfemons (@PathParam("userId") int userId) {
         return userBusiness.getUserProfemons(userId);
     }
 

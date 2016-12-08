@@ -2,6 +2,7 @@ package Business;
 
 import Entity.Capturado;
 import Entity.Profemon;
+import Entity.ServiceLibraryResults.ProfemonCapturadoResult;
 import Entity.ServiceLibraryResults.ProfemonLocationResult;
 import Entity.User;
 import Infrastructure.CapturadoRepository;
@@ -44,16 +45,10 @@ public class UserBusiness {
     }
 
     public int getUserLevel(int userId) {
-        CapturadoRepository capturadoRepository = new CapturadoRepository();
         int totalLevel = 0;
-        User user = getUser(userId);
         try {
-            capturadoRepository.setUserProfemonsCapturadosFromDatabase(user);
-            for (Profemon profemon : user.getProfemons()) {
-                totalLevel = totalLevel + profemon.getInitialLevel();
-            }
-            for (Capturado capturado : capturadoRepository.getUserCapturados(user)) {
-                totalLevel = totalLevel + capturado.getLevel();
+            for(ProfemonCapturadoResult profemonCapturadoResult: getUserProfemons(userId)) {
+                totalLevel += profemonCapturadoResult.level;
             }
         } catch (NullPointerException e) {
             e.printStackTrace();
@@ -71,17 +66,23 @@ public class UserBusiness {
         return user;
     }
 
-    public List<Profemon> getUserProfemons(int userId) {
+    public List<ProfemonCapturadoResult> getUserProfemons(int userId) {
+        ProfemonBusiness profemonBusiness = new ProfemonBusiness();
         CapturadoRepository capturadoRepository = new CapturadoRepository();
         User user = getUser(userId);
+        List<ProfemonCapturadoResult> profemonCapturadoResults = new ArrayList<>();
         try {
-            capturadoRepository.setUserProfemonsCapturadosFromDatabase(user);
-            return user.getProfemons();
+            for(Capturado capturado: capturadoRepository.getUserCapturados(user)) {
+                Profemon profemonCapturado = profemonBusiness.getProfemon(capturado.getIdProfemon());
+                ProfemonCapturadoResult profemonCapturadoResult = new ProfemonCapturadoResult();
+                profemonCapturadoResult.fillIntheFields(profemonCapturado.getId(), profemonCapturado.getName(), profemonCapturado.getInitialLevel() + capturado.getLevel());
+                profemonCapturadoResults.add(profemonCapturadoResult);
+            }
         } catch (NullPointerException e) {
             e.printStackTrace();
             log.error("Getting the profemons of userId " + userId);
-            return null;
         }
+        return profemonCapturadoResults;
     }
 
     public List<ProfemonLocationResult> getProfemonCapturas(int userId) {
