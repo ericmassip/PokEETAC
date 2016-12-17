@@ -3277,3 +3277,25 @@
 2016-12-16 17:06:41,520 INFO  - All Users selected
 2016-12-16 17:06:41,538 INFO  - User added: juanito with id 44
 2016-12-16 17:06:41,538 INFO  - Register: juanito tried to register and the registerResult was true
+2016-12-17 17:08:46,829 INFO  - All Users selected
+2016-12-17 17:08:47,154 INFO  - Login: eric tried to log in and the loginResult was false
+2016-12-17 17:08:56,242 INFO  - All Users selected
+2016-12-17 17:08:56,246 INFO  - Login: eric tried to log in and the loginResult was true
+2016-12-17 17:55:34,255 INFO  - All Users selected
+2016-12-17 17:56:37,777 INFO  - All Users selected
+2016-12-17 17:58:17,945 INFO  - All Users selected
+2016-12-17 18:02:25,579 INFO  - All Users selected
+2016-12-17 18:05:48,947 INFO  - All Users selected
+2016-12-17 18:05:49,290 INFO  - User added: ivan with id 45
+2016-12-17 18:05:49,291 INFO  - Register: ivan tried to register and the registerResult was true
+2016-12-17 18:17:30,671 INFO  - All Users selected
+2016-12-17 18:17:30,864 INFO  - User added:  with id 46
+2016-12-17 18:17:30,864 INFO  - Register:  tried to register and the registerResult was true
+2016-12-17 18:18:31,594 INFO  - All Users selected
+2016-12-17 18:18:31,609 INFO  - User added: ivan2 with id 47
+2016-12-17 18:18:31,609 INFO  - Register: ivan2 tried to register and the registerResult was true
+2016-12-17 18:18:41,504 INFO  - All Users selected
+2016-12-17 18:18:41,511 INFO  - Login: ivan2 tried to log in and the loginResult was true
+2016-12-17 18:28:47,944 INFO  - All Users selected
+2016-12-17 18:28:47,957 INFO  - User added: fdsafdsa with id 48
+2016-12-17 18:28:47,957 INFO  - Register: fdsafdsa tried to register and the registerResult was true

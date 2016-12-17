@@ -37,8 +37,13 @@ public class UserBusiness {
         AuthenticationResult authenticationResult = new AuthenticationResult();
         authenticationResult.isSuccessful = true;
         for (User user : userRepository.getAllUsers()) {
-            if (user.getUsername().equals(newUser.getUsername()) || user.getEmail().equals(newUser.getEmail())) {
-                authenticationResult.isSuccessful = false;
+            try {
+                if (user.getUsername().equals(newUser.getUsername()) || user.getEmail().equals(newUser.getEmail())) {
+                    authenticationResult.isSuccessful = false;
+                }
+            } catch(NullPointerException e) {
+                e.printStackTrace();
+                log.error("User " + user.getUsername() + " has null email");
             }
         }
         if (authenticationResult.isSuccessful) {
