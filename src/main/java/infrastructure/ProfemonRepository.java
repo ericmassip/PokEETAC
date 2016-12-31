@@ -57,6 +57,9 @@ public class ProfemonRepository extends DAORepository {
                 setFieldsFromResultSet(resultSet, resultSetMetaData, profemon);
                 profemons.add(profemon);
             }
+            if(profemons.size() == 0){
+                log.error("Profemons size is 0 -> " + filterBy);
+            }
             preparedStatement.close();
             con.close();
         } catch (SQLException e) {

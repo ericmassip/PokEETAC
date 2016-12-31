@@ -27,6 +27,12 @@ public class ProfemonService {
         return profemonBusiness.getProfemons(filterBy);
     }
 
+    @GET
+    @Path("/{profemonId}")
+    public Profemon getProfemon(@PathParam("profemonId") int profemonId) {
+        return profemonBusiness.getProfemon(profemonId);
+    }
+
     @POST
     public void insertProfemon (Profemon profemon) {
         ProfemonRepository profemonRepository = new ProfemonRepository();

@@ -25,7 +25,7 @@ public class CapturadoService {
         CapturadoRepository capturadoRepository = new CapturadoRepository();
         Calendar calendarRightNow = Calendar.getInstance();
         capturado.setDate(calendarRightNow);
-        capturado.setLevel(1);
+        capturado.setLevel(0);
         capturadoRepository.insertCapturado(capturado);
     }
 }
