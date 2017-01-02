@@ -65,8 +65,33 @@
             contentType: "application/json",
             success: [
                 function (data) {
-                    alert(data.size);
-                    alert(data.length);
+                    $.each(data, function (i, item) {
+                        var $carouselIndicators = $("#carousel-indicators");
+                        if(i == 0) {
+                            $carouselIndicators.append("<li data-target='#myCapturadosCarousel' data-slide-to='" + i + "' class='active'></li>");
+                        } else {
+                            $carouselIndicators.append("<li data-target='#myCapturadosCarousel' data-slide-to='" + i + "'></li>");
+                        }
+
+                        var $carouselInner = $("#carousel-inner");
+                        if(i == 0) {
+                            $carouselInner.append("<div class='item active'>" +
+                                    "<img src='/images/profedex/" + data[i].name + ".png' alt='" + data[i].name + "'>" +
+                                    "<div class='carousel-caption'>" +
+                                        "<h3>" + data[i].name + "</h3>" +
+                                        "<p>Level: " + data[i].level + "</p>" +
+                                    "</div>" +
+                                "</div>");
+                        } else {
+                            $carouselInner.append("<div class='item'>" +
+                                    "<img src='/images/profedex/" + data[i].name + ".png' alt='" + data[i].name + "'>" +
+                                    "<div class='carousel-caption'>" +
+                                        "<h3>" + data[i].name + "</h3>" +
+                                        "<p>Level: " + data[i].level + "</p>" +
+                                    "</div>" +
+                                "</div>");
+                        }
+                    })
                 }
             ],
             error: [
@@ -97,46 +122,11 @@
     <br>
     <div id="myCapturadosCarousel" class="carousel slide" data-ride="carousel">
 
-        <ol class="carousel-indicators">
-            <li data-target="#myCapturadosCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCapturadosCarousel" data-slide-to="1"></li>
-            <li data-target="#myCapturadosCarousel" data-slide-to="2"></li>
-            <li data-target="#myCapturadosCarousel" data-slide-to="3"></li>
+        <ol id="carousel-indicators" class="carousel-indicators">
+
         </ol>
 
-        <div class="carousel-inner" role="listbox">
-
-            <div class="item active">
-                <img src="/images/profedex/Blastoller.png" alt="Chania" class="img-responsive">
-                <div class="carousel-caption">
-                    <h3>Chania</h3>
-                    <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-                </div>
-            </div>
-
-            <div class="item">
-                <img src="/images/profedex/Hypneguer.png" alt="Chania" class="img-responsive">
-                <div class="carousel-caption">
-                    <h3>Chania</h3>
-                    <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-                </div>
-            </div>
-
-            <div class="item">
-                <img src="/images/profedex/Venusals.png" alt="Flower" class="img-responsive">
-                <div class="carousel-caption">
-                    <h3>Flowers</h3>
-                    <p>Beatiful flowers in Kolymbari, Crete.</p>
-                </div>
-            </div>
-
-            <div class="item">
-                <img src="/images/profedex/Juanizard.png" alt="Flower" class="img-responsive">
-                <div class="carousel-caption">
-                    <h3>Flowers</h3>
-                    <p>Beatiful flowers in Kolymbari, Crete.</p>
-                </div>
-            </div>
+        <div id="carousel-inner" class="carousel-inner" role="listbox">
 
         </div>
 
