@@ -1,27 +1,155 @@
 <html>
 <head>
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/profemonFeatures.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="../js/pokeetac.js"></script>
+    <link href="../css/profemonFeatures.css" rel="stylesheet">
     <title>My profile</title>
+    <style>
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 40%;
+            height: 50%;
+            margin: auto;
+        }
+    </style>
+
 </head>
 
 <body>
 <script>
     $(document).ready(function () {
         $("#navbar").load("navbar.html");
-        if (sessionStorage.getItem("userIdCurrentlyLoggedIn") == null) {
-            window.location.replace("/index.html");
-        }
 
+        sessionStorage.setItem("userIdCurrentlyLoggedIn", 1);
+        /*if (sessionStorage.getItem("userIdCurrentlyLoggedIn") == null) {
+         window.location.replace("/index.html");
+         }*/
 
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:8080/pokeetac/user/" + sessionStorage.getItem("userIdCurrentlyLoggedIn"),
+            contentType: "application/json",
+            success: [
+                function (data) {
+                    $("#usernameWelcome").html("Welcome " + data.username + "!");
+                }
+            ],
+            error: [
+                function (request, status) {
+                    alert(status);
+                }
+            ]
+        });
+
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:8080/pokeetac/user/level/" + sessionStorage.getItem("userIdCurrentlyLoggedIn"),
+            contentType: "application/json",
+            success: [
+                function (data) {
+                    $("#userLevelDiv").html(data.userLevel);
+                }
+            ],
+            error: [
+                function (request, status) {
+                    alert(status);
+                }
+            ]
+        });
+
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:8080/pokeetac/user/profemons/" + sessionStorage.getItem("userIdCurrentlyLoggedIn"),
+            contentType: "application/json",
+            success: [
+                function (data) {
+                    alert(data.size);
+                    alert(data.length);
+                }
+            ],
+            error: [
+                function (request, status) {
+                    alert(status);
+                }
+            ]
+        });
     });
 </script>
 
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container" id="navbar"></div>
 </nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-11">
+            <h2 id="usernameWelcome"></h2>
+        </div>
+        <div class="col-md-1">
+            <div id="userLevelDiv" class="numberCircle"></div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <br>
+    <div id="myCapturadosCarousel" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#myCapturadosCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCapturadosCarousel" data-slide-to="1"></li>
+            <li data-target="#myCapturadosCarousel" data-slide-to="2"></li>
+            <li data-target="#myCapturadosCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+                <img src="/images/profedex/Blastoller.png" alt="Chania" class="img-responsive">
+                <div class="carousel-caption">
+                    <h3>Chania</h3>
+                    <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="/images/profedex/Hypneguer.png" alt="Chania" class="img-responsive">
+                <div class="carousel-caption">
+                    <h3>Chania</h3>
+                    <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="/images/profedex/Venusals.png" alt="Flower" class="img-responsive">
+                <div class="carousel-caption">
+                    <h3>Flowers</h3>
+                    <p>Beatiful flowers in Kolymbari, Crete.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="/images/profedex/Juanizard.png" alt="Flower" class="img-responsive">
+                <div class="carousel-caption">
+                    <h3>Flowers</h3>
+                    <p>Beatiful flowers in Kolymbari, Crete.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <a class="left carousel-control" href="#myCapturadosCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCapturadosCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
 
 </body>
 </html>

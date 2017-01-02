@@ -1,0 +1,156 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/pokeetac.js"></script>
+    <link href="css/profemonFeatures.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+
+<script>
+    $(document).ready(function () {
+        $("#login").click(function () {
+            var data = {
+                username: $("#username").val(),
+                password: $("#password").val()
+            };
+            if (inputsNotEmpty(".loginCredentials")) {
+                $.ajax({
+                    type: "POST",
+                    url: "http://localhost:8080/pokeetac/user/login",
+                    contentType: "application/json",
+                    data: JSON.stringify(data),
+                    success: [
+                        function (data) {
+                            if (data.isSuccessful) {
+                                sessionStorage.setItem("userIdCurrentlyLoggedIn", data.userId);
+                                window.location.replace("/forms/home.html");
+                            } else {
+                                alert("User or Password not registered, please register first or try again");
+                            }
+                        }
+                    ],
+                    error: [
+                        function (request, status) {
+                            alert(status);
+                        }
+                    ]
+                });
+            } else {
+                alert("Fill in all the required fields, please");
+            }
+        });
+
+        $("#showRegisterForm").click(function () {
+            $("#header").html("Register");
+            document.title = "Register";
+            $("#loginDivRow").hide();
+            $("#registerDivRow").show();
+            $("#emailDiv").show();
+            $("#username").removeClass("loginCredentials").addClass("registerCredentials");
+            $("#password").removeClass("loginCredentials").addClass("registerCredentials");
+        });
+
+        $("#register").click(function () {
+            var data = {
+                username: $("#username").val(),
+                password: $("#password").val(),
+                email: $("#email").val()
+            };
+            if (inputsNotEmpty(".registerCredentials")) {
+                $.ajax({
+                    type: "POST",
+                    url: "http://localhost:8080/pokeetac/user/register",
+                    contentType: "application/json",
+                    data: JSON.stringify(data),
+                    success: [
+                        function (data) {
+                            if (data.isSuccessful) {
+                                sessionStorage.setItem("userIdCurrentlyLoggedIn", data.userId);
+                                window.location.replace("/forms/home.html");
+                            } else {
+                                alert("User or Password not registered, please register first or try again");
+                            }
+                        }
+                    ],
+                    error: [
+                        function (request, status) {
+                            alert(status);
+                        }
+                    ]
+                });
+            } else {
+                alert("Fill in all the required fields, please");
+            }
+        });
+
+        $("#showLoginForm").click(function () {
+            $("#header").html("Login");
+            document.title = "Login";
+            $("#emailDiv").hide();
+            $("#registerDivRow").hide();
+            $("#loginDivRow").show();
+            $("#username").removeClass("registerCredentials").addClass("loginCredentials");
+            $("#password").removeClass("registerCredentials").addClass("loginCredentials");
+        });
+    });
+</script>
+
+<div class="container">
+
+    <div class="row" style="margin-top:20px">
+        <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+            <form role="form">
+                <fieldset>
+                    <h2 id="header">Login</h2>
+
+                    <hr class="colorgraph">
+
+                    <div class="form-group">
+                        <input name="username" id="username" class="form-control loginCredentials input-lg"
+                               placeholder="Username">
+                    </div>
+                    <div id="emailDiv" class="form-group" style="display: none">
+                        <input type="email" name="email" id="email" class="form-control registerCredentials input-lg"
+                               placeholder="E-mail">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" id="password"
+                               class="form-control loginCredentials input-lg"
+                               placeholder="Password">
+                    </div>
+
+                    <hr class="colorgraph">
+
+                    <div id="loginDivRow" class="row">
+                        <div class="col-xs-6 col-sm-6 col-md-6">
+                            <button id="login" type="button" class="btn btn-lg btn-success btn-block">Log In</button>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6">
+                            <button id="showRegisterForm" type="button" class="btn btn-lg btn-primary btn-block">
+                                Register
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="registerDivRow" class="row" style="display: none">
+                        <div class="col-xs-6 col-sm-6 col-md-6">
+                            <button id="register" type="button" class="btn btn-lg btn-success btn-block">Register
+                            </button>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6">
+                            <button id="showLoginForm" type="button" class="btn btn-lg btn-primary btn-block">
+                                Log In
+                            </button>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
