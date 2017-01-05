@@ -1,17 +1,16 @@
 package serviceLibrary;
 
 import business.UserBusiness;
-import entity.serviceLibraryResults.*;
 import entity.User;
+import entity.serviceLibraryResults.*;
 import infrastructure.UserRepository;
 import org.apache.log4j.Logger;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
-import java.util.Calendar;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /**
  * Created by ericmassip on 30/11/16.
@@ -67,16 +66,17 @@ public class UserService {
 
     @GET
     @Path("/capturados/successfulByDay/{userId}")
-    public SuccessfulCapturadoByDayResult getSuccessfulCapturadosByDay (@PathParam("userId") int userId) {
-        SuccessfulCapturadoByDayResult successfulCapturadoByDayResult = new SuccessfulCapturadoByDayResult();
+    public List<SuccessfulCapturadoByDayResult> getSuccessfulCapturadosByDay (@PathParam("userId") int userId) {
+        List<SuccessfulCapturadoByDayResult> successfulCapturadoByDayResults = new ArrayList<>();
+        DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         Calendar calendarDay = Calendar.getInstance();
-        Map<Integer, Integer> successfulCapturadosByDay = new HashMap<>();
         for(int i = 1; i < Calendar.DAY_OF_WEEK + 1; i++) {
             calendarDay.add(Calendar.DATE, -1);
-            successfulCapturadosByDay.put(i, userBusiness.getSuccessfulCapturadosByDay(userId, calendarDay));
+            SuccessfulCapturadoByDayResult successfulCapturadoByDayResult = new SuccessfulCapturadoByDayResult();
+            successfulCapturadoByDayResult.setSuccessfulCapturadoByDayResult(dateFormat.format(calendarDay.getTime()), userBusiness.getSuccessfulCapturadosByDay(userId, calendarDay));
+            successfulCapturadoByDayResults.add(successfulCapturadoByDayResult);
         }
-        successfulCapturadoByDayResult.setCapturadosByDay(successfulCapturadosByDay);
-        return successfulCapturadoByDayResult;
+        return successfulCapturadoByDayResults;
     }
 
     @GET
