@@ -59,6 +59,7 @@
             $("#loginDivRow").hide();
             $("#registerDivRow").show();
             $("#emailDiv").show();
+            $("#confirmPasswordDiv").show();
             $("#username").removeClass("loginCredentials").addClass("registerCredentials");
             $("#password").removeClass("loginCredentials").addClass("registerCredentials");
         });
@@ -70,36 +71,52 @@
                 email: $("#email").val()
             };
             if (inputsNotEmpty(".registerCredentials")) {
-                $.ajax({
-                    type: "POST",
-                    url: "http://localhost:8080/pokeetac/user/register",
-                    contentType: "application/json",
-                    data: JSON.stringify(data),
-                    success: [
-                        function (data) {
-                            if (data.isSuccessful) {
-                                sessionStorage.setItem("userIdCurrentlyLoggedIn", data.userId);
-                                window.location.replace("/forms/home.html");
-                            } else {
-                                alert("User or Password not registered, please register first or try again");
+                if (isPasswordConfirmed()) {
+                    $.ajax({
+                        type: "POST",
+                        url: "http://localhost:8080/pokeetac/user/register",
+                        contentType: "application/json",
+                        data: JSON.stringify(data),
+                        success: [
+                            function (data) {
+                                if (data.isSuccessful) {
+                                    sessionStorage.setItem("userIdCurrentlyLoggedIn", data.userId);
+                                    window.location.replace("/forms/home.html");
+                                } else {
+                                    alert("User or Password not registered, please register first or try again");
+                                }
                             }
-                        }
-                    ],
-                    error: [
-                        function (request, status) {
-                            alert(status);
-                        }
-                    ]
-                });
+                        ],
+                        error: [
+                            function (request, status) {
+                                alert(status);
+                            }
+                        ]
+                    });
+                } else {
+                    addBorderRojoClassToPasswordInputs();
+                    alert("Password's must be equal");
+                }
+
             } else {
                 alert("Fill in all the required fields, please");
             }
         });
 
+        function isPasswordConfirmed() {
+            return $("#password").val() == $("#confirmPassword").val();
+        }
+
+        function addBorderRojoClassToPasswordInputs() {
+            $("#password").addClass("borderRojo");
+            $("#confirmPassword").addClass("borderRojo");
+        }
+
         $("#showLoginForm").click(function () {
             $("#header").html("Login");
             document.title = "Login";
             $("#emailDiv").hide();
+            $("#confirmPasswordDiv").hide();
             $("#registerDivRow").hide();
             $("#loginDivRow").show();
             $("#username").removeClass("registerCredentials").addClass("loginCredentials");
@@ -130,6 +147,11 @@
                         <input type="password" name="password" id="password"
                                class="form-control loginCredentials input-lg"
                                placeholder="Password">
+                    </div>
+                    <div id="confirmPasswordDiv" class="form-group" style="display: none">
+                        <input type="password" name="confirmPassword" id="confirmPassword"
+                               class="form-control registerCredentials input-lg"
+                               placeholder="Confirm Password">
                     </div>
 
                     <hr class="colorgraph">

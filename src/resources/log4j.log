@@ -10104,3 +10104,663 @@
 2017-01-05 14:36:38,257 INFO  - eric's capturados selected
 2017-01-05 14:36:38,262 INFO  - User selected: eric from id 1
 2017-01-05 14:36:38,267 INFO  - eric's capturados selected
+2017-01-07 16:50:11,768 INFO  - All Users selected
+2017-01-07 16:50:12,050 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-07 16:50:13,137 INFO  - All Locations selected
+2017-01-07 16:50:13,149 INFO  - All Profemons selected
+2017-01-07 16:50:13,162 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 16:50:13,163 INFO  - All Profemons selected
+2017-01-07 16:50:13,172 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 16:50:13,172 INFO  - All Profemons selected
+2017-01-07 16:50:13,176 INFO  - All Profemons selected
+2017-01-07 16:50:13,180 INFO  - All Profemons selected
+2017-01-07 16:50:13,190 INFO  - Profemon selected: Calmarno from id 2
+2017-01-07 16:50:13,190 INFO  - All Profemons selected
+2017-01-07 16:50:13,205 INFO  - Profemon selected: Calmarno from id 2
+2017-01-07 16:50:13,205 INFO  - All Profemons selected
+2017-01-07 16:50:13,209 INFO  - All Profemons selected
+2017-01-07 16:50:13,216 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 16:50:13,216 INFO  - All Profemons selected
+2017-01-07 16:50:13,221 INFO  - All Profemons selected
+2017-01-07 16:50:13,228 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 16:50:13,229 INFO  - All Profemons selected
+2017-01-07 16:50:13,232 INFO  - All Profemons selected
+2017-01-07 16:50:13,240 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 16:50:13,240 INFO  - All Profemons selected
+2017-01-07 16:50:13,247 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 16:50:13,247 INFO  - All Profemons selected
+2017-01-07 16:50:13,253 INFO  - All Profemons selected
+2017-01-07 16:50:13,261 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 16:50:13,261 INFO  - All Profemons selected
+2017-01-07 16:50:13,268 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 17:06:02,780 INFO  - All Users selected
+2017-01-07 17:06:02,783 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-07 17:06:03,214 INFO  - User selected: eric from id 1
+2017-01-07 17:06:03,358 INFO  - User selected: eric from id 1
+2017-01-07 17:06:03,365 INFO  - eric's capturados selected
+2017-01-07 17:06:03,368 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 17:06:03,371 INFO  - Profemon selected: Calmarno from id 2
+2017-01-07 17:06:03,374 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:08:49,005 INFO  - All Users selected
+2017-01-07 17:08:49,010 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-07 17:08:49,526 INFO  - User selected: eric from id 1
+2017-01-07 17:08:49,790 INFO  - User selected: eric from id 1
+2017-01-07 17:08:49,794 INFO  - eric's capturados selected
+2017-01-07 17:08:49,797 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 17:08:49,799 INFO  - Profemon selected: Calmarno from id 2
+2017-01-07 17:08:49,802 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:08:50,010 INFO  - All Locations selected
+2017-01-07 17:08:50,017 INFO  - All Profemons selected
+2017-01-07 17:08:50,024 INFO  - Profemon selected: Calmarno from id 2
+2017-01-07 17:08:50,024 INFO  - All Profemons selected
+2017-01-07 17:08:50,034 INFO  - Profemon selected: Calmarno from id 2
+2017-01-07 17:08:50,034 INFO  - All Profemons selected
+2017-01-07 17:08:50,043 INFO  - All Profemons selected
+2017-01-07 17:08:50,047 INFO  - All Profemons selected
+2017-01-07 17:08:50,052 INFO  - All Profemons selected
+2017-01-07 17:08:50,062 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:08:50,062 INFO  - All Profemons selected
+2017-01-07 17:08:50,076 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 17:08:50,076 INFO  - All Profemons selected
+2017-01-07 17:08:50,084 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 17:08:50,085 INFO  - All Profemons selected
+2017-01-07 17:08:50,090 INFO  - All Profemons selected
+2017-01-07 17:08:50,094 INFO  - All Profemons selected
+2017-01-07 17:08:50,101 INFO  - All Profemons selected
+2017-01-07 17:08:50,105 INFO  - All Profemons selected
+2017-01-07 17:08:50,111 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:08:50,111 INFO  - All Profemons selected
+2017-01-07 17:08:50,117 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 17:08:50,117 INFO  - All Profemons selected
+2017-01-07 17:08:50,122 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:08:50,122 INFO  - All Profemons selected
+2017-01-07 17:08:50,128 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:11:25,214 INFO  - All Users selected
+2017-01-07 17:11:25,217 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-07 17:11:25,675 INFO  - User selected: eric from id 1
+2017-01-07 17:11:25,952 INFO  - User selected: eric from id 1
+2017-01-07 17:11:25,954 INFO  - eric's capturados selected
+2017-01-07 17:11:25,956 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 17:11:25,957 INFO  - Profemon selected: Calmarno from id 2
+2017-01-07 17:11:25,959 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:11:26,249 INFO  - All Locations selected
+2017-01-07 17:11:26,252 INFO  - All Profemons selected
+2017-01-07 17:11:26,259 INFO  - Profemon selected: Calmarno from id 2
+2017-01-07 17:11:26,259 INFO  - All Profemons selected
+2017-01-07 17:11:26,266 INFO  - Profemon selected: Calmarno from id 2
+2017-01-07 17:11:26,266 INFO  - All Profemons selected
+2017-01-07 17:11:26,270 INFO  - All Profemons selected
+2017-01-07 17:11:26,276 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:11:26,277 INFO  - All Profemons selected
+2017-01-07 17:11:26,281 INFO  - All Profemons selected
+2017-01-07 17:11:26,284 INFO  - All Profemons selected
+2017-01-07 17:11:26,289 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:11:26,289 INFO  - All Profemons selected
+2017-01-07 17:11:26,294 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:11:26,295 INFO  - All Profemons selected
+2017-01-07 17:11:26,300 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:11:26,300 INFO  - All Profemons selected
+2017-01-07 17:11:26,305 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:11:26,305 INFO  - All Profemons selected
+2017-01-07 17:11:26,310 INFO  - Profemon selected: Calmarno from id 2
+2017-01-07 17:11:26,310 INFO  - All Profemons selected
+2017-01-07 17:11:26,314 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:11:26,314 INFO  - All Profemons selected
+2017-01-07 17:11:26,319 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 17:11:26,320 INFO  - All Profemons selected
+2017-01-07 17:11:26,324 INFO  - Profemon selected: Calmarno from id 2
+2017-01-07 17:11:26,325 INFO  - All Profemons selected
+2017-01-07 17:11:26,330 INFO  - Profemon selected: Calmarno from id 2
+2017-01-07 17:11:26,330 INFO  - All Profemons selected
+2017-01-07 17:11:26,339 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 17:12:02,182 INFO  - All Users selected
+2017-01-07 17:12:02,185 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-07 17:12:02,587 INFO  - User selected: eric from id 1
+2017-01-07 17:12:02,845 INFO  - User selected: eric from id 1
+2017-01-07 17:12:02,848 INFO  - eric's capturados selected
+2017-01-07 17:12:02,850 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 17:12:02,852 INFO  - Profemon selected: Calmarno from id 2
+2017-01-07 17:12:02,855 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:12:03,052 INFO  - All Locations selected
+2017-01-07 17:12:03,055 INFO  - All Profemons selected
+2017-01-07 17:12:03,060 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 17:12:03,060 INFO  - All Profemons selected
+2017-01-07 17:12:03,069 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 17:12:03,069 INFO  - All Profemons selected
+2017-01-07 17:12:03,076 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:12:03,076 INFO  - All Profemons selected
+2017-01-07 17:12:03,086 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 17:12:03,086 INFO  - All Profemons selected
+2017-01-07 17:12:03,089 INFO  - All Profemons selected
+2017-01-07 17:12:03,094 INFO  - Profemon selected: Calmarno from id 2
+2017-01-07 17:12:03,094 INFO  - All Profemons selected
+2017-01-07 17:12:03,105 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:12:03,105 INFO  - All Profemons selected
+2017-01-07 17:12:03,115 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 17:12:03,116 INFO  - All Profemons selected
+2017-01-07 17:12:03,121 INFO  - Profemon selected: Calmarno from id 2
+2017-01-07 17:12:03,121 INFO  - All Profemons selected
+2017-01-07 17:12:03,126 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:12:03,126 INFO  - All Profemons selected
+2017-01-07 17:12:03,135 INFO  - Profemon selected: Calmarno from id 2
+2017-01-07 17:12:03,135 INFO  - All Profemons selected
+2017-01-07 17:12:03,140 INFO  - Profemon selected: Blastoller from id 3
+2017-01-07 17:12:03,140 INFO  - All Profemons selected
+2017-01-07 17:12:03,144 INFO  - Profemon selected: Calmarno from id 2
+2017-01-07 17:12:03,144 INFO  - All Profemons selected
+2017-01-07 17:12:03,153 INFO  - Profemon selected: Juanizard from id 1
+2017-01-07 17:12:03,153 INFO  - All Profemons selected
+2017-01-07 17:12:03,155 INFO  - All Profemons selected
+2017-01-07 17:12:03,160 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 17:48:22,264 INFO  - All Users selected
+2017-01-11 17:48:22,555 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-11 17:48:23,051 INFO  - User selected: eric from id 1
+2017-01-11 17:48:23,205 INFO  - User selected: eric from id 1
+2017-01-11 17:48:23,214 INFO  - eric's capturados selected
+2017-01-11 17:48:23,217 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 17:48:23,221 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 17:48:23,224 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 17:48:23,285 INFO  - All Locations selected
+2017-01-11 17:48:23,296 INFO  - All Profemons selected
+2017-01-11 17:48:23,303 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 17:48:23,303 INFO  - All Profemons selected
+2017-01-11 17:48:23,310 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 17:48:23,310 INFO  - All Profemons selected
+2017-01-11 17:48:23,316 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 17:48:23,316 INFO  - All Profemons selected
+2017-01-11 17:48:23,324 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 17:48:23,324 INFO  - All Profemons selected
+2017-01-11 17:48:23,330 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 17:48:23,330 INFO  - All Profemons selected
+2017-01-11 17:48:23,337 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 17:48:23,337 INFO  - All Profemons selected
+2017-01-11 17:48:23,343 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 17:48:23,344 INFO  - All Profemons selected
+2017-01-11 17:48:23,350 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 17:48:23,350 INFO  - All Profemons selected
+2017-01-11 17:48:23,356 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 17:48:23,356 INFO  - All Profemons selected
+2017-01-11 17:48:23,362 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 17:48:23,362 INFO  - All Profemons selected
+2017-01-11 17:48:23,368 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 17:48:23,368 INFO  - All Profemons selected
+2017-01-11 17:48:23,375 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 17:48:23,375 INFO  - All Profemons selected
+2017-01-11 17:48:23,381 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 17:48:23,382 INFO  - All Profemons selected
+2017-01-11 17:48:23,385 INFO  - All Profemons selected
+2017-01-11 17:48:23,391 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 17:48:23,391 INFO  - All Profemons selected
+2017-01-11 18:01:28,353 INFO  - All Users selected
+2017-01-11 18:01:28,356 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-11 18:01:28,783 INFO  - User selected: eric from id 1
+2017-01-11 18:01:28,929 INFO  - User selected: eric from id 1
+2017-01-11 18:01:28,933 INFO  - eric's capturados selected
+2017-01-11 18:01:28,936 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:01:28,939 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:01:28,942 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:01:29,124 INFO  - All Locations selected
+2017-01-11 18:01:29,127 INFO  - All Profemons selected
+2017-01-11 18:01:29,132 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:01:29,133 INFO  - All Profemons selected
+2017-01-11 18:01:29,138 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:01:29,138 INFO  - All Profemons selected
+2017-01-11 18:01:29,143 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:01:29,143 INFO  - All Profemons selected
+2017-01-11 18:01:29,149 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:01:29,149 INFO  - All Profemons selected
+2017-01-11 18:01:29,155 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:01:29,155 INFO  - All Profemons selected
+2017-01-11 18:01:29,160 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:01:29,160 INFO  - All Profemons selected
+2017-01-11 18:01:29,165 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:01:29,166 INFO  - All Profemons selected
+2017-01-11 18:01:29,170 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:01:29,171 INFO  - All Profemons selected
+2017-01-11 18:01:29,177 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:01:29,177 INFO  - All Profemons selected
+2017-01-11 18:01:29,182 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:01:29,182 INFO  - All Profemons selected
+2017-01-11 18:01:29,187 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:01:29,187 INFO  - All Profemons selected
+2017-01-11 18:01:29,192 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:01:29,192 INFO  - All Profemons selected
+2017-01-11 18:01:29,197 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:01:29,197 INFO  - All Profemons selected
+2017-01-11 18:01:29,203 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:01:29,203 INFO  - All Profemons selected
+2017-01-11 18:01:29,208 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:01:29,209 INFO  - All Profemons selected
+2017-01-11 18:05:24,906 INFO  - All Users selected
+2017-01-11 18:05:24,910 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-11 18:05:25,306 INFO  - User selected: eric from id 1
+2017-01-11 18:05:25,465 INFO  - User selected: eric from id 1
+2017-01-11 18:05:25,469 INFO  - eric's capturados selected
+2017-01-11 18:05:25,471 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:05:25,474 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:05:25,476 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:05:25,662 INFO  - All Locations selected
+2017-01-11 18:05:25,665 INFO  - All Profemons selected
+2017-01-11 18:05:25,670 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:05:25,670 INFO  - All Profemons selected
+2017-01-11 18:05:25,675 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:05:25,675 INFO  - All Profemons selected
+2017-01-11 18:05:25,679 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:05:25,679 INFO  - All Profemons selected
+2017-01-11 18:05:25,684 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:05:25,684 INFO  - All Profemons selected
+2017-01-11 18:05:25,689 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:05:25,690 INFO  - All Profemons selected
+2017-01-11 18:05:25,696 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:05:25,696 INFO  - All Profemons selected
+2017-01-11 18:05:25,702 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:05:25,702 INFO  - All Profemons selected
+2017-01-11 18:05:25,704 INFO  - All Profemons selected
+2017-01-11 18:05:25,710 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:05:25,710 INFO  - All Profemons selected
+2017-01-11 18:05:25,716 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:05:25,716 INFO  - All Profemons selected
+2017-01-11 18:05:25,721 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:05:25,721 INFO  - All Profemons selected
+2017-01-11 18:05:25,726 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:05:25,726 INFO  - All Profemons selected
+2017-01-11 18:05:25,728 INFO  - All Profemons selected
+2017-01-11 18:05:25,731 INFO  - All Profemons selected
+2017-01-11 18:05:25,736 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:05:25,736 INFO  - All Profemons selected
+2017-01-11 18:05:25,741 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:50:07,003 INFO  - All Users selected
+2017-01-11 18:50:07,210 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-11 18:50:07,700 INFO  - User selected: eric from id 1
+2017-01-11 18:50:07,848 INFO  - User selected: eric from id 1
+2017-01-11 18:50:07,854 INFO  - eric's capturados selected
+2017-01-11 18:50:07,858 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:50:07,862 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:50:07,866 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:50:07,985 INFO  - All Locations selected
+2017-01-11 18:50:07,994 INFO  - All Profemons selected
+2017-01-11 18:50:08,004 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:50:08,004 INFO  - All Profemons selected
+2017-01-11 18:50:08,008 INFO  - All Profemons selected
+2017-01-11 18:50:08,016 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:50:08,016 INFO  - All Profemons selected
+2017-01-11 18:50:08,023 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:50:08,023 INFO  - All Profemons selected
+2017-01-11 18:50:08,030 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:50:08,030 INFO  - All Profemons selected
+2017-01-11 18:50:08,033 INFO  - All Profemons selected
+2017-01-11 18:50:08,039 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:50:08,039 INFO  - All Profemons selected
+2017-01-11 18:50:08,042 INFO  - All Profemons selected
+2017-01-11 18:50:08,048 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:50:08,049 INFO  - All Profemons selected
+2017-01-11 18:50:08,052 INFO  - All Profemons selected
+2017-01-11 18:50:08,059 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:50:08,059 INFO  - All Profemons selected
+2017-01-11 18:50:08,066 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:50:08,066 INFO  - All Profemons selected
+2017-01-11 18:50:08,072 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:50:08,072 INFO  - All Profemons selected
+2017-01-11 18:50:08,076 INFO  - All Profemons selected
+2017-01-11 18:50:08,082 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:50:08,083 INFO  - All Profemons selected
+2017-01-11 18:50:34,934 INFO  - Capturado added: profemon id 3
+2017-01-11 18:52:13,070 INFO  - All Users selected
+2017-01-11 18:52:13,073 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-11 18:52:13,565 INFO  - User selected: eric from id 1
+2017-01-11 18:52:13,681 INFO  - User selected: eric from id 1
+2017-01-11 18:52:13,684 INFO  - eric's capturados selected
+2017-01-11 18:52:13,686 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:52:13,689 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:52:13,691 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:52:13,914 INFO  - All Locations selected
+2017-01-11 18:52:13,917 INFO  - All Profemons selected
+2017-01-11 18:52:13,923 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:52:13,923 INFO  - All Profemons selected
+2017-01-11 18:52:13,928 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:52:13,928 INFO  - All Profemons selected
+2017-01-11 18:52:13,933 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:52:13,933 INFO  - All Profemons selected
+2017-01-11 18:52:13,938 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:52:13,939 INFO  - All Profemons selected
+2017-01-11 18:52:13,941 INFO  - All Profemons selected
+2017-01-11 18:52:13,946 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:52:13,946 INFO  - All Profemons selected
+2017-01-11 18:52:13,951 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:52:13,951 INFO  - All Profemons selected
+2017-01-11 18:52:13,957 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:52:13,957 INFO  - All Profemons selected
+2017-01-11 18:52:13,961 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:52:13,961 INFO  - All Profemons selected
+2017-01-11 18:52:13,966 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:52:13,966 INFO  - All Profemons selected
+2017-01-11 18:52:13,971 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:52:13,972 INFO  - All Profemons selected
+2017-01-11 18:52:13,974 INFO  - All Profemons selected
+2017-01-11 18:52:13,977 INFO  - All Profemons selected
+2017-01-11 18:52:13,982 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:52:13,982 INFO  - All Profemons selected
+2017-01-11 18:52:13,987 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:52:13,987 INFO  - All Profemons selected
+2017-01-11 18:52:13,992 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:53:47,638 INFO  - Capturado added: profemon id 1
+2017-01-11 18:55:24,646 INFO  - Capturado added: profemon id 1
+2017-01-11 18:55:24,649 INFO  - User selected: eric from id 1
+2017-01-11 18:55:24,652 INFO  - eric's capturados selected
+2017-01-11 18:55:24,655 INFO  - Profemon selected: Juanizard from id 1
+2017-01-11 18:55:24,657 INFO  - Profemon selected: Calmarno from id 2
+2017-01-11 18:55:24,660 INFO  - Profemon selected: Blastoller from id 3
+2017-01-11 18:55:24,663 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 12:54:41,454 INFO  - All Users selected
+2017-01-12 12:54:41,741 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-12 12:55:35,997 INFO  - User selected: eric from id 1
+2017-01-12 12:55:36,001 INFO  - User selected: eric from id 1
+2017-01-12 12:55:36,001 INFO  - User selected: eric from id 1
+2017-01-12 12:55:36,001 INFO  - User selected: eric from id 1
+2017-01-12 12:55:36,014 INFO  - eric's capturados selected
+2017-01-12 12:55:36,014 INFO  - eric's capturados selected
+2017-01-12 12:55:36,014 INFO  - eric's capturados selected
+2017-01-12 12:55:36,020 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 12:55:36,020 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 12:55:36,021 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 12:55:36,026 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 12:55:36,026 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 12:55:36,028 INFO  - Location selected: latitude -> 41.275424, longitude -> 1.986586, floor -> 0 from id 1
+2017-01-12 12:55:36,030 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 12:55:36,030 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 12:55:36,033 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 12:55:36,039 INFO  - User selected: eric from id 1
+2017-01-12 12:55:36,039 INFO  - Location selected: latitude -> 41.275182, longitude -> 1.986688, floor -> 0 from id 2
+2017-01-12 12:55:36,044 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 12:55:36,045 INFO  - eric's capturados selected
+2017-01-12 12:55:36,049 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-12 12:55:36,052 INFO  - User selected: eric from id 1
+2017-01-12 12:55:36,052 INFO  - User selected: eric from id 1
+2017-01-12 12:55:36,060 INFO  - eric's capturados selected
+2017-01-12 12:55:36,061 INFO  - eric's capturados selected
+2017-01-12 12:55:36,067 INFO  - User selected: eric from id 1
+2017-01-12 12:55:36,068 INFO  - eric's all capturados intents selected
+2017-01-12 12:55:36,076 INFO  - eric's capturados selected
+2017-01-12 12:55:36,084 INFO  - User selected: eric from id 1
+2017-01-12 12:55:36,090 INFO  - eric's capturados selected
+2017-01-12 12:55:36,094 INFO  - User selected: eric from id 1
+2017-01-12 12:55:36,099 INFO  - eric's capturados selected
+2017-01-12 12:55:36,106 INFO  - User selected: eric from id 1
+2017-01-12 12:55:36,113 INFO  - eric's capturados selected
+2017-01-12 12:55:36,118 INFO  - User selected: eric from id 1
+2017-01-12 12:55:36,123 INFO  - eric's capturados selected
+2017-01-12 12:58:09,543 INFO  - User selected: eric from id 1
+2017-01-12 12:58:09,547 INFO  - eric's capturados selected
+2017-01-12 12:58:09,551 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 12:58:09,555 INFO  - Location selected: latitude -> 41.275424, longitude -> 1.986586, floor -> 0 from id 1
+2017-01-12 12:58:09,558 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 12:58:09,562 INFO  - Location selected: latitude -> 41.275182, longitude -> 1.986688, floor -> 0 from id 2
+2017-01-12 12:58:09,568 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 12:58:09,572 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-12 12:58:09,577 INFO  - User selected: eric from id 1
+2017-01-12 12:58:09,577 INFO  - User selected: eric from id 1
+2017-01-12 12:58:09,577 INFO  - User selected: eric from id 1
+2017-01-12 12:58:09,581 INFO  - eric's capturados selected
+2017-01-12 12:58:09,582 INFO  - eric's capturados selected
+2017-01-12 12:58:09,586 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 12:58:09,586 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 12:58:09,590 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 12:58:09,590 INFO  - User selected: eric from id 1
+2017-01-12 12:58:09,590 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 12:58:09,595 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 12:58:09,595 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 12:58:09,595 INFO  - eric's capturados selected
+2017-01-12 12:58:09,600 INFO  - User selected: eric from id 1
+2017-01-12 12:58:09,600 INFO  - User selected: eric from id 1
+2017-01-12 12:58:09,605 INFO  - eric's capturados selected
+2017-01-12 12:58:09,605 INFO  - eric's capturados selected
+2017-01-12 12:58:09,609 INFO  - User selected: eric from id 1
+2017-01-12 12:58:09,610 INFO  - eric's all capturados intents selected
+2017-01-12 12:58:09,614 INFO  - eric's capturados selected
+2017-01-12 12:58:09,619 INFO  - User selected: eric from id 1
+2017-01-12 12:58:09,623 INFO  - eric's capturados selected
+2017-01-12 12:58:09,628 INFO  - User selected: eric from id 1
+2017-01-12 12:58:09,634 INFO  - eric's capturados selected
+2017-01-12 12:58:09,637 INFO  - User selected: eric from id 1
+2017-01-12 12:58:09,642 INFO  - eric's capturados selected
+2017-01-12 12:58:09,647 INFO  - User selected: eric from id 1
+2017-01-12 12:58:09,651 INFO  - eric's capturados selected
+2017-01-12 12:58:37,173 INFO  - User selected: eric from id 1
+2017-01-12 12:58:37,178 INFO  - eric's capturados selected
+2017-01-12 12:58:37,182 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 12:58:37,184 INFO  - Location selected: latitude -> 41.275424, longitude -> 1.986586, floor -> 0 from id 1
+2017-01-12 12:58:37,188 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 12:58:37,192 INFO  - Location selected: latitude -> 41.275182, longitude -> 1.986688, floor -> 0 from id 2
+2017-01-12 12:58:37,196 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 12:58:37,199 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-12 12:58:37,207 INFO  - User selected: eric from id 1
+2017-01-12 12:58:37,207 INFO  - User selected: eric from id 1
+2017-01-12 12:58:37,207 INFO  - User selected: eric from id 1
+2017-01-12 12:58:37,214 INFO  - eric's capturados selected
+2017-01-12 12:58:37,214 INFO  - eric's capturados selected
+2017-01-12 12:58:37,219 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 12:58:37,219 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 12:58:37,223 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 12:58:37,223 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 12:58:37,227 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 12:58:37,227 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 12:58:37,228 INFO  - User selected: eric from id 1
+2017-01-12 12:58:37,232 INFO  - eric's capturados selected
+2017-01-12 12:58:37,236 INFO  - User selected: eric from id 1
+2017-01-12 12:58:37,241 INFO  - User selected: eric from id 1
+2017-01-12 12:58:37,241 INFO  - eric's capturados selected
+2017-01-12 12:58:37,245 INFO  - User selected: eric from id 1
+2017-01-12 12:58:37,245 INFO  - eric's capturados selected
+2017-01-12 12:58:37,249 INFO  - eric's capturados selected
+2017-01-12 12:58:37,249 INFO  - eric's all capturados intents selected
+2017-01-12 12:58:37,253 INFO  - User selected: eric from id 1
+2017-01-12 12:58:37,257 INFO  - eric's capturados selected
+2017-01-12 12:58:37,262 INFO  - User selected: eric from id 1
+2017-01-12 12:58:37,267 INFO  - eric's capturados selected
+2017-01-12 12:58:37,273 INFO  - User selected: eric from id 1
+2017-01-12 12:58:37,278 INFO  - eric's capturados selected
+2017-01-12 12:58:37,282 INFO  - User selected: eric from id 1
+2017-01-12 12:58:37,289 INFO  - eric's capturados selected
+2017-01-12 12:59:04,480 INFO  - User selected: eric from id 1
+2017-01-12 12:59:04,483 INFO  - eric's capturados selected
+2017-01-12 12:59:04,486 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 12:59:04,489 INFO  - Location selected: latitude -> 41.275424, longitude -> 1.986586, floor -> 0 from id 1
+2017-01-12 12:59:04,492 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 12:59:04,495 INFO  - Location selected: latitude -> 41.275182, longitude -> 1.986688, floor -> 0 from id 2
+2017-01-12 12:59:04,499 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 12:59:04,503 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-12 12:59:04,511 INFO  - User selected: eric from id 1
+2017-01-12 12:59:04,511 INFO  - User selected: eric from id 1
+2017-01-12 12:59:04,511 INFO  - User selected: eric from id 1
+2017-01-12 12:59:04,515 INFO  - eric's capturados selected
+2017-01-12 12:59:04,515 INFO  - eric's capturados selected
+2017-01-12 12:59:04,521 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 12:59:04,521 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 12:59:04,525 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 12:59:04,525 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 12:59:04,527 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 12:59:04,527 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 12:59:04,527 INFO  - User selected: eric from id 1
+2017-01-12 12:59:04,532 INFO  - eric's capturados selected
+2017-01-12 12:59:04,535 INFO  - User selected: eric from id 1
+2017-01-12 12:59:04,538 INFO  - User selected: eric from id 1
+2017-01-12 12:59:04,539 INFO  - eric's capturados selected
+2017-01-12 12:59:04,541 INFO  - User selected: eric from id 1
+2017-01-12 12:59:04,541 INFO  - eric's capturados selected
+2017-01-12 12:59:04,545 INFO  - eric's all capturados intents selected
+2017-01-12 12:59:04,545 INFO  - eric's capturados selected
+2017-01-12 12:59:04,549 INFO  - User selected: eric from id 1
+2017-01-12 12:59:04,554 INFO  - eric's capturados selected
+2017-01-12 12:59:04,557 INFO  - User selected: eric from id 1
+2017-01-12 12:59:04,562 INFO  - eric's capturados selected
+2017-01-12 12:59:04,566 INFO  - User selected: eric from id 1
+2017-01-12 12:59:04,571 INFO  - eric's capturados selected
+2017-01-12 12:59:04,574 INFO  - User selected: eric from id 1
+2017-01-12 12:59:04,578 INFO  - eric's capturados selected
+2017-01-12 13:00:13,357 INFO  - User selected: eric from id 1
+2017-01-12 13:00:13,360 INFO  - eric's capturados selected
+2017-01-12 13:00:13,364 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 13:00:13,367 INFO  - Location selected: latitude -> 41.275424, longitude -> 1.986586, floor -> 0 from id 1
+2017-01-12 13:00:13,369 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 13:00:13,372 INFO  - Location selected: latitude -> 41.275182, longitude -> 1.986688, floor -> 0 from id 2
+2017-01-12 13:00:13,374 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 13:00:13,377 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-12 13:00:13,395 INFO  - User selected: eric from id 1
+2017-01-12 13:00:13,398 INFO  - User selected: eric from id 1
+2017-01-12 13:00:13,398 INFO  - User selected: eric from id 1
+2017-01-12 13:00:13,403 INFO  - eric's capturados selected
+2017-01-12 13:00:13,403 INFO  - eric's capturados selected
+2017-01-12 13:00:13,407 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 13:00:13,407 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 13:00:13,410 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 13:00:13,410 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 13:00:13,410 INFO  - User selected: eric from id 1
+2017-01-12 13:00:13,414 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 13:00:13,414 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 13:00:13,415 INFO  - eric's capturados selected
+2017-01-12 13:00:13,418 INFO  - User selected: eric from id 1
+2017-01-12 13:00:13,420 INFO  - User selected: eric from id 1
+2017-01-12 13:00:13,421 INFO  - eric's capturados selected
+2017-01-12 13:00:13,423 INFO  - eric's capturados selected
+2017-01-12 13:00:13,423 INFO  - User selected: eric from id 1
+2017-01-12 13:00:13,426 INFO  - eric's all capturados intents selected
+2017-01-12 13:00:13,427 INFO  - eric's capturados selected
+2017-01-12 13:00:13,432 INFO  - User selected: eric from id 1
+2017-01-12 13:00:13,436 INFO  - eric's capturados selected
+2017-01-12 13:00:13,439 INFO  - User selected: eric from id 1
+2017-01-12 13:00:13,443 INFO  - eric's capturados selected
+2017-01-12 13:00:13,446 INFO  - User selected: eric from id 1
+2017-01-12 13:00:13,449 INFO  - eric's capturados selected
+2017-01-12 13:00:13,453 INFO  - User selected: eric from id 1
+2017-01-12 13:00:13,458 INFO  - eric's capturados selected
+2017-01-12 13:02:39,931 INFO  - All Users selected
+2017-01-12 13:02:40,132 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-12 13:02:40,754 INFO  - User selected: eric from id 1
+2017-01-12 13:02:40,976 INFO  - User selected: eric from id 1
+2017-01-12 13:02:40,981 INFO  - eric's capturados selected
+2017-01-12 13:02:40,984 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 13:02:40,987 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 13:02:40,990 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 13:02:41,121 INFO  - All Locations selected
+2017-01-12 13:02:41,129 INFO  - All Profemons selected
+2017-01-12 13:02:41,138 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 13:02:41,139 INFO  - All Profemons selected
+2017-01-12 13:02:41,145 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 13:02:41,145 INFO  - All Profemons selected
+2017-01-12 13:02:41,151 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 13:02:41,151 INFO  - All Profemons selected
+2017-01-12 13:02:41,159 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 13:02:41,159 INFO  - All Profemons selected
+2017-01-12 13:02:41,174 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 13:02:41,174 INFO  - All Profemons selected
+2017-01-12 13:02:41,185 INFO  - All Profemons selected
+2017-01-12 13:02:41,199 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 13:02:41,199 INFO  - All Profemons selected
+2017-01-12 13:02:41,211 INFO  - All Profemons selected
+2017-01-12 13:02:41,236 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 13:02:41,236 INFO  - All Profemons selected
+2017-01-12 13:02:41,249 INFO  - All Profemons selected
+2017-01-12 13:02:41,276 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 13:02:41,276 INFO  - All Profemons selected
+2017-01-12 13:02:41,288 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 13:02:41,288 INFO  - All Profemons selected
+2017-01-12 13:02:41,301 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 13:02:41,301 INFO  - All Profemons selected
+2017-01-12 13:02:41,305 INFO  - All Profemons selected
+2017-01-12 13:02:41,313 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 13:02:41,314 INFO  - All Profemons selected
+2017-01-12 13:02:41,321 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 13:03:30,775 INFO  - Capturado added: profemon id 3
+2017-01-12 13:03:30,775 INFO  - User selected: eric from id 1
+2017-01-12 13:03:30,779 INFO  - eric's capturados selected
+2017-01-12 13:03:30,782 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 13:03:30,784 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 13:03:30,789 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 13:03:30,792 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 17:20:00,914 INFO  - All Users selected
+2017-01-12 17:20:01,185 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-12 17:20:01,714 INFO  - User selected: eric from id 1
+2017-01-12 17:20:01,877 INFO  - User selected: eric from id 1
+2017-01-12 17:20:01,886 INFO  - eric's capturados selected
+2017-01-12 17:20:01,891 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 17:20:01,894 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 17:20:01,898 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 17:20:01,901 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 17:20:02,027 INFO  - All Locations selected
+2017-01-12 17:20:02,040 INFO  - All Profemons selected
+2017-01-12 17:20:02,049 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 17:20:02,050 INFO  - All Profemons selected
+2017-01-12 17:20:02,059 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 17:20:02,060 INFO  - All Profemons selected
+2017-01-12 17:20:02,067 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 17:20:02,067 INFO  - All Profemons selected
+2017-01-12 17:20:02,071 INFO  - All Profemons selected
+2017-01-12 17:20:02,079 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 17:20:02,080 INFO  - All Profemons selected
+2017-01-12 17:20:02,087 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 17:20:02,087 INFO  - All Profemons selected
+2017-01-12 17:20:02,094 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 17:20:02,094 INFO  - All Profemons selected
+2017-01-12 17:20:02,102 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 17:20:02,102 INFO  - All Profemons selected
+2017-01-12 17:20:02,109 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 17:20:02,109 INFO  - All Profemons selected
+2017-01-12 17:20:02,112 INFO  - All Profemons selected
+2017-01-12 17:20:02,120 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 17:20:02,120 INFO  - All Profemons selected
+2017-01-12 17:20:02,123 INFO  - All Profemons selected
+2017-01-12 17:20:02,130 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 17:20:02,130 INFO  - All Profemons selected
+2017-01-12 17:20:02,137 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 17:20:02,137 INFO  - All Profemons selected
+2017-01-12 17:20:02,144 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 17:20:02,144 INFO  - All Profemons selected
+2017-01-12 17:21:14,695 INFO  - All Users selected
+2017-01-12 17:21:14,698 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-12 17:21:15,128 INFO  - User selected: eric from id 1
+2017-01-12 17:21:15,377 INFO  - User selected: eric from id 1
+2017-01-12 17:21:15,380 INFO  - eric's capturados selected
+2017-01-12 17:21:15,383 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 17:21:15,385 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 17:21:15,388 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 17:21:15,390 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 17:21:15,541 INFO  - All Locations selected
+2017-01-12 17:21:15,544 INFO  - All Profemons selected
+2017-01-12 17:21:15,549 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 17:21:15,549 INFO  - All Profemons selected
+2017-01-12 17:21:15,554 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 17:21:15,554 INFO  - All Profemons selected
+2017-01-12 17:21:15,560 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 17:21:15,561 INFO  - All Profemons selected
+2017-01-12 17:21:15,566 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 17:21:15,566 INFO  - All Profemons selected
+2017-01-12 17:21:15,569 INFO  - All Profemons selected
+2017-01-12 17:21:15,574 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 17:21:15,574 INFO  - All Profemons selected
+2017-01-12 17:21:15,580 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 17:21:15,580 INFO  - All Profemons selected
+2017-01-12 17:21:15,585 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 17:21:15,585 INFO  - All Profemons selected
+2017-01-12 17:21:15,590 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 17:21:15,590 INFO  - All Profemons selected
+2017-01-12 17:21:15,596 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 17:21:15,596 INFO  - All Profemons selected
+2017-01-12 17:21:15,601 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 17:21:15,601 INFO  - All Profemons selected
+2017-01-12 17:21:15,606 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 17:21:15,606 INFO  - All Profemons selected
+2017-01-12 17:21:15,611 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 17:21:15,611 INFO  - All Profemons selected
+2017-01-12 17:21:15,617 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 17:21:15,617 INFO  - All Profemons selected
+2017-01-12 17:21:15,622 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 17:21:15,623 INFO  - All Profemons selected
+2017-01-12 17:23:56,573 INFO  - User selected: eric from id 1
+2017-01-12 17:23:56,576 INFO  - eric's capturados selected
+2017-01-12 17:23:56,578 INFO  - Profemon selected: Juanizard from id 1
+2017-01-12 17:23:56,581 INFO  - Profemon selected: Calmarno from id 2
+2017-01-12 17:23:56,584 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 17:23:56,587 INFO  - Profemon selected: Blastoller from id 3
+2017-01-12 17:23:56,614 INFO  - Capturado added: profemon id 2
+2017-01-12 17:41:55,481 INFO  - All Users selected
+2017-01-12 17:41:55,702 INFO  - Login:  tried to log in and the loginResult was false
