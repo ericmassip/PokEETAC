@@ -3,20 +3,22 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="../css/profemonFeatures.css" rel="stylesheet">
+  <link href="/css/profemonFeatures.css" rel="stylesheet" type="text/css">
   <title>Profedex</title>
 
-  <div id="profedexContainer">
 
-    <div class="col-md-3 col-sm-6 hero-feature">
+
+  <div id="profemonContainer" style="display:none">
+    <div class="col-md-2 col-sm-4 hero-feature">
       <div class="thumbnail">
         <img alt="" id="profemonThumbnail">
         <div class="caption">
-          <h4 id="info"></h4>
+          <h4 id="info" style="font-weight:bold"></h4>
         </div>
       </div>
     </div>
   </div>
+
 </head>
 
 
@@ -31,11 +33,15 @@
   <div class="container" id="navbar"></div>
 </nav>
 
-  <div id="filterContainer">
+  <div id="filterContainer" style="width:100%">
     <form action="">
       <input type="text" name="filterby" title="filterBy" id="filterByText">
       <input value="Filter" type="button" class="btn btn-primary active" id="filterButton">
     </form>
+  </div>
+
+  <div id="profedexContainer">
+
   </div>
 
 <script>
@@ -47,11 +53,12 @@
             contentType: "application/json",
             success: [
                 function (data) {
-                        $.each(data, function(i, obj) {
-                            $("#profedexContainer").clone().appendTo("#start");
-                            $("#info:last").text("#" + obj.id + ": " + obj.name);
-                            $("#profemonThumbnail:last").attr("src","/images/profedex/" + obj.name + ".png");
-                        });
+                    $.each(data, function (i, obj) {
+                        $("#profemonContainer").clone().appendTo("#profedexContainer");
+                        $("#profemonContainer:last").show();
+                        $("#info:last").text("#" + obj.id + ": " + obj.name);
+                        $("#profemonThumbnail:last").attr("src", "/images/profedex/" + obj.name + ".png");
+                    });
                 }
             ],
             error: [
@@ -63,7 +70,6 @@
     });
 
 </script>
-  <div id="start"></div>
 
 </body>
 </html>
