@@ -58,3 +58,7 @@ footer {
 #info{
     font-weight: bold;
 }
+
+#filterContainer{
+    margin-left:3%;
+}

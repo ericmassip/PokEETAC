@@ -1,66 +1,63 @@
 <html>
 <head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="/css/profemonFeatures.css" rel="stylesheet" type="text/css">
-  <title>Profedex</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="/css/profemonFeatures.css" rel="stylesheet" type="text/css">
+    <title>Profedex</title>
 </head>
-
 
 <body>
 <script>
-  $( document ).ready(function() {
-    $("#navbar").load("navbar.html");
-  });
+    $(document).ready(function () {
+        $("#navbar").load("navbar.html");
+    });
 </script>
 
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container" id="navbar"></div>
+    <div class="container" id="navbar"></div>
 </nav>
 
-  <div id="filterContainer" style="width:100%">
-    <form action="">
-      <input type="text" name="filterby" title="filterBy" id="filterByText">
-      <button value="Filter" class="btn btn-primary active" id="filterButton" />
-    </form>
-  </div>
+<div id="filterContainer" style="width:100%">
+    <input type="text" name="filterByText" title="filterBy" id="filterByText">
+    <button class="btn btn-primary active" id="filterButton">Filter</button>
+</div>
 
-  <div id="profedexContainer">
-  </div>
+<div id="profedexContainer"></div>
 
 <script>
-    function loadProfedex() {
-        $("#profedexContainer").html("");
-        $.ajax({
-            type: "GET",
-            url: "http://localhost:8080/pokeetac/profemon/all/" + $("#filterByText").val(),
-            contentType: "application/json",
-            success: [
-                function (data) {
-                    $.each(data, function (i, obj) {
-                        $( "#profedexContainer" ).append("<div id=\"profemonContainer\">" +
-                        "<div class=\"col-md-2 col-sm-4 hero-feature\">" +
-                        "<div class=\"thumbnail\">" +
-                        "<img alt=\"\" src = \"/images/profedex/" + obj.name + ".png\"" + " id=\"profemonThumbnail\">" +
-                        "<div class=\"caption\">" +
-                        "<h4 id=\"info\">" + "#" + obj.id + ": " + obj.name + "</h4>" +
-                        "</div></div></div></div>");
-                    });
-                }
-            ],
-            error: [
-                function (request, status) {
-                    alert(status);
-                }
-            ]
-        });
-    }
     $(document).ready(function () {
         loadProfedex();
-        $("#filterButton").click(function(){
+        $("#filterButton").click(function () {
             loadProfedex();
         });
+
+        function loadProfedex() {
+            $("#profedexContainer").html("");
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:8080/pokeetac/profemon/all/" + $("#filterByText").val(),
+                contentType: "application/json",
+                success: [
+                    function (data) {
+                        $.each(data, function (i, obj) {
+                            $("#profedexContainer").append("<div id=\"profemonContainer\">" +
+                                "<div class=\"col-md-2 col-sm-4 hero-feature\">" +
+                                "<div class=\"thumbnail\">" +
+                                "<img alt=\"\" src = \"/images/profedex/" + obj.name + ".png\"" + " id=\"profemonThumbnail\">" +
+                                "<div class=\"caption\">" +
+                                "<h4 id=\"info\">" + "#" + obj.id + ": " + obj.name + "</h4>" +
+                                "</div></div></div></div>");
+                        });
+                    }
+                ],
+                error: [
+                    function (request, status) {
+                        alert(status);
+                    }
+                ]
+            });
+        }
     });
 </script>
 </body>
