@@ -32,6 +32,7 @@ public class UserBusiness {
             if (user.getUsername().equals(userLoggingIn.getUsername()) && user.getPassword().equals(userLoggingIn.getPassword())) {
                 authenticationResult.isSuccessful = true;
                 authenticationResult.userId = user.getId();
+                authenticationResult.isAdmin = user.getIsAdmin();
             }
         }
         return authenticationResult;

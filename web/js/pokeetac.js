@@ -1,5 +1,6 @@
 function showNavbar() {
-    if(sessionStorage.getItem("isAdmin")) {
+    var isAdmin = sessionStorage.getItem("isAdmin") == "true";
+    if(isAdmin) {
         $("#navbar").load("navbarWithSettings.html");
     } else {
         $("#navbar").load("navbar.html");
