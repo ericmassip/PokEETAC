@@ -4,29 +4,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="/css/profemonFeatures.css" rel="stylesheet" type="text/css">
+    <script src="../js/pokeetac.js"></script>
     <title>Profedex</title>
 </head>
 
 <body>
-<script>
-    $(document).ready(function () {
-        $("#navbar").load("navbar.html");
-    });
-</script>
-
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container" id="navbar"></div>
-</nav>
-
-<div id="filterContainer" style="width:100%">
-    <input type="text" name="filterByText" title="filterBy" id="filterByText">
-    <button class="btn btn-primary active" id="filterButton">Filter</button>
-</div>
-
-<div id="profedexContainer"></div>
 
 <script>
     $(document).ready(function () {
+        showNavbar();
         loadProfedex();
         $("#filterButton").click(function () {
             loadProfedex();
@@ -44,7 +30,8 @@
                             $("#profedexContainer").append("<div id=\"profemonContainer\">" +
                                 "<div class=\"col-md-2 col-sm-4 hero-feature\">" +
                                 "<div class=\"thumbnail\">" +
-                                "<img alt=\"\" src = \"/images/profedex/" + obj.name + ".png\"" + " id=\"profemonThumbnail\">" +
+                                "<img alt=\"\" src = \"/images/profedex/" + obj.name + ".png\"" +
+                                " id=\"profemonThumbnail\">" +
                                 "<div class=\"caption\">" +
                                 "<h4 id=\"info\">" + "#" + obj.id + ": " + obj.name + "</h4>" +
                                 "</div></div></div></div>");
@@ -60,5 +47,19 @@
         }
     });
 </script>
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container" id="navbar"></div>
+</nav>
+<div class ="container">
+    <div id="filterContainer" style="width:100%">
+        <input type="text" name="filterByText" title="filterBy" id="filterByText">
+        <button class="btn btn-primary active" id="filterButton">Filter</button>
+    </div>
+
+    <div id="profedexContainer" class="container"></div>
+</div>
+
 </body>
 </html>

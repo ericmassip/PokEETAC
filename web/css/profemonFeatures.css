@@ -87,3 +87,11 @@ footer {
 #filterContainer{
     margin-left:3%;
 }
+
+#usersTable, #profemonDeleteTable {
+    table-layout: fixed;
+}
+
+th,td {
+    width: 33%;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../js/pokeetac.js"></script>
+    <link href="/css/profemonFeatures.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title>Settings</title>
+</head>
+<body>
+
+<script>
+    function deleteProfemon(id) {
+        $.ajax({
+            type: "DELETE",
+            url: "http://localhost:8080/pokeetac/profemon/" + id,
+            contentType: "application/json",
+            success: [function () {
+                alert("Profemon deleted succesfully!");
+                location.reload();
+            }],
+            error: [
+                function (request, status) {
+                    alert(status);
+                }
+            ]
+        });
+    }
+
+    $(document).ready(function () {
+        showNavbar();
+        $("#createButton").click(function(){
+            var data = {
+                name: $("#newProfemonName").val(),
+                initialLevel: $("#newProfemonIL").val()
+            };
+
+            $.ajax({
+                type: "POST",
+                url: "http://localhost:8080/pokeetac/profemon",
+                contentType: "application/json",
+                data: JSON.stringify(data),
+                success: [function () {
+                    alert("Profemon added succesfully!");
+                    location.reload();
+                }],
+                error: [
+                    function (request, status) {
+                        alert(status);
+                    }
+                ]
+            });
+        });
+
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:8080/pokeetac/user/all/",
+            contentType: "application/json",
+            success: [
+                function (data) {
+                    $.each(data, function (i, obj) {
+                        $("#usersTable").append("<tr><td>" + obj.username + "</td><td>" +
+                            obj.email + "</td><td>" +
+                            obj.password + "</td></tr>");
+                    });
+                }
+            ],
+            error: [
+                function (request, status) {
+                    alert(status);
+                }
+            ]
+        });
+
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:8080/pokeetac/profemon/all/",
+            contentType: "application/json",
+            success: [
+                function (data) {
+                    $.each(data, function (i, obj) {
+                        $("#profemonDeleteTable").append("<tr><td>" + obj.id + "</td><td>" +
+                            obj.name + "</td><td>" +
+                            "<button class=\"glyphicon glyphicon-remove\" " +
+                            "onclick=\"deleteProfemon(" + obj.id + ")\">" +
+                            "</button>" + "</td></tr>");
+                    });
+                }
+            ],
+            error: [
+                function (request, status) {
+                    alert(status);
+                }
+            ]
+        });
+    });
+</script>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container" id="navbar"></div>
+</nav>
+
+
+<div class="container">
+    <h3>Create a new profemon</h3>
+    <div id="createProfemon">
+        <input type="text" name="newProfemonName" title="newProfemonName"
+               id="newProfemonName" placeholder="Name"><br>
+        <input type="text" name="newProfemonIL" title="newProfemonIL"
+               id="newProfemonIL" placeholder="Initial Level"><br>
+        <button class="btn btn-primary active" id="createButton">Create</button>
+    </div>
+</div>
+
+
+<div class="container">
+    <h3>List of profemons</h3>
+    <div class="table-responsive">
+        <table id="profemonDeleteTable" class="table table-striped table-bordered table-hover">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Delete</th>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+<div class="container">
+    <h3>List of registered users</h3>
+    <div class="table-responsive">
+        <table id="usersTable" class="table table-striped table-bordered table-hover">
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Password</th>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+</body>
+</html>
