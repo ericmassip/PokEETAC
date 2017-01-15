@@ -36,6 +36,7 @@
                         function (data) {
                             if (data.isSuccessful) {
                                 sessionStorage.setItem("userIdCurrentlyLoggedIn", data.userId);
+                                sessionStorage.setItem("isAdmin", data.isAdmin);
                                 window.location.replace("/forms/home.html");
                             } else {
                                 alert("User or Password not registered, please register first or try again");
