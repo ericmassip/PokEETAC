@@ -5,20 +5,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="/css/profemonFeatures.css" rel="stylesheet" type="text/css">
   <title>Profedex</title>
-
-
-
-  <div id="profemonContainer" style="display:none">
-    <div class="col-md-2 col-sm-4 hero-feature">
-      <div class="thumbnail">
-        <img alt="" id="profemonThumbnail">
-        <div class="caption">
-          <h4 id="info" style="font-weight:bold"></h4>
-        </div>
-      </div>
-    </div>
-  </div>
-
 </head>
 
 
@@ -36,28 +22,30 @@
   <div id="filterContainer" style="width:100%">
     <form action="">
       <input type="text" name="filterby" title="filterBy" id="filterByText">
-      <input value="Filter" type="button" class="btn btn-primary active" id="filterButton">
+      <button value="Filter" class="btn btn-primary active" id="filterButton" />
     </form>
   </div>
 
   <div id="profedexContainer">
-
   </div>
 
 <script>
-
-    $(document).ready(function () {
+    function loadProfedex() {
+        $("#profedexContainer").html("");
         $.ajax({
             type: "GET",
-            url: "http://localhost:8080/pokeetac/profemon/all/",
+            url: "http://localhost:8080/pokeetac/profemon/all/" + $("#filterByText").val(),
             contentType: "application/json",
             success: [
                 function (data) {
                     $.each(data, function (i, obj) {
-                        $("#profemonContainer").clone().appendTo("#profedexContainer");
-                        $("#profemonContainer:last").show();
-                        $("#info:last").text("#" + obj.id + ": " + obj.name);
-                        $("#profemonThumbnail:last").attr("src", "/images/profedex/" + obj.name + ".png");
+                        $( "#profedexContainer" ).append("<div id=\"profemonContainer\">" +
+                        "<div class=\"col-md-2 col-sm-4 hero-feature\">" +
+                        "<div class=\"thumbnail\">" +
+                        "<img alt=\"\" src = \"/images/profedex/" + obj.name + ".png\"" + " id=\"profemonThumbnail\">" +
+                        "<div class=\"caption\">" +
+                        "<h4 id=\"info\">" + "#" + obj.id + ": " + obj.name + "</h4>" +
+                        "</div></div></div></div>");
                     });
                 }
             ],
@@ -67,9 +55,13 @@
                 }
             ]
         });
+    }
+    $(document).ready(function () {
+        loadProfedex();
+        $("#filterButton").click(function(){
+            loadProfedex();
+        });
     });
-
 </script>
-
 </body>
 </html>
