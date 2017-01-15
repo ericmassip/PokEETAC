@@ -1,6 +1,6 @@
-/**
- * Created by ericmassip on 31/12/16.
- */
+function showNavbarSettingsTab() {
+
+}
 
 function inputsNotEmpty(classToBeChecked) {
     var isReadyToSubmit = true;

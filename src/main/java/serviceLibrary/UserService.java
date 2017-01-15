@@ -10,7 +10,9 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.List;
 
 /**
  * Created by ericmassip on 30/11/16.
@@ -24,7 +26,7 @@ public class UserService {
 
     @POST
     @Path("/login")
-    public AuthenticationResult login (User user) {
+    public AuthenticationResult login(User user) {
         AuthenticationResult authenticationResult = userBusiness.isLoginSuccessful(user);
         log.info("Login: " + user.getUsername() + " tried to log in and the loginResult was " + authenticationResult.isSuccessful);
         return authenticationResult;
@@ -32,7 +34,7 @@ public class UserService {
 
     @POST
     @Path("/register")
-    public AuthenticationResult register (User newUser) {
+    public AuthenticationResult register(User newUser) {
         AuthenticationResult authenticationResult = userBusiness.isRegisterSuccessful(newUser);
         log.info("Register: " + newUser.getUsername() + " tried to register and the registerResult was " + authenticationResult.isSuccessful);
         return authenticationResult;
@@ -46,7 +48,7 @@ public class UserService {
 
     @GET
     @Path("/level/{userId}")
-    public UserLevelResult getUserLevel (@PathParam("userId") int userId) {
+    public UserLevelResult getUserLevel(@PathParam("userId") int userId) {
         UserLevelResult userLevelResult = new UserLevelResult();
         userLevelResult.userLevel = userBusiness.getUserLevel(userId);
         return userLevelResult;
@@ -54,23 +56,23 @@ public class UserService {
 
     @GET
     @Path("/profemons/{userId}")
-    public List<ProfemonCapturadoResult> getUserProfemons (@PathParam("userId") int userId) {
+    public List<ProfemonCapturadoResult> getUserProfemons(@PathParam("userId") int userId) {
         return userBusiness.getUserProfemons(userId);
     }
 
     @GET
     @Path("/capturados/{userId}")
-    public List<ProfemonLocationResult> getProfemonCapturas (@PathParam("userId") int userId) {
+    public List<ProfemonLocationResult> getProfemonCapturas(@PathParam("userId") int userId) {
         return userBusiness.getProfemonCapturas(userId);
     }
 
     @GET
     @Path("/capturados/successfulByDay/{userId}")
-    public List<SuccessfulCapturadoByDayResult> getSuccessfulCapturadosByDay (@PathParam("userId") int userId) {
+    public List<SuccessfulCapturadoByDayResult> getSuccessfulCapturadosByDay(@PathParam("userId") int userId) {
         List<SuccessfulCapturadoByDayResult> successfulCapturadoByDayResults = new ArrayList<>();
         DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         Calendar calendarDay = Calendar.getInstance();
-        for(int i = 1; i < Calendar.DAY_OF_WEEK + 1; i++) {
+        for (int i = 1; i < Calendar.DAY_OF_WEEK + 1; i++) {
             calendarDay.add(Calendar.DATE, -1);
             SuccessfulCapturadoByDayResult successfulCapturadoByDayResult = new SuccessfulCapturadoByDayResult();
             successfulCapturadoByDayResult.setSuccessfulCapturadoByDayResult(dateFormat.format(calendarDay.getTime()), userBusiness.getSuccessfulCapturadosByDay(userId, calendarDay));
@@ -81,7 +83,7 @@ public class UserService {
 
     @GET
     @Path("/capturados/successfulPercentage/{userId}")
-    public SuccessfulPercentageResult getCapturadosSuccessfulPercentage (@PathParam("userId") int userId) {
+    public SuccessfulPercentageResult getCapturadosSuccessfulPercentage(@PathParam("userId") int userId) {
         SuccessfulPercentageResult successfulPercentageResult = new SuccessfulPercentageResult();
         successfulPercentageResult.successfulPercentage = userBusiness.getCapturadosSuccessfulPercentage(userId);
         return successfulPercentageResult;
@@ -92,5 +94,12 @@ public class UserService {
     public List<User> getAllUsers() {
         UserRepository userRepository = new UserRepository();
         return userRepository.getAllUsers();
+    }
+
+    @POST
+    @Path("/location/floor")
+    public UserFloorResult getFloor(List<ScannedRouterResult> scannedRouters) {
+
+        return null;
     }
 }

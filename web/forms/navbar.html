@@ -1,6 +1,5 @@
 <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -9,20 +8,25 @@
 </div>
 
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <ul class="nav navbar-nav">
+    <div class="collapse navbar-collapse" id="pokeetacNavbar">
+        <ul class="nav navbar-nav">
+            <li id="profedex">
+                <a href="/forms/profedex.html">Profedex</a>
+            </li>
 
-        <li id="profedex">
-            <a href="/forms/profedex.html">Profedex</a>
-        </li>
+            <li id="myProfile">
+                <a href="/forms/myProfile.html">My profile</a>
+            </li>
 
-        <li id="account">
-            <a href="/forms/myProfile.html">My profile</a>
-        </li>
-    </ul>
+            <li id="settings" class="notShown">
+                <a href="/forms/settings.html">Settings</a>
+            </li>
+        </ul>
 
-    <ul class="nav navbar-nav navbar-right" >
-        <li id="signIn">
-            <a href="/index.html">Sign In</a>
-        </li>
-    </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li id="signOut">
+                <a href="/index.html">Sign Out</a>
+            </li>
+        </ul>
+    </div>
 </div>

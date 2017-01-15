@@ -2,12 +2,16 @@ package business;
 
 import entity.Capturado;
 import entity.Profemon;
+import entity.Router;
+import entity.User;
 import entity.serviceLibraryResults.AuthenticationResult;
 import entity.serviceLibraryResults.ProfemonCapturadoResult;
 import entity.serviceLibraryResults.ProfemonLocationResult;
-import entity.User;
+import entity.serviceLibraryResults.ScannedRouterResult;
 import infrastructure.CapturadoRepository;
+import infrastructure.RouterRepository;
 import infrastructure.UserRepository;
+import org.apache.commons.lang.math.NumberUtils;
 import org.apache.commons.lang3.time.DateUtils;
 import org.apache.log4j.Logger;
 
@@ -41,7 +45,7 @@ public class UserBusiness {
                 if (user.getUsername().equals(newUser.getUsername()) || user.getEmail().equals(newUser.getEmail())) {
                     authenticationResult.isSuccessful = false;
                 }
-            } catch(NullPointerException e) {
+            } catch (NullPointerException e) {
                 e.printStackTrace();
                 log.error("User " + user.getUsername() + " has null email");
             }
@@ -56,7 +60,7 @@ public class UserBusiness {
     public int getUserLevel(int userId) {
         int totalLevel = 0;
         try {
-            for(ProfemonCapturadoResult profemonCapturadoResult: getUserProfemons(userId)) {
+            for (ProfemonCapturadoResult profemonCapturadoResult : getUserProfemons(userId)) {
                 totalLevel += profemonCapturadoResult.level;
             }
         } catch (NullPointerException e) {
@@ -81,7 +85,7 @@ public class UserBusiness {
         User user = getUser(userId);
         List<ProfemonCapturadoResult> profemonCapturadoResults = new ArrayList<>();
         try {
-            for(Capturado capturado: capturadoRepository.getUserCapturados(user)) {
+            for (Capturado capturado : capturadoRepository.getUserCapturados(user)) {
                 Profemon profemonCapturado = profemonBusiness.getProfemon(capturado.getIdProfemon());
                 ProfemonCapturadoResult profemonCapturadoResult = new ProfemonCapturadoResult();
                 profemonCapturadoResult.fillIntheFields(profemonCapturado.getId(), profemonCapturado.getName(), profemonCapturado.getInitialLevel() + capturado.getLevel());
@@ -113,8 +117,8 @@ public class UserBusiness {
         User user = getUser(userId);
         int successfulCapturados = 0;
         try {
-            for (Capturado capturado: capturadoRepository.getUserCapturados(user)) {
-                if(DateUtils.isSameDay(capturado.getDate(), calendar)) {
+            for (Capturado capturado : capturadoRepository.getUserCapturados(user)) {
+                if (DateUtils.isSameDay(capturado.getDate(), calendar)) {
                     successfulCapturados += 1;
                 }
             }
@@ -132,11 +136,44 @@ public class UserBusiness {
         try {
             double successfulCapturados = capturadoRepository.getUserCapturados(user).size();
             double allCapturadosAttempts = capturadoRepository.getUserCapturadosAllAttempts(user).size();
-            successfulPercentage = (successfulCapturados/allCapturadosAttempts) * 100;
+            successfulPercentage = (successfulCapturados / allCapturadosAttempts) * 100;
         } catch (NullPointerException e) {
             e.printStackTrace();
             log.error("Getting successful capturados percentage of userId " + userId);
         }
         return successfulPercentage;
+    }
+
+    public int getUserFloor(List<ScannedRouterResult> scannedRouters) {
+        RouterRepository routerRepository = new RouterRepository();
+        RouterBusiness routerBusiness = new RouterBusiness();
+        int pointsZeroFloor = 0;
+        int pointsFirstFloor = 0;
+        int pointsSecondFloor = 0;
+        int pointsThirdFloor = 0;
+
+        for (ScannedRouterResult scannedRouter : scannedRouters) {
+            Router router = routerRepository.selectRouterByBSSID(scannedRouter.BSSID);
+            if (router.getBSSID() != null) {
+                Double signalLevel = scannedRouter.signalLevel;
+                Integer signalLevelIntValue = signalLevel.intValue();
+                switch (router.getFloor()) {
+                    case 0:
+                        pointsZeroFloor += routerBusiness.getCorrespondingPointsForScannedRouter(signalLevelIntValue);
+                        break;
+                    case 1:
+                        pointsFirstFloor += routerBusiness.getCorrespondingPointsForScannedRouter(signalLevelIntValue);
+                        break;
+                    case 2:
+                        pointsSecondFloor += routerBusiness.getCorrespondingPointsForScannedRouter(signalLevelIntValue);
+                        break;
+                    case 3:
+                        pointsThirdFloor += routerBusiness.getCorrespondingPointsForScannedRouter(signalLevelIntValue);
+                        break;
+                }
+            }
+        }
+        int[] pointsPerFloor = {pointsZeroFloor, pointsFirstFloor, pointsSecondFloor, pointsThirdFloor};
+        return routerBusiness.getFloorWithMaximumPoints(NumberUtils.max(pointsPerFloor), pointsPerFloor);
     }
 }

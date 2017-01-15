@@ -7,6 +7,7 @@ import org.junit.Test;
 
 import java.util.List;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 /**
@@ -27,16 +28,22 @@ public class RouterRepositoryTest {
     }
 
     @Test
-    public void selectLocation() throws Exception {
+    public void selectRouter() throws Exception {
         routerRepository.selectRouter(router1, 1);
         assertNotNull(router1.getBSSID());
         assertNotNull(router1.getFloor());
     }
 
     @Test
-    public void getAllLocations() throws Exception {
+    public void getAllRouters() throws Exception {
         List<Router> routers = routerRepository.getAllRouters();
         assertNotNull(routers);
     }
 
+    @Test
+    public void selectRouterByBSSID() throws Exception {
+        Router router = routerRepository.selectRouterByBSSID("0c:27:24:4e:4a:e0");
+        assertEquals( "0c:27:24:4e:4a:e0", router.getBSSID());
+        assertEquals(3, router.getFloor());
+    }
 }
