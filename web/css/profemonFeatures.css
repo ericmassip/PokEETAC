@@ -83,3 +83,11 @@ footer {
     margin-top:2%;
     margin-left:2%;
 }
+
+#info{
+    font-weight: bold;
+}
+
+#filterContainer{
+    margin-left:3%;
+}
