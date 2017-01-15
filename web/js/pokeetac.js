@@ -1,5 +1,17 @@
-function showNavbarSettingsTab() {
+function showNavbar() {
+    if(sessionStorage.getItem("isAdmin")) {
+        $("#navbar").load("navbarWithSettings.html");
+    } else {
+        $("#navbar").load("navbar.html");
+    }
+}
 
+function showNavbarInLogin() {
+    $("#navbar").load("/forms/navbar.html");
+}
+
+function signOut() {
+    sessionStorage.clear();
 }
 
 function inputsNotEmpty(classToBeChecked) {

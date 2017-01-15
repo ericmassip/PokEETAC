@@ -99,7 +99,8 @@ public class UserService {
     @POST
     @Path("/location/floor")
     public UserFloorResult getFloor(List<ScannedRouterResult> scannedRouters) {
-
-        return null;
+        UserFloorResult userFloorResult = new UserFloorResult();
+        userFloorResult.floor = userBusiness.getUserFloor(scannedRouters);
+        return userFloorResult;
     }
 }

@@ -39,38 +39,37 @@
 </head>
 
 <body>
-<script>
-    $(document).ready(function () {
-        sessionStorage.setItem("userIdCurrentlyLoggedIn", 1);
-        sessionStorage.setItem("isAdmin", true);
-
-        $("#navbar").load("navbar.html");
-        if(sessionStorage.getItem("isAdmin")) {
-            //$("#settings").toggle();
-        }
-        //showNavbarSettingsTab();
-
-        /*if (sessionStorage.getItem("userIdCurrentlyLoggedIn") == null) {
-         window.location.replace("/index.html");
-         }*/
-
-        setUsername(sessionStorage.getItem("userIdCurrentlyLoggedIn"));
-
-        setUserLevel(sessionStorage.getItem("userIdCurrentlyLoggedIn"));
-
-        fillProfemonsCarousel(sessionStorage.getItem("userIdCurrentlyLoggedIn"));
-
-        createContainerBars();
-        fillContainerBars(sessionStorage.getItem("userIdCurrentlyLoggedIn"));
-
-        createContainerPie();
-        fillContainerPie(sessionStorage.getItem("userIdCurrentlyLoggedIn"));
-    });
-</script>
 
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container" id="navbar"></div>
 </nav>
+
+<script>
+    $(document).ready(function () {
+        var userIdCurrentlyLoggedIn = 0;
+        if (sessionStorage.getItem("userIdCurrentlyLoggedIn") == null) {
+            alert("User is not logged in. Redirecting to Login form...");
+            signOut();
+            window.location.replace("/index.html");
+        } else {
+            userIdCurrentlyLoggedIn = sessionStorage.getItem("userIdCurrentlyLoggedIn");
+
+            showNavbar();
+
+            setUsername(userIdCurrentlyLoggedIn);
+
+            setUserLevel(userIdCurrentlyLoggedIn);
+
+            fillProfemonsCarousel(userIdCurrentlyLoggedIn);
+
+            createContainerBars();
+            fillContainerBars(userIdCurrentlyLoggedIn);
+
+            createContainerPie();
+            fillContainerPie(userIdCurrentlyLoggedIn);
+        }
+    });
+</script>
 
 <div class="profileHeader">
     <div class="container">

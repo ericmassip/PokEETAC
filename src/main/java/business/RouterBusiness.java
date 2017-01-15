@@ -8,31 +8,51 @@ import org.apache.log4j.Logger;
 public class RouterBusiness {
     private Logger log = Logger.getLogger(RouterBusiness.class);
     public int getCorrespondingPointsForScannedRouter(int signalLevel) {
-        int points = 0;
+        Double points = 0.0;
         if (signalLevel > -80) {
-            if (signalLevel > -70) {
-                if (signalLevel > -60) {
-                    if (signalLevel > -50) {
-                        if (signalLevel > -40) {
-                            if (signalLevel > -30) {
-                                points = 6;
+            if(signalLevel > -75) {
+                if (signalLevel > -70) {
+                    if(signalLevel > -65) {
+                        if (signalLevel > -60) {
+                            if(signalLevel > -55) {
+                                if (signalLevel > -50) {
+                                    if(signalLevel > -45) {
+                                        if (signalLevel > -40) {
+                                            if(signalLevel > -35) {
+                                                if (signalLevel > -30) {
+                                                    points = 6.0;
+                                                }
+                                            } else {
+                                                points = 5.5;
+                                            }
+                                        } else {
+                                            points = 5.0;
+                                        }
+                                    } else {
+                                        points = 4.5;
+                                    }
+                                } else {
+                                    points = 4.0;
+                                }
+                            } else {
+                                points = 3.5;
                             }
                         } else {
-                            points = 5;
+                            points = 3.0;
                         }
                     } else {
-                        points = 4;
+                        points = 2.5;
                     }
                 } else {
-                    points = 3;
+                    points = 2.0;
                 }
             } else {
-                points = 2;
+                points = 1.5;
             }
         } else {
-            points = 1;
+            points = 1.0;
         }
-        return points;
+        return points.intValue();
     }
 
     public int getFloorWithMaximumPoints(int maximumPointsPerFloor, int[] pointsPerFloor) {

@@ -28,7 +28,7 @@ footer {
     background: skyblue;
     border: 2px solid #000;
     color: #000;
-    float:right;
+    float: right;
     text-align: center;
     font: 50px Arial, sans-serif;
 }
@@ -69,19 +69,15 @@ footer {
     color: #fff !important;
 }
 
-.notShown {
-    display: none;
-}
-
 #profemonThumbnail {
     height: 100%;
     max-height: 200px;
 }
 
-#profedexContainer{
-    width:100%;
-    margin-top:2%;
-    margin-left:2%;
+#profedexContainer {
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 2%;
 }
 
 #info{
