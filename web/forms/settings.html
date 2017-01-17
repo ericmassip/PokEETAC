@@ -55,8 +55,8 @@
     $(document).ready(function () {
         showNavbar();
         $("#createButton").click(function () {
-            if ($("#newProfemonName").val().length > 0 && $("#newProfemonName").val().length < 15
-                && $("#newProfemonIL").val() > 0 && $("#newProfemonIL").val() < 4) {
+            if ($("#newProfemonName").val().length > 0 && $("#newProfemonIL").val() > 0
+                && $("#newProfemonIL").val() < 4) {
                 $.ajax({
                     type: "GET",
                     url: "http://localhost:8080/pokeetac/profemon/all/",
@@ -65,7 +65,7 @@
                         function (data) {
                         var profemonExists = false;
                             $.each(data, function (i, obj) {
-                                if (obj.name === $("#newProfemonName").val()) {
+                                if (obj.name.toLowerCase() === $("#newProfemonName").val().toLowerCase()) {
                                     alert("A profemon with that name already exists!");
                                     profemonExists = true;
                                 }
@@ -140,7 +140,7 @@
     <h3>Create a new profemon</h3>
     <div id="createProfemon">
         <input type="text" name="newProfemonName" title="newProfemonName"
-               id="newProfemonName" placeholder="Name"><br>
+               id="newProfemonName" placeholder="Name" maxlength="10"><br>
         <input type="text" name="newProfemonIL" title="newProfemonIL"
                id="newProfemonIL" placeholder="Initial Level"><br>
         <button class="btn btn-primary active" id="createButton">Create</button>
