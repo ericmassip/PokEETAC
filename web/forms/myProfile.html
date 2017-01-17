@@ -27,10 +27,6 @@
             margin-top: 80px;
         }
 
-        .profileHeader {
-            background: gainsboro;
-        }
-
         .blackBackground {
             background: #737373;
         }
@@ -71,15 +67,13 @@
     });
 </script>
 
-<div class="profileHeader">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-11">
-                <h2 id="usernameWelcome"></h2>
-            </div>
-            <div class="col-md-1">
-                <div id="userLevelDiv" class="numberCircle"></div>
-            </div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-11">
+            <h2 id="usernameWelcome"></h2>
+        </div>
+        <div class="col-md-1">
+            <div id="userLevelDiv" class="numberCircle"></div>
         </div>
     </div>
 </div>
@@ -139,33 +133,35 @@
 
         var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 
-        $.ajax({
-            type: "GET",
-            url: "http://localhost:8080/pokeetac/user/capturados/" + sessionStorage.getItem("userIdCurrentlyLoggedIn"),
-            contentType: "application/json",
-            success: [
-                function (data) {
-                    $.each(data, function (i, item) {
-                        var image = {
-                            url: "../images/profedex/" + data[i].name + ".png",
-                            scaledSize: new google.maps.Size(80, 80)
-                        };
-                        var marker = new google.maps.Marker({
-                            position: {lat: data[i].latitude, lng: data[i].longitude},
-                            map: map,
-                            title: data[i].name,
-                            icon: image
-                        });
-                        marker.setMap(map);
-                    })
-                }
-            ],
-            error: [
-                function (request, status) {
-                    alert(status);
-                }
-            ]
-        });
+        if (sessionStorage.getItem("userIdCurrentlyLoggedIn") != null) {
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:8080/pokeetac/user/capturados/" + sessionStorage.getItem("userIdCurrentlyLoggedIn"),
+                contentType: "application/json",
+                success: [
+                    function (data) {
+                        $.each(data, function (i, item) {
+                            var image = {
+                                url: "../images/profedex/" + data[i].name + ".png",
+                                scaledSize: new google.maps.Size(80, 80)
+                            };
+                            var marker = new google.maps.Marker({
+                                position: {lat: data[i].latitude, lng: data[i].longitude},
+                                map: map,
+                                title: data[i].name,
+                                icon: image
+                            });
+                            marker.setMap(map);
+                        })
+                    }
+                ],
+                error: [
+                    function (request, status) {
+                        alert(status);
+                    }
+                ]
+            });
+        }
     }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3cSdHHYQjMwK159maxMWSU1E8eKZ4N_0&callback=myMap"></script>

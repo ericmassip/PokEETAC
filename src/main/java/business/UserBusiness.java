@@ -19,9 +19,6 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-/**
- * Created by ericmassip on 12/11/16.
- */
 public class UserBusiness {
     UserRepository userRepository = new UserRepository();
     private Logger log = Logger.getLogger(UserBusiness.class);

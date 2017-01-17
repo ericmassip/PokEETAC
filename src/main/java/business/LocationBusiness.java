@@ -30,8 +30,9 @@ public class LocationBusiness {
         ProfemonBusiness profemonBusiness = new ProfemonBusiness();
         ProfemonRepository profemonRepository = new ProfemonRepository();
         List<ProfemonLocationResult> profemonLocationResults = new ArrayList<>();
+        List<Profemon> allProfemons = profemonRepository.getAllProfemons();
         for (Location location : locationRepository.getAllLocations()) {
-            int randomProfemonId = profemonBusiness.getRandomProfemonId(profemonRepository.getAllProfemons().size());
+            int randomProfemonId = profemonBusiness.getRandomProfemonId(allProfemons.size());
             if(randomProfemonId != 0) {
                 Profemon profemon = profemonBusiness.getProfemon(randomProfemonId);
                 ProfemonLocationResult profemonLocationResult = new ProfemonLocationResult();
