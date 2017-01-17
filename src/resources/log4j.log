@@ -20510,3 +20510,41 @@
 2017-01-17 18:13:00,820 INFO  - Profemon selected: Venusals from id 2
 2017-01-17 18:13:01,214 INFO  - Profemon selected: Rinconlee from id 7
 2017-01-17 18:13:01,605 INFO  - Profemon selected: Juanizard from id 1
+2017-01-17 18:27:09,847 INFO  - All Users selected
+2017-01-17 18:27:10,496 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-17 18:27:13,955 INFO  - All Users selected
+2017-01-17 18:27:13,966 INFO  - All Profemons selected
+2017-01-17 18:27:37,421 INFO  - All Profemons selected
+2017-01-17 18:28:09,234 INFO  - Profemon added: eric with id 11
+2017-01-17 18:28:10,907 INFO  - All Users selected
+2017-01-17 18:28:10,907 INFO  - All Profemons selected
+2017-01-17 18:28:17,325 INFO  - Profemon selected: eric from id 11
+2017-01-17 18:28:17,754 INFO  - Profemon deleted: eric
+2017-01-17 18:28:19,541 INFO  - All Users selected
+2017-01-17 18:28:19,541 INFO  - All Profemons selected
+2017-01-17 18:28:35,524 INFO  - All Profemons selected
+2017-01-17 18:29:05,605 INFO  - Profemon added: Robetwo with id 12
+2017-01-17 18:30:57,290 INFO  - All Users selected
+2017-01-17 18:30:57,290 INFO  - All Profemons selected
+2017-01-17 18:37:48,012 INFO  - All Users selected
+2017-01-17 18:37:48,013 INFO  - All Profemons selected
+2017-01-17 18:37:52,611 INFO  - Profemon selected: Robetwo from id 12
+2017-01-17 18:37:53,028 INFO  - Profemon deleted: Robetwo
+2017-01-17 18:37:54,459 INFO  - All Users selected
+2017-01-17 18:37:54,459 INFO  - All Profemons selected
+2017-01-17 18:38:10,419 INFO  - All Profemons selected
+2017-01-17 18:38:20,189 INFO  - All Profemons selected
+2017-01-17 18:38:21,053 INFO  - Profemon added: Juanizardd with id 13
+2017-01-17 18:38:21,059 INFO  - Profemon added: Juanizardd with id 14
+2017-01-17 18:38:21,061 INFO  - Profemon added: Juanizardd with id 15
+2017-01-17 18:38:21,061 INFO  - Profemon added: Juanizardd with id 16
+2017-01-17 18:38:21,061 INFO  - Profemon added: Juanizardd with id 18
+2017-01-17 18:38:21,062 INFO  - Profemon added: Juanizardd with id 17
+2017-01-17 18:38:21,458 INFO  - Profemon added: Juanizardd with id 19
+2017-01-17 18:38:21,483 INFO  - Profemon added: Juanizardd with id 20
+2017-01-17 18:38:30,805 INFO  - All Users selected
+2017-01-17 18:38:30,806 INFO  - All Profemons selected
+2017-01-17 18:38:34,961 INFO  - Profemon selected: Juanizardd from id 20
+2017-01-17 18:38:35,387 INFO  - Profemon deleted: Juanizardd
+2017-01-17 18:38:37,167 INFO  - All Users selected
+2017-01-17 18:38:37,167 INFO  - All Profemons selected
