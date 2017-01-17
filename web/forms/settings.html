@@ -12,6 +12,38 @@
 <body>
 
 <script>
+    function checkIfAvailable(){
+        if ($("#newProfemonName").val().length > 0 && $("#newProfemonName").val().length <15
+            && $("#newProfemonIL").val() > 0 && $("#newProfemonIL").val() < 4 ) {
+            var profemonExists = false;
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:8080/pokeetac/profemon/all/",
+                contentType: "application/json",
+                success: [
+                    function (data) {
+                        $.each(data, function (i, obj) {
+                            if (obj.name === $("#newProfemonName").val()){
+                                alert("A profemon with that name already exists!");
+                                profemonExists = true;
+                            }
+                        });
+                    }
+                ],
+                error: [
+                    function (request, status) {
+                        alert(status);
+                    }
+                ]
+            });
+            return !profemonExists;
+        }
+        else{
+            alert("Name or inital level invalid");
+            return false;
+        }
+    }
+
     function deleteProfemon(id) {
         $.ajax({
             type: "DELETE",
@@ -32,26 +64,29 @@
     $(document).ready(function () {
         showNavbar();
         $("#createButton").click(function(){
-            var data = {
-                name: $("#newProfemonName").val(),
-                initialLevel: $("#newProfemonIL").val()
-            };
+            if (checkIfAvailable()===true){
+                var data = {
+                    name: $("#newProfemonName").val(),
+                    initialLevel: $("#newProfemonIL").val()
+                };
 
-            $.ajax({
-                type: "POST",
-                url: "http://localhost:8080/pokeetac/profemon",
-                contentType: "application/json",
-                data: JSON.stringify(data),
-                success: [function () {
-                    alert("Profemon added succesfully!");
-                    location.reload();
-                }],
-                error: [
-                    function (request, status) {
-                        alert(status);
-                    }
-                ]
-            });
+                $.ajax({
+                    type: "POST",
+                    url: "http://localhost:8080/pokeetac/profemon",
+                    contentType: "application/json",
+                    data: JSON.stringify(data),
+                    success: [function () {
+                        alert("Profemon added succesfully!");
+                        location.reload();
+                    }],
+                    error: [
+                        function (request, status) {
+                            alert(status);
+                        }
+                    ]
+                });
+            }
+            else alert("No entro en el if");
         });
 
         $.ajax({
