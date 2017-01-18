@@ -69,7 +69,7 @@ footer {
     color: #fff !important;
 }
 
-#profemonThumbnail {
+#profemonThumbnail, #top-home-profemon, #bottom-home-profemon {
     height: 100%;
     max-height: 200px;
 }
@@ -97,4 +97,16 @@ table#usersTable td,th {
 
 table#profemonDeleteTable td,th {
     width: 33%;
+}
+
+#bottom-home-container{
+    margin-top: 5%;
+}
+
+#home{
+    color: #0f3148;
+}
+
+#home-title{
+    background-color: #5a75a2;
 }
