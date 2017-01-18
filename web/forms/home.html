@@ -10,11 +10,23 @@
 </head>
 
 
-<body>
+<body id="home">
+<style>
+    .logo {
+        font-size: 200px;
+    }
+    @media screen and (max-width: 768px) {
+        .col-sm-4 {
+            text-align: center;
+            margin: 25px 0;
+        }
+    }
+</style>
+
 <script>
     $(document).ready(function () {
         showNavbar();
-        var counter = 0;
+        var userCounter = 0;
         $.ajax({
             type: "GET",
             url: "http://localhost:8080/pokeetac/user/all/",
@@ -22,9 +34,29 @@
             success: [
                 function (data) {
                     $.each(data, function (i, obj) {
-                        ++counter;
+                        ++userCounter;
                     });
-                    $("#counter").prepend(counter);
+                    $("#userCounter").prepend(userCounter);
+                }
+            ],
+            error: [
+                function (request, status) {
+                    alert(status);
+                }
+            ]
+        });
+
+        var profemonCounter=0;
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:8080/pokeetac/profemon/all/",
+            contentType: "application/json",
+            success: [
+                function (data) {
+                    $.each(data, function (i, obj) {
+                        ++profemonCounter;
+                    });
+                    $("#profemonCounter").prepend(profemonCounter);
                 }
             ],
             error: [
@@ -42,33 +74,45 @@
 
 <div class="container">
 
-    <header class="jumbotron hero-spacer">
+    <div class="jumbotron text-center" id="#home-title">
         <h1>Welcome to the world of Profemon!</h1>
-    </header>
+        <p>Tired of studying? Go out there and catch all kinds of monsters around the campus!</p>
+    </div>
 
-    <hr>
-
-    <!-- Title -->
-    <div class="row">
-        <div class="col-lg-12">
-            <h3>Latest Features</h3>
-            <p id="counter"> users are already playing PokEETAC!</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2 id="userCounter"> people are already playing PokEETAC!</h2>
+                <h4>Click the button to get the app and start your own profemon adventure!</h4>
+                <button class="btn btn-default btn-lg">Download PokEETAC GO</button>
+            </div>
+            <div class="col-sm-4">
+                <span><img src="/images/profedex/Venusals.png" id="top-home-profemon"></span>
+            </div>
         </div>
     </div>
-    <!-- /.row -->
+    <br>
 
-    <!-- Page Features -->
-    <div class="row text-center">
-
-
+    <div class="container-fluid bg-grey" id="bottom-home-container">
+        <div class="row">
+            <div class="col-sm-4">
+                <span><img src="/images/profedex/Hypneguer.png" id="bottom-home-profemon"></span>
+            </div>
+            <div class="col-sm-8">
+                <h2 id="profemonCounter"> different kinds of profemon to catch and improve your level!</h2>
+                <h4>Whether you prefer to fry your enemies with a fire-spitting Juanizard
+                    or to water-blast them with the cannons on the back of a Blastoller, there
+                    sure is the perfect profemon for you!
+                    Check the full list <a href="/forms/profedex.html">here</a></h4>
+            </div>
+        </div>
     </div>
 
     <hr>
-
     <footer>
         <div class="row">
             <div class="col-lg-12">
-                -Footer Stuff-
+
             </div>
         </div>
     </footer>
