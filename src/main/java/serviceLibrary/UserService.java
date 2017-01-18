@@ -43,6 +43,12 @@ public class UserService {
         return userBusiness.getUser(userId);
     }
 
+    @PUT
+    @Path("/admin/")
+    public void setIsAdmin(User user) {
+        userBusiness.setIsAdmin(user);
+    }
+
     @GET
     @Path("/level/{userId}")
     public UserLevelResult getUserLevel(@PathParam("userId") int userId) {
