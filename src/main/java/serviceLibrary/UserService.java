@@ -44,7 +44,7 @@ public class UserService {
     }
 
     @PUT
-    @Path("/admin/")
+    @Path("/admin")
     public void setIsAdmin(User user) {
         userBusiness.setIsAdmin(user);
     }
