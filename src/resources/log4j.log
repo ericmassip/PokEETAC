@@ -20606,3 +20606,38 @@
 2017-01-17 20:28:50,178 INFO  - Profemon selected: Gallengar from id 4
 2017-01-17 20:28:50,206 INFO  - Profemon selected: Remonchan from id 6
 2017-01-17 20:28:50,234 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 12:46:59,505 INFO  - All Profemons selected
+2017-01-18 12:46:59,807 INFO  - All Locations selected
+2017-01-18 12:46:59,871 INFO  - Profemon selected: Hypneguer from id 5
+2017-01-18 12:46:59,899 INFO  - Profemon selected: Hypneguer from id 5
+2017-01-18 12:46:59,927 INFO  - Profemon selected: Hypneguer from id 5
+2017-01-18 12:46:59,959 INFO  - Profemon selected: Robetwo from id 8
+2017-01-18 12:46:59,987 INFO  - Profemon selected: Gallengar from id 4
+2017-01-18 12:47:00,018 INFO  - Profemon selected: Rinconlee from id 7
+2017-01-18 12:47:00,051 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 12:47:00,079 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 12:47:00,110 INFO  - Profemon selected: Robetwo from id 8
+2017-01-18 12:47:00,139 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 12:47:00,170 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 12:47:00,201 INFO  - Profemon selected: Remonchan from id 6
+2017-01-18 12:47:00,229 INFO  - Profemon selected: Hypneguer from id 5
+2017-01-18 12:47:00,256 INFO  - Profemon selected: Hypneguer from id 5
+2017-01-18 12:47:00,284 INFO  - Profemon selected: Remonchan from id 6
+2017-01-18 12:47:00,313 INFO  - Profemon selected: Robetwo from id 8
+2017-01-18 12:47:00,340 INFO  - Profemon selected: Hypneguer from id 5
+2017-01-18 12:47:00,367 INFO  - Profemon selected: null from id 9
+2017-01-18 12:47:00,367 WARN  - No Profemon selected from id 9
+2017-01-18 12:47:00,395 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 12:47:00,422 INFO  - Profemon selected: Robetwo from id 8
+2017-01-18 12:47:00,452 INFO  - Profemon selected: Rinconlee from id 7
+2017-01-18 12:48:00,368 INFO  - User selected: null from id 2
+2017-01-18 12:48:00,368 WARN  - No User selected from id 2
+2017-01-18 12:48:06,995 INFO  - User selected: null from id 3
+2017-01-18 12:48:06,995 WARN  - No User selected from id 3
+2017-01-18 12:48:10,227 INFO  - User selected: ericsito from id 19
+2017-01-18 12:49:03,859 INFO  - User selected: ericsito from id 19
+2017-01-18 12:49:03,970 INFO  - User updated: ericsito
+2017-01-18 12:49:14,142 INFO  - User selected: ericsito from id 19
+2017-01-18 12:49:22,888 INFO  - User selected: ericsito from id 19
+2017-01-18 12:49:22,925 INFO  - User updated: ericsito
+2017-01-18 12:49:26,512 INFO  - User selected: ericsito from id 19

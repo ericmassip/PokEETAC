@@ -174,4 +174,10 @@ public class UserBusiness {
         int[] pointsPerFloor = {pointsZeroFloor, pointsFirstFloor, pointsSecondFloor, pointsThirdFloor};
         return routerBusiness.getFloorWithMaximumPoints(NumberUtils.max(pointsPerFloor), pointsPerFloor);
     }
+
+    public void setIsAdmin(User receivedUser) {
+        User selectedUser = getUser(receivedUser.getId());
+        selectedUser.setIsAdmin(receivedUser.getIsAdmin());
+        userRepository.updateUser(selectedUser);
+    }
 }
