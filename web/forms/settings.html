@@ -55,8 +55,9 @@
     $(document).ready(function () {
         showNavbar();
         $("#createButton").click(function () {
-            if ($("#newProfemonName").val().length > 0 && $("#newProfemonIL").val() > 0
-                && $("#newProfemonIL").val() < 4) {
+            var $newProfemonName = $("#newProfemonName");
+            var $newProfemonIL = $("#newProfemonIL");
+            if (!isEmpty($newProfemonName) && $newProfemonIL.val() > 0 && $newProfemonIL.val() < 4) {
                 $.ajax({
                     type: "GET",
                     url: "http://localhost:8080/pokeetac/profemon/all/",
@@ -65,7 +66,7 @@
                         function (data) {
                         var profemonExists = false;
                             $.each(data, function (i, obj) {
-                                if (obj.name.toLowerCase() === $("#newProfemonName").val().toLowerCase()) {
+                                if (obj.name.toLowerCase() === $newProfemonName.val().toLowerCase()) {
                                     alert("A profemon with that name already exists!");
                                     profemonExists = true;
                                 }
