@@ -29,6 +29,28 @@
         });
     }
 
+    function makeAdmin(id) {
+        var data = {
+            id: id,
+            isAdmin: true
+        };
+        $.ajax({
+            type: "PUT",
+            url: "http://localhost:8080/pokeetac/user/admin",
+            contentType: "application/json",
+            data: JSON.stringify(data),
+            success: [function () {
+                alert("User with id " + id + " is now admin!");
+                location.reload();
+            }],
+            error: [
+                function (request, status) {
+                    alert(status);
+                }
+            ]
+        });
+    }
+
     function createProfemon() {
         var data = {
             name: $("#newProfemonName").val(),
@@ -94,10 +116,20 @@
             contentType: "application/json",
             success: [
                 function (data) {
+
                     $.each(data, function (i, obj) {
-                        $("#usersTable").append("<tr><td>" + obj.username + "</td><td>" +
-                            obj.email + "</td><td>" +
-                            obj.password + "</td></tr>");
+                        if (!obj.isAdmin){
+                            $("#usersTable").append("<tr><td>" + obj.username + "</td><td>" +
+                                obj.email + "</td><td>" + obj.password + "</td><td>" +
+                                "<button class=\"glyphicon glyphicon-user\" " +
+                                "onclick=\"makeAdmin(" + obj.id + ")\">" +
+                                "</button>" + "</td></tr>");
+                        }
+                        else{
+                            $("#usersTable").append("<tr><td>" + obj.username + "</td><td>" +
+                                obj.email + "</td><td>" + obj.password + "</td><td>Admin</td></tr>");
+                        }
+
                     });
                 }
             ],
@@ -171,6 +203,7 @@
                 <th>Username</th>
                 <th>Email</th>
                 <th>Password</th>
+                <th>Make admin</th>
             </tr>
         </table>
     </div>
