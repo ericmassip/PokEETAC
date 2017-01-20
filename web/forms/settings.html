@@ -5,6 +5,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="../js/pokeetac.js"></script>
+    <script src="/js/imageUpload.js"></script>
     <link href="/css/profemonFeatures.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <title>Settings</title>
@@ -12,6 +13,7 @@
 <body>
 
 <script>
+
     function deleteProfemon(id) {
         $.ajax({
             type: "DELETE",
@@ -44,7 +46,7 @@
                 location.reload();
             }],
             error: [
-                function (request, status) {
+                function (re0quest, status) {
                     alert(status);
                 }
             ]
@@ -74,40 +76,12 @@
         });
     }
 
+
     $(document).ready(function () {
         showNavbar();
-        $("#createButton").click(function () {
-            var $newProfemonName = $("#newProfemonName");
-            var $newProfemonIL = $("#newProfemonIL");
-            if (!isEmpty($newProfemonName) && $newProfemonIL.val() > 0 && $newProfemonIL.val() < 4) {
-                $.ajax({
-                    type: "GET",
-                    url: "http://localhost:8080/pokeetac/profemon/all/",
-                    contentType: "application/json",
-                    success: [
-                        function (data) {
-                        var profemonExists = false;
-                            $.each(data, function (i, obj) {
-                                if (obj.name.toLowerCase() === $newProfemonName.val().toLowerCase()) {
-                                    alert("A profemon with that name already exists!");
-                                    profemonExists = true;
-                                }
-                            });
-                            if(!profemonExists) {
-                                createProfemon();
-                            }
-                        }
-                    ],
-                    error: [
-                        function (request, status) {
-                            alert(status);
-                        }
-                    ]
-                });
-            }
-            else {
-                alert("Name or inital level invalid");
-            }
+
+        $("#testButton").click(function(){
+            uploadFile();
         });
 
         $.ajax({
@@ -158,10 +132,10 @@
             error: [
                 function (request, status) {
                     alert(status);
-                }
-            ]
+                }]
+            });
         });
-    });
+
 </script>
 
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -176,9 +150,12 @@
                id="newProfemonName" placeholder="Name" maxlength="10"><br>
         <input type="text" name="newProfemonIL" title="newProfemonIL"
                id="newProfemonIL" placeholder="Initial Level"><br>
+        <input id="imageInput" type="file" name="imageInput" accept="image/*" placeholder="Upload an image">
         <button class="btn btn-primary active" id="createButton">Create</button>
+        <button id ="testButton">Test image upload</button>
     </div>
 </div>
+
 
 
 <div class="container">

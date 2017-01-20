@@ -16,7 +16,7 @@ public class DAORepository extends DAOBusiness implements DAOInterface {
         Connection con = null;
         String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 //        String DB_URL = "jdbc:mysql://localhost:3306/PokEETAC_Testing";
-        String DB_URL = "jdbc:mysql://localhost:3306/PokEETAC";
+        String DB_URL = "jdbc:mysql://147.83.7.208:3306/PokEETAC";
 //        String DB_URL = "jdbc:mysql://147.83.7.208:3306/PokEETAC";
 //        String DB_URL = "jdbc:mysql://sql7.freemysqlhosting.net/sql7153567";
         Properties properties = new Properties();
