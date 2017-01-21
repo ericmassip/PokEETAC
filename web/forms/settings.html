@@ -127,9 +127,37 @@
     $(document).ready(function () {
         showNavbar();
 
-        $("#testButton").click(function(){
-            var file = document.querySelector('input[type="file"]').files[0];
-            getBase64(file);
+        $("#createButton").click(function () {
+            if ($("#newProfemonName").val().length > 0 && $("#newProfemonIL").val() > 0
+                && $("#newProfemonIL").val() < 4 && $('#imageInput').val().length != 0) {
+                $.ajax({
+                    type: "GET",
+                    url: "http://localhost:8080/pokeetac/profemon/all/",
+                    contentType: "application/json",
+                    success: [
+                        function (data) {
+                            var profemonExists = false;
+                            $.each(data, function (i, obj) {
+                                if (obj.name.toLowerCase() === $("#newProfemonName").val().toLowerCase()) {
+                                    alert("A profemon with that name already exists!");
+                                    profemonExists = true;
+                                }
+                            });
+                            if(!profemonExists) {
+                                createProfemon();
+                            }
+                        }
+                    ],
+                    error: [
+                        function (request, status) {
+                            alert(status);
+                        }
+                    ]
+                });
+            }
+            else {
+                alert("Name, inital level or image invalid");
+            }
         });
 
         $.ajax({
@@ -200,7 +228,6 @@
                id="newProfemonIL" placeholder="Initial Level"><br>
         <input id="imageInput" type="file" name="imageInput" accept="image/*" onchange="imagePreview()">
         <button class="btn btn-primary active" id="createButton">Create</button>
-        <button id ="testButton">Test image upload</button><br>
         <img src="" height="200" alt="Image preview...">
     </div>
 </div>
