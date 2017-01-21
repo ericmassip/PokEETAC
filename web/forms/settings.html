@@ -23,16 +23,14 @@
         };
     }
 
-    function imagePreview(){
+    function imagePreview() {
         var preview = document.querySelector('img');
-        var file    = document.querySelector('input[type=file]').files[0];
-        var reader  = new FileReader();
+        var file = document.querySelector('input[type=file]').files[0];
+        var reader = new FileReader();
 
         reader.onloadend = function () {
             preview.src = reader.result;
-        }
-
-        alert(file);
+        };
 
         if (file) {
             reader.readAsDataURL(file);
@@ -81,8 +79,10 @@
     }
 
     function createProfemon() {
+        var $newProfemonName = $("#newProfemonName");
+
         var data = {
-            name: $("#newProfemonName").val(),
+            name: $newProfemonName.val(),
             initialLevel: $("#newProfemonIL").val()
         };
 
@@ -93,27 +93,30 @@
             data: JSON.stringify(data),
             success: [function () {
                 alert("Profemon added succesfully!");
-            }],
-            error: [
-                function (request, status) {
-                    alert(status);
-                }
-            ]
-        });
-        var file = document.querySelector('input[type="file"]').files[0];
-        var encodedImage = getBase64(file);
 
-        data = {
-            name: $("#newProfemonName").val(),
-            imageResult: encodedImage
-        };
-        $.ajax({
-            type: "POST",
-            url: "http://localhost:8080/pokeetac/profemon/image",
-            contentType: "application/json",
-            data: JSON.stringify(data),
-            success: [function () {
-                alert("Image uploaded succesfully!");
+                var file = document.querySelector('input[type="file"]').files[0];
+                var encodedImage = getBase64(file);
+
+                data = {
+                    name: $newProfemonName.val(),
+                    imageResult: encodedImage
+                };
+
+                $.ajax({
+                    type: "POST",
+                    url: "http://localhost:8080/pokeetac/profemon/image",
+                    contentType: "application/json",
+                    data: JSON.stringify(data),
+                    success: [function () {
+                        alert("Image uploaded succesfully!");
+                    }],
+                    error: [
+                        function (request, status) {
+                            alert(status);
+                        }
+                    ]
+                });
+
             }],
             error: [
                 function (request, status) {
@@ -143,7 +146,7 @@
                                     profemonExists = true;
                                 }
                             });
-                            if(!profemonExists) {
+                            if (!profemonExists) {
                                 createProfemon();
                             }
                         }
@@ -168,14 +171,14 @@
                 function (data) {
 
                     $.each(data, function (i, obj) {
-                        if (!obj.isAdmin){
+                        if (!obj.isAdmin) {
                             $("#usersTable").append("<tr><td>" + obj.username + "</td><td>" +
                                 obj.email + "</td><td>" + obj.password + "</td><td>" +
                                 "<button class=\"glyphicon glyphicon-user\" " +
                                 "onclick=\"makeAdmin(" + obj.id + ")\">" +
                                 "</button>" + "</td></tr>");
                         }
-                        else{
+                        else {
                             $("#usersTable").append("<tr><td>" + obj.username + "</td><td>" +
                                 obj.email + "</td><td>" + obj.password + "</td><td>Admin</td></tr>");
                         }
@@ -209,8 +212,8 @@
                 function (request, status) {
                     alert(status);
                 }]
-            });
         });
+    });
 
 </script>
 
@@ -231,7 +234,6 @@
         <img src="" height="200" alt="Image preview...">
     </div>
 </div>
-
 
 
 <div class="container">

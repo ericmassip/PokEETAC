@@ -29264,3 +29264,383 @@
 2017-01-18 18:47:21,814 INFO  - Router with BSSID null selected
 2017-01-18 18:47:21,815 INFO  - Router with BSSID null selected
 2017-01-18 18:47:21,816 INFO  - Router with BSSID null selected
+2017-01-18 19:37:56,014 INFO  - All Users selected
+2017-01-18 19:37:56,299 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-18 19:37:56,469 INFO  - All Users selected
+2017-01-18 19:37:56,474 INFO  - All Profemons selected
+2017-01-18 19:38:34,568 INFO  - All Profemons selected
+2017-01-18 19:38:46,491 INFO  - All Profemons selected filtered by 3
+2017-01-18 19:38:51,851 INFO  - All Profemons selected
+2017-01-18 19:38:52,879 INFO  - All Users selected
+2017-01-18 19:38:52,880 INFO  - All Profemons selected
+2017-01-18 19:39:03,189 INFO  - User selected: eric from id 1
+2017-01-18 19:39:03,196 INFO  - User selected: eric from id 1
+2017-01-18 19:39:03,196 INFO  - User selected: eric from id 1
+2017-01-18 19:39:03,196 INFO  - User selected: eric from id 1
+2017-01-18 19:39:03,205 INFO  - eric's capturados selected
+2017-01-18 19:39:03,205 INFO  - eric's capturados selected
+2017-01-18 19:39:03,206 INFO  - eric's capturados selected
+2017-01-18 19:39:03,211 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:03,211 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:03,211 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:03,219 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:03,219 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:03,221 INFO  - Location selected: latitude -> 41.275424, longitude -> 1.986586, floor -> 0 from id 1
+2017-01-18 19:39:03,224 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:03,224 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:03,225 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:03,228 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:03,228 INFO  - Location selected: latitude -> 41.275182, longitude -> 1.986688, floor -> 0 from id 2
+2017-01-18 19:39:03,228 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:03,233 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:03,233 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:03,233 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:03,238 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:03,238 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-18 19:39:03,238 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:03,243 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:03,243 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:03,243 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:03,248 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:03,248 INFO  - Location selected: latitude -> 41.275403, longitude -> 1.98741, floor -> 0 from id 16
+2017-01-18 19:39:03,248 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:03,252 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:03,252 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:03,252 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:03,257 INFO  - Location selected: latitude -> 41.274859, longitude -> 1.987216, floor -> 0 from id 14
+2017-01-18 19:39:03,261 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:03,265 INFO  - Location selected: latitude -> 41.274859, longitude -> 1.987216, floor -> 0 from id 14
+2017-01-18 19:39:03,268 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:03,272 INFO  - Location selected: latitude -> 41.274927, longitude -> 1.986111, floor -> 0 from id 9
+2017-01-18 19:39:03,276 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:03,280 INFO  - Location selected: latitude -> 41.27554, longitude -> 1.985849, floor -> 0 from id 7
+2017-01-18 19:39:03,280 INFO  - User selected: eric from id 1
+2017-01-18 19:39:03,285 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:03,286 INFO  - eric's capturados selected
+2017-01-18 19:39:03,288 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-18 19:39:03,292 INFO  - User selected: eric from id 1
+2017-01-18 19:39:03,297 INFO  - eric's capturados selected
+2017-01-18 19:39:03,301 INFO  - User selected: eric from id 1
+2017-01-18 19:39:03,306 INFO  - User selected: eric from id 1
+2017-01-18 19:39:03,306 INFO  - eric's capturados selected
+2017-01-18 19:39:03,310 INFO  - User selected: eric from id 1
+2017-01-18 19:39:03,312 INFO  - eric's capturados selected
+2017-01-18 19:39:03,315 INFO  - eric's capturados selected
+2017-01-18 19:39:03,317 INFO  - eric's all capturados intents selected
+2017-01-18 19:39:03,318 INFO  - User selected: eric from id 1
+2017-01-18 19:39:03,324 INFO  - eric's capturados selected
+2017-01-18 19:39:03,331 INFO  - User selected: eric from id 1
+2017-01-18 19:39:03,337 INFO  - eric's capturados selected
+2017-01-18 19:39:03,341 INFO  - User selected: eric from id 1
+2017-01-18 19:39:03,346 INFO  - eric's capturados selected
+2017-01-18 19:39:11,772 INFO  - All Users selected
+2017-01-18 19:39:11,772 INFO  - All Profemons selected
+2017-01-18 19:39:43,148 INFO  - All Profemons selected
+2017-01-18 19:39:44,474 INFO  - User selected: eric from id 1
+2017-01-18 19:39:44,480 INFO  - eric's capturados selected
+2017-01-18 19:39:44,484 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:44,487 INFO  - Location selected: latitude -> 41.275424, longitude -> 1.986586, floor -> 0 from id 1
+2017-01-18 19:39:44,488 INFO  - User selected: eric from id 1
+2017-01-18 19:39:44,489 INFO  - User selected: eric from id 1
+2017-01-18 19:39:44,489 INFO  - User selected: eric from id 1
+2017-01-18 19:39:44,493 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:44,495 INFO  - eric's capturados selected
+2017-01-18 19:39:44,495 INFO  - eric's capturados selected
+2017-01-18 19:39:44,499 INFO  - Location selected: latitude -> 41.275182, longitude -> 1.986688, floor -> 0 from id 2
+2017-01-18 19:39:44,499 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:44,499 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:44,502 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:44,503 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:44,503 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:44,505 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-18 19:39:44,506 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:44,506 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:44,508 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:44,508 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:44,508 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:44,512 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:44,512 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:44,512 INFO  - Location selected: latitude -> 41.275403, longitude -> 1.98741, floor -> 0 from id 16
+2017-01-18 19:39:44,517 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:44,517 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:44,517 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:44,521 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:44,521 INFO  - Location selected: latitude -> 41.274859, longitude -> 1.987216, floor -> 0 from id 14
+2017-01-18 19:39:44,521 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:44,525 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:44,525 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:44,525 INFO  - Profemon selected: Venusals from id 2
+2017-01-18 19:39:44,530 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:44,530 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:44,530 INFO  - Location selected: latitude -> 41.274859, longitude -> 1.987216, floor -> 0 from id 14
+2017-01-18 19:39:44,533 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:44,537 INFO  - Location selected: latitude -> 41.274927, longitude -> 1.986111, floor -> 0 from id 9
+2017-01-18 19:39:44,540 INFO  - Profemon selected: Blastoller from id 3
+2017-01-18 19:39:44,543 INFO  - Location selected: latitude -> 41.27554, longitude -> 1.985849, floor -> 0 from id 7
+2017-01-18 19:39:44,546 INFO  - Profemon selected: Juanizard from id 1
+2017-01-18 19:39:44,547 INFO  - User selected: eric from id 1
+2017-01-18 19:39:44,549 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-18 19:39:44,550 INFO  - eric's capturados selected
+2017-01-18 19:39:44,553 INFO  - User selected: eric from id 1
+2017-01-18 19:39:44,557 INFO  - eric's capturados selected
+2017-01-18 19:39:44,560 INFO  - User selected: eric from id 1
+2017-01-18 19:39:44,564 INFO  - User selected: eric from id 1
+2017-01-18 19:39:44,564 INFO  - eric's capturados selected
+2017-01-18 19:39:44,567 INFO  - User selected: eric from id 1
+2017-01-18 19:39:44,568 INFO  - eric's capturados selected
+2017-01-18 19:39:44,572 INFO  - eric's capturados selected
+2017-01-18 19:39:44,573 INFO  - eric's all capturados intents selected
+2017-01-18 19:39:44,576 INFO  - User selected: eric from id 1
+2017-01-18 19:39:44,581 INFO  - eric's capturados selected
+2017-01-18 19:39:44,585 INFO  - User selected: eric from id 1
+2017-01-18 19:39:44,588 INFO  - eric's capturados selected
+2017-01-18 19:39:44,591 INFO  - User selected: eric from id 1
+2017-01-18 19:39:44,595 INFO  - eric's capturados selected
+2017-01-18 19:39:45,577 INFO  - All Profemons selected
+2017-01-18 19:39:45,577 INFO  - All Users selected
+2017-01-18 19:39:47,047 INFO  - All Users selected
+2017-01-18 19:39:47,048 INFO  - All Profemons selected
+2017-01-18 19:43:13,252 INFO  - All Users selected
+2017-01-18 19:43:13,253 INFO  - All Profemons selected
+2017-01-18 19:43:53,173 INFO  - All Users selected
+2017-01-18 19:43:53,175 INFO  - All Profemons selected
+2017-01-19 13:29:54,188 INFO  - All Users selected
+2017-01-19 13:29:54,500 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-19 13:29:54,976 INFO  - User selected: eric from id 1
+2017-01-19 13:29:54,981 INFO  - User selected: eric from id 1
+2017-01-19 13:29:54,995 INFO  - eric's capturados selected
+2017-01-19 13:29:55,006 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 13:29:55,011 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 13:29:55,016 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 13:29:55,026 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 13:29:55,033 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 13:29:55,036 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 13:29:55,039 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 13:29:55,048 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 13:29:55,053 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 13:29:55,568 INFO  - All Profemons selected
+2017-01-19 13:29:55,572 INFO  - All Locations selected
+2017-01-19 13:29:55,586 INFO  - Profemon selected: Gallengar from id 4
+2017-01-19 13:29:55,589 INFO  - Profemon selected: Remonchan from id 6
+2017-01-19 13:29:55,592 INFO  - Profemon selected: Gallengar from id 4
+2017-01-19 13:29:55,595 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 13:29:55,598 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 13:29:55,601 INFO  - Profemon selected: Robetwo from id 8
+2017-01-19 13:29:55,604 INFO  - Profemon selected: Remonchan from id 6
+2017-01-19 13:29:55,607 INFO  - Profemon selected: Hypneguer from id 5
+2017-01-19 13:29:55,610 INFO  - Profemon selected: Gallengar from id 4
+2017-01-19 13:29:55,614 INFO  - Profemon selected: Robetwo from id 8
+2017-01-19 13:29:55,618 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 13:29:55,625 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 13:29:55,627 INFO  - Profemon selected: Hypneguer from id 5
+2017-01-19 13:29:55,630 INFO  - Profemon selected: Remonchan from id 6
+2017-01-19 13:29:55,633 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 13:29:55,638 INFO  - Profemon selected: Rinconlee from id 7
+2017-01-19 13:29:55,646 INFO  - Profemon selected: Rinconlee from id 7
+2017-01-19 13:29:55,653 INFO  - Profemon selected: Remonchan from id 6
+2017-01-19 13:29:55,656 INFO  - Profemon selected: Remonchan from id 6
+2017-01-19 13:29:55,659 INFO  - Profemon selected: Hypneguer from id 5
+2017-01-19 13:29:55,669 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 13:29:55,674 INFO  - Profemon selected: Hypneguer from id 5
+2017-01-19 13:29:55,678 INFO  - Profemon selected: Remonchan from id 6
+2017-01-19 13:29:55,686 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 13:29:55,697 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 13:29:55,706 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 13:30:11,356 INFO  - User selected: eric from id 1
+2017-01-19 13:30:11,364 INFO  - eric's capturados selected
+2017-01-19 13:30:11,367 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 13:30:11,370 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 13:30:11,372 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 13:30:11,374 INFO  - Capturado added: profemon id 4
+2017-01-19 13:30:11,376 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 13:30:11,379 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 13:30:11,382 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 13:30:11,385 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 13:30:11,388 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 13:30:11,391 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 13:31:45,624 INFO  - All Users selected
+2017-01-19 13:34:01,073 INFO  - All Users selected
+2017-01-19 13:34:01,073 INFO  - All Users selected
+2017-01-19 20:53:32,770 INFO  - All Users selected
+2017-01-19 20:53:33,042 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-19 20:53:33,209 INFO  - All Users selected
+2017-01-19 20:53:33,217 INFO  - All Profemons selected
+2017-01-19 20:54:06,970 INFO  - All Profemons selected
+2017-01-19 20:55:02,090 INFO  - User selected: eric from id 1
+2017-01-19 20:55:02,100 INFO  - eric's capturados selected
+2017-01-19 20:55:02,105 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 20:55:02,105 INFO  - User selected: eric from id 1
+2017-01-19 20:55:02,105 INFO  - User selected: eric from id 1
+2017-01-19 20:55:02,105 INFO  - User selected: eric from id 1
+2017-01-19 20:55:02,111 INFO  - Location selected: latitude -> 41.275424, longitude -> 1.986586, floor -> 0 from id 1
+2017-01-19 20:55:02,112 INFO  - eric's capturados selected
+2017-01-19 20:55:02,113 INFO  - eric's capturados selected
+2017-01-19 20:55:02,114 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 20:55:02,116 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 20:55:02,117 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 20:55:02,117 INFO  - Location selected: latitude -> 41.275182, longitude -> 1.986688, floor -> 0 from id 2
+2017-01-19 20:55:02,119 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 20:55:02,120 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 20:55:02,120 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 20:55:02,123 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 20:55:02,125 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 20:55:02,125 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-19 20:55:02,127 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 20:55:02,128 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 20:55:02,128 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 20:55:02,133 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 20:55:02,133 INFO  - Location selected: latitude -> 41.275403, longitude -> 1.98741, floor -> 0 from id 16
+2017-01-19 20:55:02,133 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 20:55:02,137 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 20:55:02,137 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 20:55:02,137 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 20:55:02,142 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 20:55:02,142 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 20:55:02,142 INFO  - Location selected: latitude -> 41.274859, longitude -> 1.987216, floor -> 0 from id 14
+2017-01-19 20:55:02,146 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 20:55:02,146 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 20:55:02,146 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 20:55:02,150 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 20:55:02,150 INFO  - Location selected: latitude -> 41.274859, longitude -> 1.987216, floor -> 0 from id 14
+2017-01-19 20:55:02,150 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 20:55:02,154 INFO  - Profemon selected: Gallengar from id 4
+2017-01-19 20:55:02,154 INFO  - Profemon selected: Gallengar from id 4
+2017-01-19 20:55:02,154 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 20:55:02,157 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 20:55:02,158 INFO  - Location selected: latitude -> 41.274927, longitude -> 1.986111, floor -> 0 from id 9
+2017-01-19 20:55:02,157 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 20:55:02,162 INFO  - Profemon selected: Blastoller from id 3
+2017-01-19 20:55:02,165 INFO  - Location selected: latitude -> 41.27554, longitude -> 1.985849, floor -> 0 from id 7
+2017-01-19 20:55:02,168 INFO  - Profemon selected: Juanizard from id 1
+2017-01-19 20:55:02,172 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-19 20:55:02,175 INFO  - Profemon selected: Gallengar from id 4
+2017-01-19 20:55:02,176 INFO  - User selected: eric from id 1
+2017-01-19 20:55:02,178 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-19 20:55:02,181 INFO  - eric's capturados selected
+2017-01-19 20:55:02,181 INFO  - Profemon selected: Venusals from id 2
+2017-01-19 20:55:02,184 INFO  - Location selected: latitude -> 41.275182, longitude -> 1.986688, floor -> 0 from id 2
+2017-01-19 20:55:02,186 INFO  - User selected: eric from id 1
+2017-01-19 20:55:02,191 INFO  - eric's capturados selected
+2017-01-19 20:55:02,194 INFO  - User selected: eric from id 1
+2017-01-19 20:55:02,203 INFO  - eric's capturados selected
+2017-01-19 20:55:02,203 INFO  - User selected: eric from id 1
+2017-01-19 20:55:02,206 INFO  - User selected: eric from id 1
+2017-01-19 20:55:02,208 INFO  - eric's capturados selected
+2017-01-19 20:55:02,221 INFO  - eric's capturados selected
+2017-01-19 20:55:02,225 INFO  - eric's all capturados intents selected
+2017-01-19 20:55:02,233 INFO  - User selected: eric from id 1
+2017-01-19 20:55:02,239 INFO  - eric's capturados selected
+2017-01-19 20:55:02,243 INFO  - User selected: eric from id 1
+2017-01-19 20:55:02,248 INFO  - eric's capturados selected
+2017-01-19 20:55:02,251 INFO  - User selected: eric from id 1
+2017-01-19 20:55:02,255 INFO  - eric's capturados selected
+2017-01-19 20:55:26,042 INFO  - All Users selected
+2017-01-19 20:55:26,043 INFO  - All Profemons selected
+2017-01-21 01:36:00,730 INFO  - All Users selected
+2017-01-21 01:36:01,021 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-21 01:36:01,222 INFO  - All Users selected
+2017-01-21 01:36:01,227 INFO  - All Profemons selected
+2017-01-21 01:36:06,318 INFO  - All Users selected
+2017-01-21 01:36:06,318 INFO  - All Profemons selected
+2017-01-21 01:37:37,487 INFO  - All Users selected
+2017-01-21 01:37:37,488 INFO  - All Profemons selected
+2017-01-21 01:41:24,290 INFO  - All Users selected
+2017-01-21 01:41:24,292 INFO  - All Profemons selected
+2017-01-21 01:42:12,737 INFO  - images/profedex/calmarno.png (No such file or directory)
+2017-01-21 01:42:12,749 INFO  - Profemon added: calmarno with id 9
+2017-01-21 01:50:31,064 INFO  - All Users selected
+2017-01-21 01:50:31,065 INFO  - All Profemons selected
+2017-01-21 01:50:44,119 INFO  - Profemon selected: calmarno from id 9
+2017-01-21 01:50:44,125 INFO  - Profemon deleted: calmarno
+2017-01-21 01:50:45,807 INFO  - All Users selected
+2017-01-21 01:50:45,815 INFO  - All Profemons selected
+2017-01-21 01:50:56,572 ERROR - /images/profedex/calmarno.png (No such file or directory)
+2017-01-21 01:50:56,579 INFO  - Profemon added: calmarno with id 10
+2017-01-21 01:51:25,202 INFO  - All Users selected
+2017-01-21 01:51:25,204 INFO  - All Profemons selected
+2017-01-21 01:51:28,648 INFO  - Profemon selected: calmarno from id 10
+2017-01-21 01:51:28,659 INFO  - Profemon deleted: calmarno
+2017-01-21 01:51:30,064 INFO  - All Users selected
+2017-01-21 01:51:30,065 INFO  - All Profemons selected
+2017-01-21 01:51:38,649 ERROR - /web/images/profedex/calmarno.png (No such file or directory)
+2017-01-21 01:51:38,656 INFO  - Profemon added: calmarno with id 11
+2017-01-21 01:51:48,984 INFO  - All Users selected
+2017-01-21 01:51:48,986 INFO  - All Profemons selected
+2017-01-21 01:56:58,746 INFO  - All Users selected
+2017-01-21 01:56:58,748 INFO  - All Profemons selected
+2017-01-21 01:57:25,001 ERROR - Developer/Git/PokEETAC/web/images/profedex/calmarno.png (No such file or directory)
+2017-01-21 01:57:25,008 INFO  - Profemon added: calmarno with id 12
+2017-01-21 01:59:04,034 INFO  - Profemon selected: calmarno from id 11
+2017-01-21 01:59:04,042 INFO  - Profemon deleted: calmarno
+2017-01-21 01:59:05,929 INFO  - All Profemons selected
+2017-01-21 01:59:05,931 INFO  - All Users selected
+2017-01-21 01:59:17,884 ERROR - 
+2017-01-21 01:59:17,891 INFO  - Profemon added: calmarno with id 13
+2017-01-21 02:00:02,555 INFO  - Profemon selected: calmarno from id 12
+2017-01-21 02:00:02,564 INFO  - Profemon deleted: calmarno
+2017-01-21 02:00:04,485 INFO  - All Profemons selected
+2017-01-21 02:00:04,486 INFO  - All Users selected
+2017-01-21 02:00:08,230 INFO  - Profemon selected: calmarno from id 13
+2017-01-21 02:00:08,239 INFO  - Profemon deleted: calmarno
+2017-01-21 02:00:09,805 INFO  - All Users selected
+2017-01-21 02:00:09,807 INFO  - All Profemons selected
+2017-01-21 02:00:20,574 INFO  - Profemon added: calmarno with id 14
+2017-01-21 02:01:18,904 INFO  - All Users selected
+2017-01-21 02:01:18,907 INFO  - All Profemons selected
+2017-01-21 02:01:22,233 INFO  - Profemon selected: calmarno from id 14
+2017-01-21 02:01:22,242 INFO  - Profemon deleted: calmarno
+2017-01-21 02:01:24,140 INFO  - All Users selected
+2017-01-21 02:01:24,142 INFO  - All Profemons selected
+2017-01-21 02:03:45,871 INFO  - All Users selected
+2017-01-21 02:03:45,874 INFO  - All Profemons selected
+2017-01-21 02:04:00,918 INFO  - Profemon added: calmarno with id 15
+2017-01-21 02:04:46,225 INFO  - All Users selected
+2017-01-21 02:04:46,228 INFO  - All Profemons selected
+2017-01-21 02:05:08,643 INFO  - Profemon added: calmarno with id 16
+2017-01-21 02:06:10,170 INFO  - Profemon selected: calmarno from id 15
+2017-01-21 02:06:10,180 INFO  - Profemon deleted: calmarno
+2017-01-21 02:06:13,058 INFO  - All Users selected
+2017-01-21 02:06:13,061 INFO  - All Profemons selected
+2017-01-21 02:06:15,838 INFO  - Profemon selected: calmarno from id 16
+2017-01-21 02:06:15,847 INFO  - Profemon deleted: calmarno
+2017-01-21 02:06:17,371 INFO  - All Users selected
+2017-01-21 02:06:17,374 INFO  - All Profemons selected
+2017-01-21 02:12:04,445 INFO  - Profemon added: calmarno with id 17
+2017-01-21 02:14:24,869 INFO  - All Users selected
+2017-01-21 02:14:24,871 INFO  - All Profemons selected
+2017-01-21 02:14:33,647 INFO  - Profemon selected: calmarno from id 17
+2017-01-21 02:14:33,657 INFO  - Profemon deleted: calmarno
+2017-01-21 02:14:35,172 INFO  - All Users selected
+2017-01-21 02:14:35,174 INFO  - All Profemons selected
+2017-01-21 02:14:47,486 INFO  - All Profemons selected
+2017-01-21 02:14:47,542 INFO  - Profemon added: dfasd with id 18
+2017-01-21 02:18:30,801 INFO  - All Users selected
+2017-01-21 02:18:30,803 INFO  - All Profemons selected
+2017-01-21 02:18:44,308 INFO  - All Profemons selected
+2017-01-21 02:18:44,369 INFO  - Profemon added: fdsfas with id 19
+2017-01-21 02:20:10,228 INFO  - All Users selected
+2017-01-21 02:20:10,229 INFO  - All Profemons selected
+2017-01-21 02:20:22,582 INFO  - All Profemons selected
+2017-01-21 02:20:22,645 INFO  - Profemon added: calman with id 20
+2017-01-21 02:20:47,117 INFO  - All Users selected
+2017-01-21 02:20:47,117 INFO  - All Profemons selected
+2017-01-21 02:24:58,126 INFO  - All Users selected
+2017-01-21 02:24:58,128 INFO  - All Profemons selected
+2017-01-21 02:25:31,215 INFO  - All Profemons selected
+2017-01-21 02:25:31,276 INFO  - Profemon added: sad with id 21
+2017-01-21 02:26:39,982 INFO  - All Users selected
+2017-01-21 02:26:39,984 INFO  - All Profemons selected
+2017-01-21 02:26:49,147 INFO  - All Profemons selected
+2017-01-21 02:26:49,207 INFO  - Profemon added: casa with id 22
+2017-01-21 02:27:38,234 INFO  - All Users selected
+2017-01-21 02:27:38,234 INFO  - All Profemons selected
+2017-01-21 02:27:48,054 INFO  - All Profemons selected
+2017-01-21 02:27:48,077 INFO  - Profemon added: csdsa with id 23
+2017-01-21 02:28:28,210 INFO  - All Users selected
+2017-01-21 02:28:28,212 INFO  - All Profemons selected
+2017-01-21 02:28:35,799 INFO  - All Profemons selected
+2017-01-21 02:28:35,867 INFO  - Profemon added: dfsfa with id 24
+2017-01-21 02:33:58,228 INFO  - All Users selected
+2017-01-21 02:33:58,229 INFO  - All Profemons selected
+2017-01-21 02:34:09,654 INFO  - All Profemons selected
+2017-01-21 02:34:09,716 INFO  - Profemon added: dfasdf with id 25

@@ -11,7 +11,6 @@ import org.apache.log4j.Logger;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
-import java.awt.*;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.util.List;
@@ -47,15 +46,12 @@ public class ProfemonService {
     @POST
     @Path("/image")
     public void saveImage (ImageResult imageResult ) {
-
-        byte[] data = Base64.decodeBase64(
-                "Aqui es donde va la string gigante," +
-                        " pero si la metes aqui a pelo te dará error porque es demasiado grande");
-        try (OutputStream stream = new FileOutputStream("path/to/profedex/nombre.png")) {
+        byte[] data = Base64.decodeBase64(imageResult.image);
+        try (OutputStream stream = new FileOutputStream("/Users/ericmassip/Developer/Git/PokEETAC/web/images/profedex/" + imageResult.name + ".png")) {
             stream.write(data);
         }
         catch(Exception e){
-            log.info(e.getMessage());
+            e.printStackTrace();
         }
     }
 
