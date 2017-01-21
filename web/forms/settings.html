@@ -5,7 +5,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="../js/pokeetac.js"></script>
-    <script src="/js/imageUpload.js"></script>
     <link href="/css/profemonFeatures.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <title>Settings</title>
@@ -13,6 +12,34 @@
 <body>
 
 <script>
+    function getBase64(file) {
+        var reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = function () {
+            return reader.result;
+        };
+        reader.onerror = function (error) {
+            alert('Error: ', error);
+        };
+    }
+
+    function imagePreview(){
+        var preview = document.querySelector('img');
+        var file    = document.querySelector('input[type=file]').files[0];
+        var reader  = new FileReader();
+
+        reader.onloadend = function () {
+            preview.src = reader.result;
+        }
+
+        alert(file);
+
+        if (file) {
+            reader.readAsDataURL(file);
+        } else {
+            preview.src = "";
+        }
+    }
 
     function deleteProfemon(id) {
         $.ajax({
@@ -66,7 +93,27 @@
             data: JSON.stringify(data),
             success: [function () {
                 alert("Profemon added succesfully!");
-                location.reload();
+            }],
+            error: [
+                function (request, status) {
+                    alert(status);
+                }
+            ]
+        });
+        var file = document.querySelector('input[type="file"]').files[0];
+        var encodedImage = getBase64(file);
+
+        data = {
+            name: $("#newProfemonName").val(),
+            imageResult: encodedImage
+        };
+        $.ajax({
+            type: "POST",
+            url: "http://localhost:8080/pokeetac/profemon/image",
+            contentType: "application/json",
+            data: JSON.stringify(data),
+            success: [function () {
+                alert("Image uploaded succesfully!");
             }],
             error: [
                 function (request, status) {
@@ -81,7 +128,8 @@
         showNavbar();
 
         $("#testButton").click(function(){
-            uploadFile();
+            var file = document.querySelector('input[type="file"]').files[0];
+            getBase64(file);
         });
 
         $.ajax({
@@ -150,9 +198,10 @@
                id="newProfemonName" placeholder="Name" maxlength="10"><br>
         <input type="text" name="newProfemonIL" title="newProfemonIL"
                id="newProfemonIL" placeholder="Initial Level"><br>
-        <input id="imageInput" type="file" name="imageInput" accept="image/*" placeholder="Upload an image">
+        <input id="imageInput" type="file" name="imageInput" accept="image/*" onchange="imagePreview()">
         <button class="btn btn-primary active" id="createButton">Create</button>
-        <button id ="testButton">Test image upload</button>
+        <button id ="testButton">Test image upload</button><br>
+        <img src="" height="200" alt="Image preview...">
     </div>
 </div>
 
