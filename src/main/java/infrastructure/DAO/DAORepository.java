@@ -20,10 +20,10 @@ public class DAORepository extends DAOBusiness implements DAOInterface {
 //        String DB_URL = "jdbc:mysql://147.83.7.207:3306/PokEETAC";
 //        String DB_URL = "jdbc:mysql://sql7.freemysqlhosting.net/sql7153567";
         Properties properties = new Properties();
-//        properties.setProperty("user", "root");
-//        properties.setProperty("password", "Mazinger82");
         properties.setProperty("user", "root");
-        properties.setProperty("password", "erinHo10");
+        properties.setProperty("password", "Mazinger82");
+//        properties.setProperty("user", "root");
+//        properties.setProperty("password", "erinHo10");
 //        properties.setProperty("user", "sql7153567");
 //        properties.setProperty("password", "u3QKa3ktGq");
         properties.setProperty("useSSL", "false");

@@ -42,7 +42,7 @@
     function deleteProfemon(id) {
         $.ajax({
             type: "DELETE",
-            url: "http://localhost:8080/pokeetac/profemon/" + id,
+            url: "http://147.83.7.207:8080/pokeetac/profemon/" + id,
             contentType: "application/json",
             success: [function () {
                 alert("Profemon deleted succesfully!");
@@ -63,7 +63,7 @@
         };
         $.ajax({
             type: "PUT",
-            url: "http://localhost:8080/pokeetac/user/admin",
+            url: "http://147.83.7.207:8080/pokeetac/user/admin",
             contentType: "application/json",
             data: JSON.stringify(data),
             success: [function () {
@@ -88,7 +88,7 @@
 
         $.ajax({
             type: "POST",
-            url: "http://localhost:8080/pokeetac/profemon",
+            url: "http://147.83.7.207:8080/pokeetac/profemon",
             contentType: "application/json",
             data: JSON.stringify(data),
             success: [function () {
@@ -104,7 +104,7 @@
 
                 $.ajax({
                     type: "POST",
-                    url: "http://localhost:8080/pokeetac/profemon/image",
+                    url: "http://147.83.7.207:8080/pokeetac/profemon/image",
                     contentType: "application/json",
                     data: JSON.stringify(data),
                     success: [function () {
@@ -135,7 +135,7 @@
                 && $("#newProfemonIL").val() < 4 && $('#imageInput').val().length != 0) {
                 $.ajax({
                     type: "GET",
-                    url: "http://localhost:8080/pokeetac/profemon/all/",
+                    url: "http://147.83.7.207:8080/pokeetac/profemon/all/",
                     contentType: "application/json",
                     success: [
                         function (data) {
@@ -165,7 +165,7 @@
 
         $.ajax({
             type: "GET",
-            url: "http://localhost:8080/pokeetac/user/all/",
+            url: "http://147.83.7.207:8080/pokeetac/user/all/",
             contentType: "application/json",
             success: [
                 function (data) {
@@ -195,7 +195,7 @@
 
         $.ajax({
             type: "GET",
-            url: "http://localhost:8080/pokeetac/profemon/all/",
+            url: "http://147.83.7.207:8080/pokeetac/profemon/all/",
             contentType: "application/json",
             success: [
                 function (data) {

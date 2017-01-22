@@ -22,7 +22,7 @@
             $("#profedexContainer").html("");
             $.ajax({
                 type: "GET",
-                url: "http://localhost:8080/pokeetac/profemon/all/" + $("#filterByText").val(),
+                url: "http://147.83.7.207:8080/pokeetac/profemon/all/" + $("#filterByText").val(),
                 contentType: "application/json",
                 success: [
                     function (data) {
