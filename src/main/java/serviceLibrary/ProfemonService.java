@@ -58,7 +58,7 @@ public class ProfemonService {
         byte[] imageBytes = javax.xml.bind.DatatypeConverter.parseBase64Binary(base64Image);
 
 
-        File imageFile = new File("D:/Developer/PokEETAC/web/images/profedex/" + imageResult.name + ".png");
+        File imageFile = new File("/home/ea0/PokEETAC/web/images/profedex/" + imageResult.name + ".png");
         try {
             BufferedImage bufferedImage = ImageIO.read(new ByteArrayInputStream(imageBytes));
             ImageIO.write(bufferedImage, "png", imageFile);
