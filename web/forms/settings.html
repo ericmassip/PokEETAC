@@ -12,16 +12,6 @@
 <body>
 
 <script>
-    function getBase64(file) {
-        var reader = new FileReader();
-        reader.readAsDataURL(file);
-        reader.onload = function () {
-            return reader.result;
-        };
-        reader.onerror = function (error) {
-            alert('Error: ', error);
-        };
-    }
 
     function imagePreview() {
         var preview = document.querySelector('img');
@@ -95,27 +85,29 @@
                 alert("Profemon added succesfully!");
 
                 var file = document.querySelector('input[type="file"]').files[0];
-                var encodedImage = getBase64(file);
 
-                data = {
-                    name: $newProfemonName.val(),
-                    imageResult: encodedImage
+                var reader = new FileReader();
+                reader.readAsDataURL(file);
+                reader.onload = function () {
+                    var encodedImage = reader.result;
+                    $.ajax({
+                        type: "POST",
+                        url: "http://localhost:8080/pokeetac/profemon/image",
+                        contentType: "application/json",
+                        data: '{"name":"' + $newProfemonName.val() + '","image":"' + encodedImage + '"}',
+                        success: [function () {
+
+                        }],
+                        error: [
+                            function (request, status) {
+                                alert(status);
+                            }
+                        ]
+                    });
+
                 };
 
-                $.ajax({
-                    type: "POST",
-                    url: "http://localhost:8080/pokeetac/profemon/image",
-                    contentType: "application/json",
-                    data: JSON.stringify(data),
-                    success: [function () {
-                        alert("Image uploaded succesfully!");
-                    }],
-                    error: [
-                        function (request, status) {
-                            alert(status);
-                        }
-                    ]
-                });
+
 
             }],
             error: [

@@ -1,5 +1,6 @@
 package serviceLibrary;
 
+
 import business.LocationBusiness;
 import business.ProfemonBusiness;
 import entity.Profemon;
@@ -9,11 +10,17 @@ import infrastructure.ProfemonRepository;
 import org.apache.commons.codec.binary.Base64;
 import org.apache.log4j.Logger;
 
+import javax.imageio.ImageIO;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
-import java.io.FileOutputStream;
-import java.io.OutputStream;
+import java.awt.image.BufferedImage;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.List;
+
+import sun.misc.BASE64Decoder;
 
 /**
  * Created by ericmassip on 5/12/16.
@@ -46,9 +53,15 @@ public class ProfemonService {
     @POST
     @Path("/image")
     public void saveImage (ImageResult imageResult ) {
-        byte[] data = Base64.decodeBase64(imageResult.image);
-        try (OutputStream stream = new FileOutputStream("/Users/ericmassip/Developer/Git/PokEETAC/web/images/profedex/" + imageResult.name + ".png")) {
-            stream.write(data);
+        String base64Image = imageResult.image.split(",")[1];
+
+        byte[] imageBytes = javax.xml.bind.DatatypeConverter.parseBase64Binary(base64Image);
+
+
+        File imageFile = new File("D:/Developer/PokEETAC/web/images/profedex/" + imageResult.name + ".png");
+        try {
+            BufferedImage bufferedImage = ImageIO.read(new ByteArrayInputStream(imageBytes));
+            ImageIO.write(bufferedImage, "png", imageFile);
         }
         catch(Exception e){
             e.printStackTrace();
