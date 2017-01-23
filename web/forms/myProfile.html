@@ -136,7 +136,7 @@
         if (sessionStorage.getItem("userIdCurrentlyLoggedIn") != null) {
             $.ajax({
                 type: "GET",
-                url: "http://localhost:8080/pokeetac/user/capturados/" + sessionStorage.getItem("userIdCurrentlyLoggedIn"),
+                url: "http://147.83.7.207:8080/pokeetac/user/capturados/" + sessionStorage.getItem("userIdCurrentlyLoggedIn"),
                 contentType: "application/json",
                 success: [
                     function (data) {

@@ -28,7 +28,7 @@
             if (inputsNotEmpty(".loginCredentials")) {
                 $.ajax({
                     type: "POST",
-                    url: "http://localhost:8080/pokeetac/user/login",
+                    url: "http://147.83.7.207:8080/pokeetac/user/login",
                     contentType: "application/json",
                     data: JSON.stringify(data),
                     success: [
@@ -74,7 +74,7 @@
                 if (isPasswordConfirmed()) {
                     $.ajax({
                         type: "POST",
-                        url: "http://localhost:8080/pokeetac/user/register",
+                        url: "http://147.83.7.207:8080/pokeetac/user/register",
                         contentType: "application/json",
                         data: JSON.stringify(data),
                         success: [

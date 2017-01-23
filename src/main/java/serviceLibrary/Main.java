@@ -14,7 +14,7 @@ import java.net.URI;
  */
 public class Main {
     // Base URI the Grizzly HTTP server will listen on
-    public static final String BASE_URI = "http://localhost:8080/pokeetac";
+    public static final String BASE_URI = "http://147.83.7.207:8080/pokeetac";
 
     /**
      * Starts Grizzly HTTP server exposing JAX-RS resources defined in this application.

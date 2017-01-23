@@ -1,7 +1,7 @@
 function setUsername(userIdCurrentlyLoggedIn) {
     $.ajax({
         type: "GET",
-        url: "http://localhost:8080/pokeetac/user/" + userIdCurrentlyLoggedIn,
+        url: "http://147.83.7.207:8080/pokeetac/user/" + userIdCurrentlyLoggedIn,
         contentType: "application/json",
         success: [
             function (data) {
@@ -19,7 +19,7 @@ function setUsername(userIdCurrentlyLoggedIn) {
 function setUserLevel(userIdCurrentlyLoggedIn) {
     $.ajax({
         type: "GET",
-        url: "http://localhost:8080/pokeetac/user/level/" + userIdCurrentlyLoggedIn,
+        url: "http://147.83.7.207:8080/pokeetac/user/level/" + userIdCurrentlyLoggedIn,
         contentType: "application/json",
         success: [
             function (data) {
@@ -37,7 +37,7 @@ function setUserLevel(userIdCurrentlyLoggedIn) {
 function fillProfemonsCarousel(userIdCurrentlyLoggedIn) {
     $.ajax({
         type: "GET",
-        url: "http://localhost:8080/pokeetac/user/profemons/" + userIdCurrentlyLoggedIn,
+        url: "http://147.83.7.207:8080/pokeetac/user/profemons/" + userIdCurrentlyLoggedIn,
         contentType: "application/json",
         success: [
             function (data) {
@@ -120,7 +120,7 @@ function createContainerBars() {
 function fillContainerBars(userIdCurrentlyLoggedIn) {
     $.ajax({
         type: "GET",
-        url: "http://localhost:8080/pokeetac/user/capturados/successfulByDay/" + userIdCurrentlyLoggedIn,
+        url: "http://147.83.7.207:8080/pokeetac/user/capturados/successfulByDay/" + userIdCurrentlyLoggedIn,
         contentType: "application/json",
         success: [
             function (data) {
@@ -177,7 +177,7 @@ function createContainerPie() {
 function fillContainerPie(userIdCurrentlyLoggedIn) {
     $.ajax({
         type: "GET",
-        url: "http://localhost:8080/pokeetac/user/capturados/successfulPercentage/" + userIdCurrentlyLoggedIn,
+        url: "http://147.83.7.207:8080/pokeetac/user/capturados/successfulPercentage/" + userIdCurrentlyLoggedIn,
         contentType: "application/json",
         success: [
             function (data) {
