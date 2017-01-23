@@ -23,8 +23,8 @@ public class DAORepository extends DAOBusiness implements DAOInterface {
         properties.setProperty("password", "Mazinger82");
 //        properties.setProperty("user", "root");
 //        properties.setProperty("password", "erinHo10");
-        properties.setProperty("user", "sql7153567");
-        properties.setProperty("password", "u3QKa3ktGq");
+//        properties.setProperty("user", "sql7153567");
+//        properties.setProperty("password", "u3QKa3ktGq");
         properties.setProperty("useSSL", "false");
         properties.setProperty("serverTimezone", "UTC");
         try{
