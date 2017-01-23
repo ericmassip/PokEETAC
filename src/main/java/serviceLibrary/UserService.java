@@ -76,10 +76,10 @@ public class UserService {
         DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         Calendar calendarDay = Calendar.getInstance();
         for (int i = 1; i < Calendar.DAY_OF_WEEK + 1; i++) {
-            calendarDay.add(Calendar.DATE, -1);
             SuccessfulCapturadoByDayResult successfulCapturadoByDayResult = new SuccessfulCapturadoByDayResult();
             successfulCapturadoByDayResult.setSuccessfulCapturadoByDayResult(dateFormat.format(calendarDay.getTime()), userBusiness.getSuccessfulCapturadosByDay(userId, calendarDay));
             successfulCapturadoByDayResults.add(successfulCapturadoByDayResult);
+            calendarDay.add(Calendar.DATE, -1);
         }
         return successfulCapturadoByDayResults;
     }

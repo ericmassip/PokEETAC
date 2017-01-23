@@ -29644,3 +29644,484 @@
 2017-01-21 02:33:58,229 INFO  - All Profemons selected
 2017-01-21 02:34:09,654 INFO  - All Profemons selected
 2017-01-21 02:34:09,716 INFO  - Profemon added: dfasdf with id 25
+2017-01-23 11:34:32,661 INFO  - All Users selected
+2017-01-23 11:34:32,990 INFO  - Login: samu tried to log in and the loginResult was false
+2017-01-23 11:34:44,860 INFO  - All Users selected
+2017-01-23 11:34:44,866 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-23 11:34:45,813 INFO  - User selected: eric from id 1
+2017-01-23 11:34:45,827 INFO  - User selected: eric from id 1
+2017-01-23 11:34:45,844 INFO  - eric's capturados selected
+2017-01-23 11:34:45,852 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 11:34:45,859 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 11:34:45,864 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 11:34:45,872 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 11:34:45,876 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 11:34:45,883 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 11:34:45,890 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 11:34:45,893 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 11:34:45,897 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 11:34:45,899 INFO  - Profemon selected: Gallengar from id 4
+2017-01-23 11:34:45,906 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 11:34:46,157 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,160 INFO  - Router with BSSID f4:1f:c2:d1:a2:90 selected
+2017-01-23 11:34:46,162 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,165 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,167 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,168 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,171 INFO  - Router with BSSID 0c:27:24:4e:4a:e0 selected
+2017-01-23 11:34:46,172 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,174 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,176 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,179 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,181 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,183 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,185 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,188 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,190 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,208 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,211 INFO  - Router with BSSID f4:1f:c2:d1:a2:90 selected
+2017-01-23 11:34:46,213 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,215 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,217 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,219 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,221 INFO  - Router with BSSID 0c:27:24:4e:4a:e0 selected
+2017-01-23 11:34:46,223 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,225 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,226 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,228 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,230 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,232 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,234 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,236 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,237 INFO  - Router with BSSID null selected
+2017-01-23 11:34:46,365 INFO  - All Profemons selected
+2017-01-23 11:34:46,374 INFO  - All Locations selected
+2017-01-23 11:34:46,394 INFO  - Profemon selected: null from id 13
+2017-01-23 11:34:46,394 WARN  - No Profemon selected from id 13
+2017-01-23 11:34:46,398 INFO  - Profemon selected: null from id 12
+2017-01-23 11:34:46,398 WARN  - No Profemon selected from id 12
+2017-01-23 11:34:46,407 INFO  - Profemon selected: null from id 16
+2017-01-23 11:34:46,407 WARN  - No Profemon selected from id 16
+2017-01-23 11:34:46,415 INFO  - Profemon selected: null from id 14
+2017-01-23 11:34:46,415 WARN  - No Profemon selected from id 14
+2017-01-23 11:34:46,420 INFO  - Profemon selected: Gallengar from id 4
+2017-01-23 11:34:46,423 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 11:34:46,431 INFO  - Profemon selected: Gallengar from id 4
+2017-01-23 11:34:46,439 INFO  - Profemon selected: Rinconlee from id 7
+2017-01-23 11:34:46,444 INFO  - Profemon selected: null from id 13
+2017-01-23 11:34:46,444 WARN  - No Profemon selected from id 13
+2017-01-23 11:34:46,452 INFO  - Profemon selected: null from id 14
+2017-01-23 11:34:46,452 WARN  - No Profemon selected from id 14
+2017-01-23 11:34:46,456 INFO  - Profemon selected: Remonchan from id 6
+2017-01-23 11:34:46,461 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 11:34:46,473 INFO  - Profemon selected: Hypneguer from id 5
+2017-01-23 11:34:46,478 INFO  - Profemon selected: null from id 16
+2017-01-23 11:34:46,478 WARN  - No Profemon selected from id 16
+2017-01-23 11:34:46,486 INFO  - Profemon selected: null from id 12
+2017-01-23 11:34:46,487 WARN  - No Profemon selected from id 12
+2017-01-23 11:34:46,492 INFO  - Profemon selected: null from id 10
+2017-01-23 11:34:46,492 WARN  - No Profemon selected from id 10
+2017-01-23 11:34:46,494 INFO  - Profemon selected: null from id 9
+2017-01-23 11:34:46,494 WARN  - No Profemon selected from id 9
+2017-01-23 11:34:46,497 INFO  - Profemon selected: Rinconlee from id 7
+2017-01-23 11:34:46,499 INFO  - Profemon selected: null from id 9
+2017-01-23 11:34:46,499 WARN  - No Profemon selected from id 9
+2017-01-23 11:34:46,501 INFO  - Profemon selected: null from id 14
+2017-01-23 11:34:46,501 WARN  - No Profemon selected from id 14
+2017-01-23 11:34:46,503 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 11:34:46,505 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 11:34:46,507 INFO  - Profemon selected: null from id 10
+2017-01-23 11:34:46,507 WARN  - No Profemon selected from id 10
+2017-01-23 11:34:46,509 INFO  - Profemon selected: null from id 16
+2017-01-23 11:34:46,509 WARN  - No Profemon selected from id 16
+2017-01-23 11:34:46,511 INFO  - Profemon selected: null from id 16
+2017-01-23 11:34:46,511 WARN  - No Profemon selected from id 16
+2017-01-23 11:34:46,513 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 11:34:46,515 INFO  - Profemon selected: null from id 16
+2017-01-23 11:34:46,515 WARN  - No Profemon selected from id 16
+2017-01-23 11:34:46,517 INFO  - Profemon selected: Hypneguer from id 5
+2017-01-23 11:39:05,410 INFO  - All Users selected
+2017-01-23 11:39:05,608 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-23 11:39:06,619 INFO  - User selected: eric from id 1
+2017-01-23 11:39:06,633 INFO  - User selected: eric from id 1
+2017-01-23 11:39:06,643 INFO  - eric's capturados selected
+2017-01-23 11:39:06,647 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 11:39:06,650 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 11:39:06,653 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 11:39:06,656 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 11:39:06,660 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 11:39:06,663 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 11:39:06,666 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 11:39:06,669 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 11:39:06,672 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 11:39:06,674 INFO  - Profemon selected: Gallengar from id 4
+2017-01-23 11:39:06,677 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 11:39:06,873 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,873 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,880 INFO  - Router with BSSID f4:1f:c2:d1:a2:90 selected
+2017-01-23 11:39:06,880 INFO  - Router with BSSID f4:1f:c2:d1:a2:90 selected
+2017-01-23 11:39:06,891 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,891 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,903 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,903 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,909 INFO  - Router with BSSID 64:a0:e7:28:f7:b0 selected
+2017-01-23 11:39:06,909 INFO  - Router with BSSID 64:a0:e7:28:f7:b0 selected
+2017-01-23 11:39:06,920 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,920 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,929 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,929 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,939 INFO  - Router with BSSID e8:04:62:f6:c4:80 selected
+2017-01-23 11:39:06,939 INFO  - Router with BSSID e8:04:62:f6:c4:80 selected
+2017-01-23 11:39:06,948 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,948 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,953 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,953 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,957 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,957 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,960 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,960 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,963 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,963 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,966 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,966 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,969 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,969 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,972 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,972 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,975 INFO  - Router with BSSID 2c:3f:38:c1:bc:f0 selected
+2017-01-23 11:39:06,975 INFO  - Router with BSSID 2c:3f:38:c1:bc:f0 selected
+2017-01-23 11:39:06,977 INFO  - Router with BSSID null selected
+2017-01-23 11:39:06,977 INFO  - Router with BSSID null selected
+2017-01-23 11:39:07,109 INFO  - All Profemons selected
+2017-01-23 11:39:07,120 INFO  - All Locations selected
+2017-01-23 11:39:07,146 INFO  - Profemon selected: Robetwo from id 8
+2017-01-23 11:39:07,156 INFO  - Profemon selected: Remonchan from id 6
+2017-01-23 11:39:07,164 INFO  - Profemon selected: Robetwo from id 8
+2017-01-23 11:39:07,173 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 11:39:07,181 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 11:39:07,187 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 11:39:07,195 INFO  - Profemon selected: Hypneguer from id 5
+2017-01-23 11:39:07,198 INFO  - Profemon selected: Gallengar from id 4
+2017-01-23 11:39:07,201 INFO  - Profemon selected: Remonchan from id 6
+2017-01-23 11:39:07,204 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 11:39:07,207 INFO  - Profemon selected: Gallengar from id 4
+2017-01-23 11:39:07,210 INFO  - Profemon selected: Remonchan from id 6
+2017-01-23 11:39:07,212 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 11:39:07,214 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 11:39:07,216 INFO  - Profemon selected: Hypneguer from id 5
+2017-01-23 11:39:07,218 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 11:39:07,221 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 11:39:07,223 INFO  - Profemon selected: Hypneguer from id 5
+2017-01-23 11:39:07,226 INFO  - Profemon selected: Gallengar from id 4
+2017-01-23 11:39:07,228 INFO  - Profemon selected: Robetwo from id 8
+2017-01-23 11:39:07,230 INFO  - Profemon selected: Robetwo from id 8
+2017-01-23 11:39:07,231 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 11:39:07,234 INFO  - Profemon selected: Robetwo from id 8
+2017-01-23 11:39:16,849 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,851 INFO  - Router with BSSID f4:1f:c2:d1:a2:90 selected
+2017-01-23 11:39:16,854 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,856 INFO  - Router with BSSID 0c:27:24:4e:4a:e0 selected
+2017-01-23 11:39:16,857 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,859 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,861 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,863 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,865 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,867 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,869 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,872 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,874 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,877 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,879 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,886 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,888 INFO  - Router with BSSID e8:04:62:f6:c4:80 selected
+2017-01-23 11:39:16,890 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,893 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,895 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,897 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,900 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,902 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,903 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,905 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,907 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,909 INFO  - Router with BSSID null selected
+2017-01-23 11:39:16,910 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,843 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,846 INFO  - Router with BSSID f4:1f:c2:d1:a2:90 selected
+2017-01-23 11:39:26,848 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,850 INFO  - Router with BSSID 0c:27:24:4e:4a:e0 selected
+2017-01-23 11:39:26,853 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,855 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,857 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,859 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,862 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,864 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,866 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,868 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,869 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,871 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,873 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,875 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,876 INFO  - Router with BSSID e8:04:62:f6:c4:80 selected
+2017-01-23 11:39:26,878 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,880 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,881 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,883 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,884 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,886 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,888 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,890 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,892 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,894 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,895 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,897 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,898 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,899 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,901 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,902 INFO  - Router with BSSID null selected
+2017-01-23 11:39:26,903 INFO  - Router with BSSID null selected
+2017-01-23 12:27:22,397 INFO  - All Users selected
+2017-01-23 12:27:22,590 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-23 12:28:41,476 INFO  - All Users selected
+2017-01-23 12:28:41,668 INFO  - Login: eric tried to log in and the loginResult was true
+2017-01-23 12:29:02,831 INFO  - User selected: eric from id 1
+2017-01-23 12:29:02,832 INFO  - User selected: eric from id 1
+2017-01-23 12:29:02,832 INFO  - User selected: eric from id 1
+2017-01-23 12:29:02,850 INFO  - eric's capturados selected
+2017-01-23 12:29:02,850 INFO  - eric's capturados selected
+2017-01-23 12:29:02,856 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:29:02,856 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:29:02,860 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:29:02,860 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:29:02,866 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:29:02,866 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:29:02,871 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:29:02,871 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:29:02,876 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:29:02,876 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:29:02,880 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:29:02,880 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:29:02,885 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:29:02,885 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:29:02,887 INFO  - User selected: eric from id 1
+2017-01-23 12:29:02,890 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:29:02,891 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:29:02,894 INFO  - eric's capturados selected
+2017-01-23 12:29:02,895 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:29:02,895 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:29:02,899 INFO  - Profemon selected: Gallengar from id 4
+2017-01-23 12:29:02,899 INFO  - Profemon selected: Gallengar from id 4
+2017-01-23 12:29:02,903 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:29:02,903 INFO  - User selected: eric from id 1
+2017-01-23 12:29:02,903 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:29:02,910 INFO  - eric's capturados selected
+2017-01-23 12:29:02,916 INFO  - User selected: eric from id 1
+2017-01-23 12:29:02,922 INFO  - eric's capturados selected
+2017-01-23 12:29:02,927 INFO  - User selected: eric from id 1
+2017-01-23 12:29:02,933 INFO  - eric's capturados selected
+2017-01-23 12:29:02,938 INFO  - User selected: eric from id 1
+2017-01-23 12:29:02,940 INFO  - User selected: eric from id 1
+2017-01-23 12:29:02,944 INFO  - eric's capturados selected
+2017-01-23 12:29:02,947 INFO  - eric's capturados selected
+2017-01-23 12:29:02,948 INFO  - User selected: eric from id 1
+2017-01-23 12:29:02,954 INFO  - eric's all capturados intents selected
+2017-01-23 12:29:02,955 INFO  - eric's capturados selected
+2017-01-23 12:29:02,960 INFO  - User selected: eric from id 1
+2017-01-23 12:29:02,968 INFO  - eric's capturados selected
+2017-01-23 12:30:02,831 INFO  - User selected: eric from id 1
+2017-01-23 12:30:02,831 INFO  - User selected: eric from id 1
+2017-01-23 12:30:02,831 INFO  - User selected: eric from id 1
+2017-01-23 12:30:02,831 INFO  - User selected: eric from id 1
+2017-01-23 12:30:02,831 INFO  - User selected: eric from id 1
+2017-01-23 12:30:02,831 INFO  - User selected: eric from id 1
+2017-01-23 12:30:02,853 INFO  - eric's capturados selected
+2017-01-23 12:30:02,855 INFO  - eric's capturados selected
+2017-01-23 12:30:02,855 INFO  - eric's capturados selected
+2017-01-23 12:30:02,858 INFO  - eric's capturados selected
+2017-01-23 12:30:02,859 INFO  - eric's capturados selected
+2017-01-23 12:30:02,864 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:30:02,864 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:30:02,866 INFO  - User selected: eric from id 1
+2017-01-23 12:30:02,869 INFO  - eric's all capturados intents selected
+2017-01-23 12:30:02,871 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:30:02,871 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:30:02,871 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:30:02,874 INFO  - eric's capturados selected
+2017-01-23 12:30:02,879 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:30:02,880 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:30:02,882 INFO  - Location selected: latitude -> 41.275424, longitude -> 1.986586, floor -> 0 from id 1
+2017-01-23 12:30:02,883 INFO  - User selected: eric from id 1
+2017-01-23 12:30:02,890 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:30:02,890 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:30:02,892 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:30:02,895 INFO  - eric's capturados selected
+2017-01-23 12:30:02,899 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:30:02,899 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:30:02,901 INFO  - Location selected: latitude -> 41.275182, longitude -> 1.986688, floor -> 0 from id 2
+2017-01-23 12:30:02,902 INFO  - User selected: eric from id 1
+2017-01-23 12:30:02,905 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:30:02,905 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:30:02,907 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:30:02,911 INFO  - eric's capturados selected
+2017-01-23 12:30:02,912 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:30:02,912 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:30:02,914 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-23 12:30:02,918 INFO  - User selected: eric from id 1
+2017-01-23 12:30:02,918 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:30:02,918 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:30:02,922 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:30:02,924 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:30:02,924 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:30:02,926 INFO  - Location selected: latitude -> 41.275403, longitude -> 1.98741, floor -> 0 from id 16
+2017-01-23 12:30:02,927 INFO  - eric's capturados selected
+2017-01-23 12:30:02,929 INFO  - Profemon selected: Gallengar from id 4
+2017-01-23 12:30:02,929 INFO  - Profemon selected: Gallengar from id 4
+2017-01-23 12:30:02,931 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:30:02,936 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:30:02,937 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:30:02,939 INFO  - Location selected: latitude -> 41.274859, longitude -> 1.987216, floor -> 0 from id 14
+2017-01-23 12:30:02,944 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:30:02,950 INFO  - Location selected: latitude -> 41.274859, longitude -> 1.987216, floor -> 0 from id 14
+2017-01-23 12:30:02,953 INFO  - User selected: eric from id 1
+2017-01-23 12:30:02,958 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:30:02,964 INFO  - Location selected: latitude -> 41.274927, longitude -> 1.986111, floor -> 0 from id 9
+2017-01-23 12:30:02,971 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:30:02,977 INFO  - Location selected: latitude -> 41.27554, longitude -> 1.985849, floor -> 0 from id 7
+2017-01-23 12:30:02,986 INFO  - eric's capturados selected
+2017-01-23 12:30:02,987 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:30:02,993 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-23 12:30:02,993 INFO  - User selected: eric from id 1
+2017-01-23 12:30:02,998 INFO  - Profemon selected: Gallengar from id 4
+2017-01-23 12:30:03,003 INFO  - eric's capturados selected
+2017-01-23 12:30:03,004 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-23 12:30:03,010 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:30:03,014 INFO  - Location selected: latitude -> 41.275182, longitude -> 1.986688, floor -> 0 from id 2
+2017-01-23 12:31:08,948 INFO  - User selected: eric from id 1
+2017-01-23 12:31:08,948 INFO  - User selected: eric from id 1
+2017-01-23 12:31:08,948 INFO  - User selected: eric from id 1
+2017-01-23 12:31:08,948 INFO  - User selected: eric from id 1
+2017-01-23 12:31:08,948 INFO  - User selected: eric from id 1
+2017-01-23 12:31:08,948 INFO  - User selected: eric from id 1
+2017-01-23 12:31:08,964 INFO  - eric's capturados selected
+2017-01-23 12:31:08,964 INFO  - eric's capturados selected
+2017-01-23 12:31:08,975 INFO  - eric's all capturados intents selected
+2017-01-23 12:31:08,981 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:31:08,986 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:31:08,988 INFO  - eric's capturados selected
+2017-01-23 12:31:08,988 INFO  - eric's capturados selected
+2017-01-23 12:31:08,991 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:31:08,993 INFO  - eric's capturados selected
+2017-01-23 12:31:08,997 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:31:09,002 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:31:09,003 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:31:09,008 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:31:09,014 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:31:09,017 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:31:09,023 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:31:09,030 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:31:09,034 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:31:09,035 INFO  - Profemon selected: Gallengar from id 4
+2017-01-23 12:31:09,041 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:31:09,048 INFO  - Location selected: latitude -> 41.275424, longitude -> 1.986586, floor -> 0 from id 1
+2017-01-23 12:31:09,049 INFO  - User selected: eric from id 1
+2017-01-23 12:31:09,056 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:31:09,070 INFO  - eric's capturados selected
+2017-01-23 12:31:09,070 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:31:09,072 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:31:09,074 INFO  - User selected: eric from id 1
+2017-01-23 12:31:09,074 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:31:09,078 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:31:09,080 INFO  - Location selected: latitude -> 41.275182, longitude -> 1.986688, floor -> 0 from id 2
+2017-01-23 12:31:09,083 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:31:09,088 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:31:09,095 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-23 12:31:09,095 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:31:09,098 INFO  - eric's capturados selected
+2017-01-23 12:31:09,100 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:31:09,101 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:31:09,103 INFO  - User selected: eric from id 1
+2017-01-23 12:31:09,107 INFO  - Location selected: latitude -> 41.275403, longitude -> 1.98741, floor -> 0 from id 16
+2017-01-23 12:31:09,107 INFO  - Profemon selected: Gallengar from id 4
+2017-01-23 12:31:09,110 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:31:09,111 INFO  - eric's capturados selected
+2017-01-23 12:31:09,112 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:31:09,115 INFO  - User selected: eric from id 1
+2017-01-23 12:31:09,115 INFO  - Location selected: latitude -> 41.274859, longitude -> 1.987216, floor -> 0 from id 14
+2017-01-23 12:31:09,123 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:31:09,125 INFO  - eric's capturados selected
+2017-01-23 12:31:09,128 INFO  - Location selected: latitude -> 41.274859, longitude -> 1.987216, floor -> 0 from id 14
+2017-01-23 12:31:09,131 INFO  - User selected: eric from id 1
+2017-01-23 12:31:09,133 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:31:09,137 INFO  - Location selected: latitude -> 41.274927, longitude -> 1.986111, floor -> 0 from id 9
+2017-01-23 12:31:09,138 INFO  - eric's capturados selected
+2017-01-23 12:31:09,142 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:31:09,142 INFO  - User selected: eric from id 1
+2017-01-23 12:31:09,148 INFO  - Location selected: latitude -> 41.27554, longitude -> 1.985849, floor -> 0 from id 7
+2017-01-23 12:31:09,151 INFO  - eric's capturados selected
+2017-01-23 12:36:25,439 INFO  - User selected: eric from id 1
+2017-01-23 12:36:25,440 INFO  - User selected: eric from id 1
+2017-01-23 12:36:25,441 INFO  - User selected: eric from id 1
+2017-01-23 12:36:25,441 INFO  - User selected: eric from id 1
+2017-01-23 12:36:25,441 INFO  - User selected: eric from id 1
+2017-01-23 12:36:25,441 INFO  - User selected: eric from id 1
+2017-01-23 12:36:25,477 INFO  - eric's capturados selected
+2017-01-23 12:36:25,480 INFO  - eric's capturados selected
+2017-01-23 12:36:25,483 INFO  - eric's capturados selected
+2017-01-23 12:36:25,479 INFO  - eric's capturados selected
+2017-01-23 12:36:25,484 INFO  - eric's capturados selected
+2017-01-23 12:36:25,499 INFO  - User selected: eric from id 1
+2017-01-23 12:36:25,501 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:36:25,501 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:36:25,501 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:36:25,505 INFO  - eric's all capturados intents selected
+2017-01-23 12:36:25,510 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:36:25,510 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:36:25,513 INFO  - eric's capturados selected
+2017-01-23 12:36:25,513 INFO  - Location selected: latitude -> 41.275424, longitude -> 1.986586, floor -> 0 from id 1
+2017-01-23 12:36:25,522 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:36:25,526 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:36:25,526 INFO  - User selected: eric from id 1
+2017-01-23 12:36:25,526 INFO  - Location selected: latitude -> 41.275182, longitude -> 1.986688, floor -> 0 from id 2
+2017-01-23 12:36:25,528 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:36:25,532 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:36:25,534 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:36:25,534 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:36:25,536 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-23 12:36:25,537 INFO  - eric's capturados selected
+2017-01-23 12:36:25,539 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:36:25,539 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:36:25,539 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:36:25,541 INFO  - User selected: eric from id 1
+2017-01-23 12:36:25,544 INFO  - Location selected: latitude -> 41.275403, longitude -> 1.98741, floor -> 0 from id 16
+2017-01-23 12:36:25,544 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:36:25,545 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:36:25,549 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:36:25,549 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:36:25,549 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:36:25,549 INFO  - eric's capturados selected
+2017-01-23 12:36:25,555 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:36:25,555 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:36:25,555 INFO  - Location selected: latitude -> 41.274859, longitude -> 1.987216, floor -> 0 from id 14
+2017-01-23 12:36:25,555 INFO  - User selected: eric from id 1
+2017-01-23 12:36:25,560 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:36:25,560 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:36:25,560 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:36:25,563 INFO  - eric's capturados selected
+2017-01-23 12:36:25,564 INFO  - Location selected: latitude -> 41.274859, longitude -> 1.987216, floor -> 0 from id 14
+2017-01-23 12:36:25,564 INFO  - Profemon selected: Gallengar from id 4
+2017-01-23 12:36:25,564 INFO  - Profemon selected: Gallengar from id 4
+2017-01-23 12:36:25,567 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:36:25,568 INFO  - User selected: eric from id 1
+2017-01-23 12:36:25,568 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:36:25,568 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:36:25,571 INFO  - Location selected: latitude -> 41.274927, longitude -> 1.986111, floor -> 0 from id 9
+2017-01-23 12:36:25,574 INFO  - eric's capturados selected
+2017-01-23 12:36:25,575 INFO  - Profemon selected: Blastoller from id 3
+2017-01-23 12:36:25,579 INFO  - User selected: eric from id 1
+2017-01-23 12:36:25,580 INFO  - Location selected: latitude -> 41.27554, longitude -> 1.985849, floor -> 0 from id 7
+2017-01-23 12:36:25,584 INFO  - Profemon selected: Juanizard from id 1
+2017-01-23 12:36:25,586 INFO  - eric's capturados selected
+2017-01-23 12:36:25,588 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-23 12:36:25,593 INFO  - Profemon selected: Gallengar from id 4
+2017-01-23 12:36:25,598 INFO  - Location selected: latitude -> 41.275349, longitude -> 1.986302, floor -> 0 from id 3
+2017-01-23 12:36:25,603 INFO  - Profemon selected: Venusals from id 2
+2017-01-23 12:36:25,608 INFO  - Location selected: latitude -> 41.275182, longitude -> 1.986688, floor -> 0 from id 2
